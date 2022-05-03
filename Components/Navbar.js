@@ -76,11 +76,6 @@ const Navbar = () => {
           }
         >
           <li className="py-6 text-4xl">
-            <a onClick={handleClick} href="#home">
-              Home
-            </a>
-          </li>
-          <li className="py-6 text-4xl">
             <a onClick={handleClick} href="#about">
               About
             </a>
