@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
-import Logo from "../public/logo.svg";
-import Image from "next/image";
+// import Logo from "../public/logo.svg";
+// import Image from "next/image";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -10,7 +11,7 @@ const Navbar = () => {
     <>
       <div className="fixed w-full h-[80px] flex justify-between items-center px-4  text-orange-700 gap-10 bg-orange-300/15 backdrop-blur-xl z-50">
         <div>
-          <Image src={Logo} alt="Logo" width={50} height={40} />
+          <img src="/logo.svg" alt="Logo" width="50" height="40" />
         </div>
 
         {/* menu */}
