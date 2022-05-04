@@ -4,7 +4,6 @@ const Contact = () => {
       id="contact"
       className="w-full pt-24 lg:h-screen lg:pt-0 text-slate-300"
     >
-
       <div className="flex flex-col justify-center items-center w-full ">
         <form
           method="POST"
@@ -60,7 +59,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
-      </section>
+    </section>
   );
 };
 export default Contact;

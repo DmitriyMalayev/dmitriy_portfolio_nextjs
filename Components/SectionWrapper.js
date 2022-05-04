@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Photo from "../public/photo.jpg";
 
-const SectionWrapper = ({ id, title, subtitle, text, about, children }) => {
+const SectionWrapper = ({ id, title, subtitle, text,text2,text3, about, children }) => {
   return (
     <section
       id={id}
@@ -11,7 +11,7 @@ const SectionWrapper = ({ id, title, subtitle, text, about, children }) => {
         <div
           className={`max-w-[1000px] w-full grid ${
             text && "sm:grid-cols-2"
-          } gap-6 sm:place-content-center`}
+          } gap-4 sm:place-content-center`}
         >
           <div
             className={`pl-8 border-l-4 flex flex-col ${
@@ -30,7 +30,7 @@ const SectionWrapper = ({ id, title, subtitle, text, about, children }) => {
             >
               <p className="sm:max-w-[350px] sm:self-end">{subtitle}</p>
               {about && (
-                <div className="mt-8 max-w-[200px] sm:self-end">
+                <div className="mt-8 max-w-[250px] sm:self-end">
                   <Image
                     src={Photo}
                     alt=""
@@ -45,8 +45,10 @@ const SectionWrapper = ({ id, title, subtitle, text, about, children }) => {
 
           {text && (
             <div>
-              <p className="text-xl lg:text-2xl leading-relaxed p-4 text-slate-100">
-                {text}
+              <p className="sm:text-2xl lg:text-3xl break-inside-auto leading-2 p-4 text-slate-100">
+                <p className="pb-2 pt-1">{text}</p>
+                <p className="pb-2">{text2}</p>
+                <p className="pb-2">{text3}</p>
               </p>
             </div>
           )}

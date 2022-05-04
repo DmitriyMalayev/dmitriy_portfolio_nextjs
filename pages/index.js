@@ -7,6 +7,7 @@ import Certificates from "../Components/Certificates";
 import Head from "next/head";
 
 let title = "Dmitriy Malayev's Portfolio";
+
 const index = () => {
   return (
     <div className="text-red-500 sm:pt-24 ">
@@ -49,7 +50,10 @@ const index = () => {
         id="about"
         title="About"
         subtitle="Educated, Personable, Experienced & Certified"
-        text="My name is Dmitriy Malayev. I am a Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Communications and Computer Science. I desire to learn constantly, whether taking online courses, reading blogs, debugging code, or tutoring others. Aside from my technical skills, my most significant strength is my communication skills, personable personality, and solid skills in team-building, project management, web development, and UI Design. "
+        text="My name is Dmitriy Malayev. I am a Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Communications and Computer Science."
+        text2="I desire to learn constantly, whether taking online courses, reading blogs, debugging code, or tutoring others."
+        text3="Aside from my technical skills, my most significant strength is my communication skills, personable personality, and solid skills in team-building, project management, web development, and UI Design."
+        about
       ></SectionWrapper>
 
       <SectionWrapper
