@@ -4,7 +4,6 @@ module.exports = {
     "./public/**/*.{js,ts,jsx,tsx, jpg, svg, png}",
 
     "./Components/**/*.{js,ts,jsx,tsx}",
-
   ],
   theme: {
     screens: {
@@ -18,15 +17,9 @@ module.exports = {
         dance: "'Dance', serif",
       },
     },
-    plugins: [
-    ],
+    plugins: [],
   },
 };
-
-
-
-
-
 
 // const defaultTheme = require("tailwindcss/defaultTheme");
 
