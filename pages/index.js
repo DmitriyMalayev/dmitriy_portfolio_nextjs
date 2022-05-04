@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import SectionWrapper from "../Components/SectionWrapper";
 import Skills from "../Components/Skills";
 import Projects from "../Components/Projects";

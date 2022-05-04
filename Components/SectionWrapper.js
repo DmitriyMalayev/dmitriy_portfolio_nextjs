@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/react-in-jsx-scope */
 import Image from "next/image";
 import Photo from "../public/photo.jpg";
 
@@ -28,7 +30,9 @@ const SectionWrapper = ({ id, title, subtitle, text,text2,text3, about, children
                 text ? "justify-end" : "text-center"
               } flex flex-col font-bold font-dance text-2xl sm:text-3xl text-orange-300`}
             >
-              <p className="sm:max-w-[350px] sm:self-end">{subtitle}</p>
+              <p className="sm:max-w-[350px] md:max-w-[450px] sm:self-end">
+                {subtitle}
+              </p>
               {about && (
                 <div className="mt-8 max-w-[250px] sm:self-end">
                   <Image
@@ -44,12 +48,11 @@ const SectionWrapper = ({ id, title, subtitle, text,text2,text3, about, children
           </div>
 
           {text && (
-            <div>
-              <p className="sm:text-2xl lg:text-3xl break-inside-auto leading-2 p-4 text-slate-100">
-                <p className="pb-2 pt-1">{text}</p>
-                <p className="pb-2">{text2}</p>
-                <p className="pb-2">{text3}</p>
-              </p>
+            <div className="sm:text-2xl lg:text-3xl leading-2 p-4 text-slate-100">
+              <p className="pb-1 pt-1">{text}</p>
+              <p className="pb-1 pt-1">{text2}</p>
+              <p className="pb-1 pt-1">{text3}</p>
+              <p></p>
             </div>
           )}
         </div>
