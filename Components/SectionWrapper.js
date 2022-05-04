@@ -1,6 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
-// import Image from 'next/image'
-// import Photo from '../public/photo.jpg'
+import Image from "next/image";
+import Photo from "../public/photo.jpg";
 
 const SectionWrapper = ({ id, title, subtitle, text, about, children }) => {
   return (
@@ -32,11 +31,12 @@ const SectionWrapper = ({ id, title, subtitle, text, about, children }) => {
               <p className="sm:max-w-[300px] self-end">{subtitle}</p>
               {about && (
                 <div className="mt-8 max-w-[200px] self-end">
-                  <img
-                    src="/photo.jpg"
+                  <Image
+                    src={Photo}
                     alt=""
-                    width="936"
-                    height="1233"
+                    width={936}
+                    height={1233}
+                    objectFit="cover"
                   />
                 </div>
               )}
