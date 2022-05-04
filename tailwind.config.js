@@ -1,6 +1,8 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
+    "./public/**/*.{js,ts,jsx,tsx, jpg, svg, png}",
+
     "./Components/**/*.{js,ts,jsx,tsx}",
 
   ],
@@ -17,8 +19,6 @@ module.exports = {
       },
     },
     plugins: [
-      require("@tailwindcss/typography"),
-      require("@tailwindcss/forms"),
     ],
   },
 };
