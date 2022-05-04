@@ -28,7 +28,7 @@ const SectionWrapper = ({ id, title, subtitle, text, about, children }) => {
                 text ? "justify-end" : "text-center"
               } flex flex-col font-bold font-dance text-2xl sm:text-3xl text-orange-300`}
             >
-              <p className="sm:max-w-[300px] self-end">{subtitle}</p>
+              <p className="sm:max-w-[350px] self-end">{subtitle}</p>
               {about && (
                 <div className="mt-8 max-w-[200px] self-end">
                   <Image

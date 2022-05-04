@@ -25,7 +25,7 @@ import Image12 from "../public/12.jpg";
 class SimpleSlider extends Component {
   render() {
     return (
-      <Carousel className="max-w-[1000px] mx-auto" showThumbs={false}>
+      <Carousel className="max-w-[1000px] mx-auto pb-48" showThumbs={false}>
         <div>
           <Image width={1200} height={800} src={Image1} alt="Image1" />
         </div>
@@ -62,7 +62,9 @@ class SimpleSlider extends Component {
         <div>
           <Image width={1200} height={800} src={Image12} alt="Image12" />
         </div>
+       
       </Carousel>
+    
     );
   }
 }

@@ -5,16 +5,13 @@ const Contact = () => {
       className="w-full pt-24 lg:h-screen lg:pt-0 text-slate-300"
     >
 
-      <div className="flex flex-col justify-center items-center w-full h-full ">
+      <div className="flex flex-col justify-center items-center w-full ">
         <form
           method="POST"
           action="https://getform.io/f/a30d9116-d1d7-44e9-9b87-1b526592e428"
           className="flex flex-col max-w-[600px] w-full border-8 p-12 pb-6 text-xl"
         >
           <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-orange-600 text-cyan-100 ">
-              Contact
-            </p>
             <p className="text-slate-300 py-4">
               Submit the form below or send me an email at {/*  */}
               <a

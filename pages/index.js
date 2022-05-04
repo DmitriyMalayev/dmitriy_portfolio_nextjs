@@ -48,7 +48,6 @@ const index = () => {
       <SectionWrapper
         id="about"
         title="About"
-        about
         subtitle="Educated, Personable, Experienced & Certified"
         text="My name is Dmitriy Malayev. I am a Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Communications and Computer Science. I desire to learn constantly, whether taking online courses, reading blogs, debugging code, or tutoring others. Aside from my technical skills, my most significant strength is my communication skills, personable personality, and solid skills in team-building, project management, web development, and UI Design. "
       ></SectionWrapper>
@@ -74,7 +73,13 @@ const index = () => {
       >
         <Certificates />
       </SectionWrapper>
-      <Contact />
+      <SectionWrapper
+        id="contact"
+        title="Contact"
+        subtitle="Communication is Essential"
+      >
+        <Contact />
+      </SectionWrapper>
     </div>
   );
 };

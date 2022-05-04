@@ -23,7 +23,7 @@ const Skills = () => {
   ];
   return (
     <div>
-      <div className="w-full grid grid-cols-3 sm:grid-cols-3 gap-6 text-center py-8 p-4 sm:px-20">
+      <div className="w-auto grid grid-cols-3 sm:grid-cols-3 gap-6 text-center py-8 p-4 sm:px-40">
         {skills.map((skill) => (
           <div
             className="shadow-md shadow-slate-500 hover:scale-110 border-2 border-transparent hover:border-slate-500 duration-700 pt-6"
@@ -33,8 +33,8 @@ const Skills = () => {
               <Image
                 src={skill.image}
                 alt="CSS Icon"
-                width={600}
-                height={600}
+                width={800}
+                height={800}
               />
             </div>
             <p className="my-4">{skill.title}</p>
