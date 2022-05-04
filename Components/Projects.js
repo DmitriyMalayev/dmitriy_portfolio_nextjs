@@ -1,18 +1,6 @@
-import { useRef } from "react";
-import useIntersectionObserver from "@react-hook/intersection-observer";
-
 const Projects = () => {
-  const containerRef = useRef();
-  const lockRef = useRef(false);
-  const { isIntersecting } = useIntersectionObserver(containerRef);
-  if (isIntersecting) {
-    lockRef.current = true;
-  }
   return (
-    <div
-      className="w-full sm:max-w-6xl aspect-video mx-auto"
-      ref={containerRef}
-    >
+    <div className="w-full sm:max-w-6xl aspect-video mx-auto">
       <iframe
         className="w-full h-full"
         src="https://www.youtube.com/embed/videoseries?list=PLANPLv1uddy2yxI4XkFZkzTf4g3Z7fD1C"
