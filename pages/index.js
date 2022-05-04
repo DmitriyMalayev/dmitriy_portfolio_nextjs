@@ -12,6 +12,7 @@ const index = () => {
     <div className="text-red-500 sm:pt-24 ">
       <Head>
         <title>{title}</title>
+        <meta name="viewport" content="width=device-wdith, initial-scale=1" />
         <meta name="title" content="Dmitriy Malayev's Portfolio" />
         <meta
           name="description"
@@ -48,6 +49,7 @@ const index = () => {
       <SectionWrapper
         id="about"
         title="About"
+        about
         subtitle="Educated, Personable, Experienced & Certified"
         text="My name is Dmitriy Malayev. I am a Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Communications and Computer Science. I desire to learn constantly, whether taking online courses, reading blogs, debugging code, or tutoring others. Aside from my technical skills, my most significant strength is my communication skills, personable personality, and solid skills in team-building, project management, web development, and UI Design. "
       ></SectionWrapper>
@@ -59,13 +61,13 @@ const index = () => {
       >
         <Skills />
       </SectionWrapper>
-      <SectionWrapper
+      {/*<SectionWrapper
         id="projects"
         title="Projects"
         subtitle="YouTube Playlist Of Apps"
       >
         <Projects />
-      </SectionWrapper>
+      </SectionWrapper>*/}
       <SectionWrapper
         id="certificates"
         title="Certificates"
