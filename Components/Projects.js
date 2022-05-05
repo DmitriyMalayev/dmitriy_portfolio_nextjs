@@ -1,3 +1,5 @@
+import React from "react";
+
 const Projects = () => {
   return (
     <div className="w-full sm:max-w-6xl aspect-video mx-auto">

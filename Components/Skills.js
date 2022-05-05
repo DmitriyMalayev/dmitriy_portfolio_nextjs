@@ -1,3 +1,5 @@
+import React from "react";
+
 import HTML from "../public/assets/html.png";
 import CSS from "../public/assets/css.png";
 import JS from "../public/assets/javascript.png";

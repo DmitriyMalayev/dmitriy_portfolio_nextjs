@@ -1,3 +1,5 @@
+import React from "react";
+
 const Footer = () => {
   return (
     <div className="sm:text-md md:text-lg lg:text-xl p-4 rounded-lg shadow flex items-center justify-between md:p-6 text-orange-700 gap-10 bg-orange-300/15 backdrop-blur-xl mt-20 ">
