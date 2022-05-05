@@ -6,6 +6,7 @@ import Contact from "../Components/Contact";
 import Certificates from "../Components/Certificates";
 
 import Head from "next/head";
+import MetaImage from "../public/metaImage.svg";
 
 let title = "Dmitriy Malayev's Portfolio";
 
@@ -23,6 +24,8 @@ const index = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dmitriymalayev.com/" />
         <meta property="og:title" content="Dmitriy Malayev's Portfolio" />
+        <meta property="og:image" content={MetaImage} />
+
         <meta
           property="og:description"
           content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
