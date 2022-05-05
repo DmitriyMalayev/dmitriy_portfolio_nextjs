@@ -25,46 +25,44 @@ import Image12 from "../public/12.jpg";
 class SimpleSlider extends Component {
   render() {
     return (
-      <Carousel className="max-w-[1000px] mx-auto pb-48" showThumbs={false}>
+      <Carousel className="max-w-[1000px] pb-20 mx-auto" showThumbs={false}>
         <div>
-          <Image width={1200} height={800} src={Image1} alt="Image1" />
+          <Image src={Image1} alt="Image1" />
         </div>
         <div>
-          <Image width={1200} height={800} src={Image2} alt="Image2" />
+          <Image src={Image2} alt="Image2" />
         </div>
         <div>
-          <Image width={1200} height={800} src={Image3} alt="Image3" />
+          <Image src={Image3} alt="Image3" />
         </div>
         <div>
-          <Image width={1200} height={800} src={Image4} alt="Image4" />
+          <Image src={Image4} alt="Image4" />
         </div>
         <div>
-          <Image width={1200} height={800} src={Image5} alt="Image5" />
+          <Image src={Image5} alt="Image5" />
         </div>
         <div>
-          <Image width={1200} height={800} src={Image6} alt="Image6" />
+          <Image src={Image6} alt="Image6" />
         </div>
         <div>
-          <Image width={1200} height={800} src={Image7} alt="Image7" />
+          <Image src={Image7} alt="Image7" />
         </div>
         <div>
-          <Image width={1200} height={800} src={Image8} alt="Image8" />
+          <Image src={Image8} alt="Image8" />
         </div>
         <div>
-          <Image width={1200} height={800} src={Image9} alt="Image9" />
+          <Image src={Image9} alt="Image9" />
         </div>
         <div>
-          <Image width={1200} height={800} src={Image10} alt="Image10" />
+          <Image src={Image10} alt="Image10" />
         </div>
         <div>
-          <Image width={1200} height={800} src={Image11} alt="Image11" />
+          <Image src={Image11} alt="Image11" />
         </div>
         <div>
-          <Image width={1200} height={800} src={Image12} alt="Image12" />
+          <Image src={Image12} alt="Image12" />
         </div>
-       
       </Carousel>
-    
     );
   }
 }

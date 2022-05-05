@@ -4,17 +4,17 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full pt-24 lg:h-screen lg:pt-0 text-slate-300"
+      className=" mx-auto lg:pt-0 text-slate-300"
     >
       <div className="flex flex-col justify-center items-center w-full ">
         <form
           method="POST"
           action="https://getform.io/f/a30d9116-d1d7-44e9-9b87-1b526592e428"
-          className="flex flex-col max-w-[600px] w-full border-8 p-12 pb-6 text-xl"
+          className="flex flex-col max-w-[600px] w-full border-8 p-8 pb-6 text-xl"
         >
           <div className="pb-8">
-            <p className="text-slate-300 py-4">
-              Submit the form below or send me an email at {/*  */}
+            <p className="text-slate-300 py-4 sm:text-lg md:text-xl">
+              Submit The Form Below <br /> or Send Me An Email. {/*  */}
               <a
                 href="mailto:dmitriy.malayev@gmail.com"
                 className="text-blue-200 underline"
@@ -23,9 +23,9 @@ const Contact = () => {
               </a>
             </p>
           </div>
-          <div className="grid grid-cols-1  sm:grid-cols-2 gap-2  ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2  ">
             <input
-              className=" p-2 w-full custom-ring rounded-lg"
+              className="p-2 w-full custom-ring rounded-lg"
               type="text"
               placeholder="Name"
               name="name"
