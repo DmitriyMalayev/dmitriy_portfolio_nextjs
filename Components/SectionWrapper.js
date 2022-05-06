@@ -22,7 +22,7 @@ const SectionWrapper = ({
         <div
           className={`max-w-[1000px] w-full grid ${
             text && "sm:grid-cols-2"
-          } gap-4 sm:place-content-center`}
+          } gap-2 sm:place-content-center `}
         >
           <div
             className={`pl-8 border-l-4 flex flex-col ${
@@ -39,19 +39,19 @@ const SectionWrapper = ({
                 text ? "justify-end" : "text-center"
               } flex flex-col font-bold font-dance sm:text-lg md:text-xl text-orange-300`}
             >
-              <p className="sm:max-w-[300px] md:max-w-[250px] sm:self-end ">
+              <p className="sm:max-w-[300px] md:max-w-[250px] sm:self-end p-2 ">
                 {subtitle}
               </p>
               {about && (
-                <div className="mt-2 lg:w-[35%] sm:w-[80%]  sm:self-end">
-                  <Image src={Photo} alt="" objectFit="cover" />
+                <div className="sm:w-[50%] md:w-[35%] lg:w-[30%]  sm:self-end px-2    ">
+                  <Image src={Photo} alt="" />
                 </div>
               )}
             </div>
           </div>
 
           {text && (
-            <div className="sm:text-md lg:text-xl leading-2 text-slate-100">
+            <div className="sm:text-md lg:text-xl leading-2 text-slate-100 p-1">
               <p className="pb-1 pt-1">{text}</p>
               <p className="pb-1 pt-1">{text2}</p>
               <p className="pb-1 pt-1">{text3}</p>
