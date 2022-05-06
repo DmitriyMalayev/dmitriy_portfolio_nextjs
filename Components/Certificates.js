@@ -1,11 +1,5 @@
-// import React, { Component } from "react";
-// import "~slick-carousel/slick/slick.css";
-// import "~slick-carousel/slick/slick-theme.css";
-// import Slider from "react-slick";
-
 import React, { Component } from "react";
 import Image from "next/image";
-// import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
@@ -24,11 +18,10 @@ import Image12 from "../public/12.webp";
 import Image13 from "../public/13.webp";
 import Image14 from "../public/14.webp";
 
-
 class SimpleSlider extends Component {
   render() {
     return (
-      <Carousel className="max-w-[1000px] pb-20 mx-auto" showThumbs={false}>
+      <Carousel className="md:max-w-[800px] mb-32 mx-auto" showThumbs={false}>
         <div>
           <Image src={Image1} alt="Image1" />
         </div>

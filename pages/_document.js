@@ -8,6 +8,7 @@ export default function Document() {
       <Head />
       <body className="bg-slate-900 relative">
         <Main />
+
         <NextScript />
       </body>
     </Html>

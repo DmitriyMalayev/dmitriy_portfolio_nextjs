@@ -15,7 +15,8 @@
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-responsive-carousel": "^3.2.23",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "react-pdf": "^5.2.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^12.1.6",
@@ -23,6 +24,7 @@
     "eslint": "^8.14.0",
     "eslint-plugin-react": "^7.29.4",
     "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "file-loader": "^6.2.0"
   }
 }

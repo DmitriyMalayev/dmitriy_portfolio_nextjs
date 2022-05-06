@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import "../styles/globals.css";
+import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import React from "react";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
