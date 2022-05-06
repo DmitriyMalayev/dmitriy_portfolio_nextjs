@@ -18,7 +18,7 @@ const SectionWrapper = ({
       id={id}
       className="w-full pt-24 lg:h-screen lg:pt-20 text-slate-300"
     >
-      <div className="flex flex-col justify-center items-center w-full h-full mx-auto sm:p-2 md:p-8 ">
+      <div className="flex flex-col justify-center items-center w-full h-full mx-auto">
         <div
           className={`max-w-[1000px] w-full grid ${
             text && "sm:grid-cols-2"
@@ -51,7 +51,7 @@ const SectionWrapper = ({
           </div>
 
           {text && (
-            <div className="sm:text-md lg:text-xl leading-2 text-slate-100 p-1">
+            <div className="sm:text-md lg:text-xl leading-2 text-slate-100 px-2">
               <p className="pb-1 pt-1">{text}</p>
               <p className="pb-1 pt-1">{text2}</p>
               <p className="pb-1 pt-1">{text3}</p>
