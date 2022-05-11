@@ -39,14 +39,8 @@ const index = () => {
           />
 
           <meta property="twitter:card" content="summary_large_image" />
-          <meta
-            property="twitter:url"
-            content="https://www.dmitriymalayev.com/"
-          />
-          <meta
-            property="twitter:title"
-            content="Dmitriy Malayev's Portfolio"
-          />
+          <meta property="twitter:url" content="https://www.dmitriymalayev.com/" />
+          <meta property="twitter:title" content="Dmitriy Malayev's Portfolio" />
           <meta
             property="twitter:description"
             content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
@@ -56,10 +50,7 @@ const index = () => {
             content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
           />
         </Head>
-        <Script
-          id="adobe_pdf"
-          src="https://documentcloud.adobe.com/view-sdk/main.js"
-        />
+        <Script id="adobe_pdf" src="https://documentcloud.adobe.com/view-sdk/main.js" />
         <SectionWrapper
           id="about"
           title="About"
@@ -70,41 +61,18 @@ const index = () => {
           about
         ></SectionWrapper>
 
-        <SectionWrapper
-          id="skills"
-          title="Skills"
-          subtitle="Languages & Frameworks"
-        >
+        <SectionWrapper id="skills" title="Skills" subtitle="Languages & Frameworks">
           <Skills />
         </SectionWrapper>
 
-        <SectionWrapper
-          id="certificates"
-          title="Certificates"
-          subtitle="List of My Certificates"
-        >
+        <SectionWrapper id="certificates" title="Certificates" subtitle="List of My Certificates">
           <Certificates />
         </SectionWrapper>
 
-        {/* <SectionWrapper
-          id="resume"
-          title="Resume"
-          subtitle="My Resume, Certifications, Badges, and References"
-        >
-          <Resume />
-        </SectionWrapper> */}
-        <SectionWrapper
-          id="projects"
-          title="Projects"
-          subtitle="YouTube Playlist Of Apps"
-        >
+        <SectionWrapper id="projects" title="Projects" subtitle="YouTube Playlist Of Apps">
           <Projects />
         </SectionWrapper>
-        <SectionWrapper
-          id="contact"
-          title="Contact"
-          subtitle="Communication is Essential"
-        >
+        <SectionWrapper id="contact" title="Contact" subtitle="Communication is Essential">
           <Contact />
         </SectionWrapper>
       </div>
