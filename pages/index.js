@@ -2,12 +2,12 @@
 import SectionWrapper from "../Components/SectionWrapper";
 import Skills from "../Components/Skills";
 import Projects from "../Components/Projects";
-import Resume from "../Components/Resume";
 import Contact from "../Components/Contact";
 import Certificates from "../Components/Certificates";
 
 import Head from "next/head";
 import Script from "next/script";
+import Link from 'next/link'
 import MetaImage from "../public/metaImage.svg";
 
 let title = "Dmitriy Malayev's Portfolio";
@@ -75,7 +75,13 @@ const index = () => {
         <SectionWrapper id="contact" title="Contact" subtitle="Communication is Essential">
           <Contact />
         </SectionWrapper>
+        <Script
+        
+        
+
+        />
       </div>
+ 
     </>
   );
 };

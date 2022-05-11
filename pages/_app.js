@@ -5,12 +5,14 @@ import Footer from "../Components/Footer";
 import "../styles/globals.css";
 import SocialMedia from "../Components/SocialMedia";
 
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Navbar />
       <SocialMedia />
       <Component {...pageProps} />
+      
       <Footer />
     </>
   );
