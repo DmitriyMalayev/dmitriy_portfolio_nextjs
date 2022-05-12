@@ -40,6 +40,44 @@ const SocialMedia = () => {
 
         <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
           <a
+            className="flex justify-between items-center w-full text-gray-300 bg-orange-500 shadow-orange-500/100 shadow-sm p-2"
+            href="/resume.pdf"
+          >
+            <span>Resume</span>
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
+          <a
+            className="flex justify-between items-center w-full text-gray-300 bg-red-600 shadow-sm p-2"
+            href="https://www.youtube.com/c/DmitriyMalayevProfile"
+          >
+            <span>YouTube</span>
+            <svg
+              className="w-6 h-6"
+              role="img"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+            </svg>
+          </a>
+        </li>
+        <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
+          <a
             className="flex justify-between items-center w-full text-gray-300 bg-blue-900 p-2 shadow-blue-900/100 shadow-sm"
             href="mailto:dmitriy.malayev@gmail.com"
           >
@@ -62,43 +100,21 @@ const SocialMedia = () => {
         </li>
         <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
           <a
-            className="flex justify-between items-center w-full text-gray-300 bg-orange-500 shadow-orange-500/100 shadow-sm p-2"
-            href="https://docs.google.com/document/d/e/2PACX-1vRVyekYUVeK_As6_FKBVkpDyw2mT9yJKvK4DJ-r4dXlfBVdRLhqKZLw-gweO65Zj9Uly2yCoem7mS2V/pub"
+            className="flex justify-between items-center w-full text-gray-300 bg-stone-600 shadow-sm p-2"
+            href="tel:+1-347-761-4403"
           >
-            <span>Resume</span>
+            <span>Call Me</span>
+
             <svg
               className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+              fill="currentColor"
+              viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-              />
+              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
             </svg>
           </a>
         </li>
-        <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
-          <a
-            className="flex justify-between items-center w-full text-gray-300 bg-red-600 shadow-sm p-2"
-            href="https://docs.google.com/document/d/e/2PACX-1vRVyekYUVeK_As6_FKBVkpDyw2mT9yJKvK4DJ-r4dXlfBVdRLhqKZLw-gweO65Zj9Uly2yCoem7mS2V/pub"
-          >
-            <span>YouTube</span>
-            <svg
-              className="w-6 h-6"
-              role="img"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-            </svg>
-          </a>
-        </li>
-      
       </ul>
     </div>
   );

@@ -14,7 +14,7 @@ let title = "Dmitriy Malayev's Portfolio";
 const index = () => {
   return (
     <>
-      <div className="text-red-500 pt-64 lg:pt-0">
+      <div className="text-red-500 pt-32 md:pt-64 lg:pt-0">
         <Head>
           <title>{title}</title>
           <meta name="title" content="Dmitriy Malayev's Portfolio" />
