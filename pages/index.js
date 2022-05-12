@@ -12,6 +12,7 @@ import MetaImage from "../public/metaImage.svg";
 let title = "Dmitriy Malayev's Portfolio";
 
 const index = () => {
+  
   return (
     <>
       <div className="text-red-500 sm:pt-24 ">
@@ -45,8 +46,8 @@ const index = () => {
             property="twitter:image"
             content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
           />
-
-          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"  />
+          
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
           <script
             src="https://assets.calendly.com/assets/external/widget.js"
             type="text/javascript"
@@ -55,9 +56,12 @@ const index = () => {
 
           <script
             type="text/javascript"
+            
             dangerouslySetInnerHTML={{
               __html: `window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/dmalayev/30min', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true  }); }`,
+              
             }}
+            
           />
         </Head>
         <Script id="adobe_pdf" src="https://documentcloud.adobe.com/view-sdk/main.js" />

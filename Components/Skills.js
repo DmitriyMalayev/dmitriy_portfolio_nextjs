@@ -25,7 +25,7 @@ const Skills = () => {
   ];
   return (
     <div>
-      <div className="sm:w-auto grid grid-cols-3 sm:grid-cols-3 gap-4 text-center py-2 sm:px-32 md:px-64">
+      <div className="sm:w-auto grid grid-cols-3 sm:grid-cols-3 gap-4 text-center py-2 mx-auto sm:px-8 lg:px-64">
         {skills.map((skill) => (
           <div
             className="shadow-md shadow-slate-500 hover:scale-110 border-2 border-transparent hover:border-slate-500 duration-700 pt-6"

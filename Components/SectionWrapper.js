@@ -39,7 +39,7 @@ const SectionWrapper = ({
                 text ? "justify-end" : "text-center"
               } flex flex-col font-bold font-dance sm:text-lg md:text-xl text-orange-300`}
             >
-              <p className="sm:max-w-[300px] md:max-w-[250px] sm:self-end p-2 ">
+              <p className="sm:max-w-[300px] sm:self-end p-2 ">
                 {subtitle}
               </p>
               {about && (
@@ -51,7 +51,7 @@ const SectionWrapper = ({
           </div>
 
           {text && (
-            <div className="sm:text-md lg:text-xl leading-2 text-slate-100 px-2">
+            <div className="sm:text-md lg:text-xl leading-2 text-slate-50 px-2">
               <p className="pb-1 pt-1">{text}</p>
               <p className="pb-1 pt-1">{text2}</p>
               <p className="pb-1 pt-1">{text3}</p>
