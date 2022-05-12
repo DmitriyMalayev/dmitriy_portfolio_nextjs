@@ -7,9 +7,7 @@ import Certificates from "../Components/Certificates";
 
 import Head from "next/head";
 import Script from "next/script";
-import Link from "next/link";
 import MetaImage from "../public/metaImage.svg";
-import { PopupButton } from "react-calendly";
 
 let title = "Dmitriy Malayev's Portfolio";
 
@@ -48,21 +46,18 @@ const index = () => {
             content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
           />
           <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-          {/* <script
+
+          <script
             src="https://assets.calendly.com/assets/external/widget.js"
             type="text/javascript"
             async
           ></script>
-          <script type="text/javascript">
-            window.onload = function(){" "}
-            {Calendly.initBadgeWidget({
-              url: "https://calendly.com/dmalayev/30min",
-              text: "Schedule time with me",
-              color: "#0069ff",
-              textColor: "#ffffff",
-              branding: true,
-            })}
-          </script> */}
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html: `window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/dmalayev/30min', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true }); }`,
+            }}
+          />
         </Head>
         <Script id="adobe_pdf" src="https://documentcloud.adobe.com/view-sdk/main.js" />
         <SectionWrapper
@@ -90,7 +85,7 @@ const index = () => {
           <Contact />
         </SectionWrapper>
         <Script />
-        <div>
+        {/* <div>
           {typeof window !== "undefined" && (
             <PopupButton
               url="https://calendly.com/dmalayev"
@@ -98,7 +93,7 @@ const index = () => {
               text="Click here to schedule!"
             />
           )}
-        </div>
+        </div> */}
       </div>
     </>
   );
