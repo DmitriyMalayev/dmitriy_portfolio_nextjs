@@ -21,7 +21,7 @@ import Image14 from "../public/14.webp";
 class SimpleSlider extends Component {
   render() {
     return (
-      <Carousel className="md:max-w-[800px] mb-32 mx-auto sm:px-2" showThumbs={false}>
+      <Carousel className="md:max-w-[800px] mx-auto sm:px-2" showThumbs={false}>
         <div>
           <Image src={Image1} alt="Image1" />
         </div>

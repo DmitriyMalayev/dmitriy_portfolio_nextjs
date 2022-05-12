@@ -12,10 +12,9 @@ import MetaImage from "../public/metaImage.svg";
 let title = "Dmitriy Malayev's Portfolio";
 
 const index = () => {
-  
   return (
     <>
-      <div className="text-red-500 sm:pt-24 ">
+      <div className="text-red-500 pt-64 lg:pt-0">
         <Head>
           <title>{title}</title>
           <meta name="title" content="Dmitriy Malayev's Portfolio" />
@@ -46,22 +45,23 @@ const index = () => {
             property="twitter:image"
             content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
           />
-          
+
           <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
           <script
             src="https://assets.calendly.com/assets/external/widget.js"
             type="text/javascript"
             async
           ></script>
-
+          {/* // <!-- Calendly link widget begin -->
+// <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+// <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+// <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dmalayev/30min'});return false;">Schedule time with me</a>
+// <!-- Calendly link widget end --></link> */}
           <script
             type="text/javascript"
-            
             dangerouslySetInnerHTML={{
               __html: `window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/dmalayev/30min', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true  }); }`,
-              
             }}
-            
           />
         </Head>
         <Script id="adobe_pdf" src="https://documentcloud.adobe.com/view-sdk/main.js" />

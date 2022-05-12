@@ -6,7 +6,7 @@ export default function Document() {
   return (
     <Html className="scroll-smooth">
       <Head />
-      <body className="bg-slate-900 relative">
+      <body className="bg-stone-900 relative">
         <Main />
 
         <NextScript />
