@@ -7,8 +7,9 @@ import Certificates from "../Components/Certificates";
 
 import Head from "next/head";
 import Script from "next/script";
-import Link from 'next/link'
+import Link from "next/link";
 import MetaImage from "../public/metaImage.svg";
+import { PopupButton } from "react-calendly";
 
 let title = "Dmitriy Malayev's Portfolio";
 
@@ -23,12 +24,10 @@ const index = () => {
             name="description"
             content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
           />
-
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.dmitriymalayev.com/" />
           <meta property="og:title" content="Dmitriy Malayev's Portfolio" />
           <meta property="og:image" content={MetaImage} />
-
           <meta
             property="og:description"
             content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
@@ -37,7 +36,6 @@ const index = () => {
             property="og:image"
             content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
           />
-
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.dmitriymalayev.com/" />
           <meta property="twitter:title" content="Dmitriy Malayev's Portfolio" />
@@ -49,6 +47,22 @@ const index = () => {
             property="twitter:image"
             content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
           />
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+          {/* <script
+            src="https://assets.calendly.com/assets/external/widget.js"
+            type="text/javascript"
+            async
+          ></script>
+          <script type="text/javascript">
+            window.onload = function(){" "}
+            {Calendly.initBadgeWidget({
+              url: "https://calendly.com/dmalayev/30min",
+              text: "Schedule time with me",
+              color: "#0069ff",
+              textColor: "#ffffff",
+              branding: true,
+            })}
+          </script> */}
         </Head>
         <Script id="adobe_pdf" src="https://documentcloud.adobe.com/view-sdk/main.js" />
         <SectionWrapper
@@ -75,13 +89,17 @@ const index = () => {
         <SectionWrapper id="contact" title="Contact" subtitle="Communication is Essential">
           <Contact />
         </SectionWrapper>
-        <Script
-        
-        
-
-        />
+        <Script />
+        <div>
+          {typeof window !== "undefined" && (
+            <PopupButton
+              url="https://calendly.com/dmalayev"
+              rootElement={document.getElementById("calendly")}
+              text="Click here to schedule!"
+            />
+          )}
+        </div>
       </div>
- 
     </>
   );
 };
