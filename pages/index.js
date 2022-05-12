@@ -7,7 +7,7 @@ import Certificates from "../Components/Certificates";
 
 import Head from "next/head";
 import Script from "next/script";
-import MetaImage from "../public/metaImage.svg";
+import MetaImage from "/public/metaImage.jpeg";
 
 let title = "Dmitriy Malayev's Portfolio";
 
@@ -22,30 +22,24 @@ const index = () => {
             name="description"
             content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
           />
+
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.dmitriymalayev.com/" />
           <meta property="og:title" content="Dmitriy Malayev's Portfolio" />
-          <meta property="og:image" content={MetaImage} />
           <meta
             property="og:description"
             content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
           />
-          <meta
-            property="og:image"
-            content={MetaImage}
-      
-          />
-          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="og:image" content={MetaImage} />
+
+          <meta property="twitter:card" content={MetaImage} />
           <meta property="twitter:url" content="https://www.dmitriymalayev.com/" />
           <meta property="twitter:title" content="Dmitriy Malayev's Portfolio" />
           <meta
             property="twitter:description"
             content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
           />
-          <meta
-            property="twitter:image"
-            content={MetaImage}
-          />
+          <meta property="twitter:image" content={MetaImage} />
 
           <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
           <script
@@ -53,11 +47,7 @@ const index = () => {
             type="text/javascript"
             async
           ></script>
-          {/* // <!-- Calendly link widget begin -->
-// <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-// <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-// <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dmalayev/30min'});return false;">Schedule time with me</a>
-// <!-- Calendly link widget end --></link> */}
+  
           <script
             type="text/javascript"
             dangerouslySetInnerHTML={{
