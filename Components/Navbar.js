@@ -100,6 +100,11 @@ const Navbar = () => {
               Contact
             </a>
           </li>
+          <li className="py-6 text-4xl">
+            <a onClick={handleClick}   href="/resume.pdf">
+              Resume Download
+            </a>
+          </li>
         </ul>
       </div>
     </>

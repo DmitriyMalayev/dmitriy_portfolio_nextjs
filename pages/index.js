@@ -47,7 +47,7 @@ const index = () => {
             type="text/javascript"
             async
           ></script>
-  
+
           <script
             type="text/javascript"
             dangerouslySetInnerHTML={{

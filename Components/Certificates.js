@@ -16,7 +16,6 @@ import Image10 from "../public/10.webp";
 import Image11 from "../public/11.webp";
 import Image12 from "../public/12.webp";
 import Image13 from "../public/13.webp";
-import Image14 from "../public/14.webp";
 
 class SimpleSlider extends Component {
   render() {
@@ -60,9 +59,6 @@ class SimpleSlider extends Component {
         </div>
         <div>
           <Image src={Image13} alt="Image13" />
-        </div>
-        <div>
-          <Image src={Image14} alt="Image14" />
         </div>
       </Carousel>
     );
