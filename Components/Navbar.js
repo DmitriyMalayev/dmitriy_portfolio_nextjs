@@ -15,19 +15,21 @@ const Navbar = () => {
 
         {/* menu */}
         <ul className="hidden md:flex justify-around sm:text-lg md:text-xl lg:text-2xl font-semibold grow ">
-          <li className="hover:text-red-600 hover:text-3xl">
+          <li className="hover:text-red-600 md:hover:scale-125 ease-in transition duration-300 ">
             <a href="#about">About</a>
           </li>
-          <li className="hover:text-red-600 hover:text-3xl">
+          <li className="hover:text-red-600 md:hover:scale-125 ease-in transition duration-300 ">
             <a href="#skills">Skills</a>
           </li>
-          <li className="hover:text-red-600 hover:text-3xl">
-            <a href="#projects">Projects</a>
-          </li>
-          <li className="hover:text-red-600 hover:text-3xl">
+          <li className="hover:text-red-600 md:hover:scale-125 ease-in transition duration-300">
             <a href="#certificates">Certificates</a>
           </li>
-          <li className="hover:text-red-600 hover:text-3xl">
+
+          <li className="hover:text-red-600 md:hover:scale-125 ease-in transition duration-300">
+            <a href="#projects">Projects</a>
+          </li>
+
+          <li className="hover:text-red-600 md:hover:scale-125 ease-in transition duration-300">
             <a href="#contact">Contact</a>
           </li>
         </ul>
@@ -101,7 +103,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="py-6 text-4xl">
-            <a onClick={handleClick}   href="/resume.pdf">
+            <a onClick={handleClick} href="/resume.pdf">
               Resume Download
             </a>
           </li>

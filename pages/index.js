@@ -7,7 +7,7 @@ import Certificates from "../Components/Certificates";
 
 import Head from "next/head";
 import Script from "next/script";
-import MetaImage from "/public/metaImage.jpeg";
+// import MetaImage from "/public/metaImage.jpeg";
 
 let title = "Dmitriy Malayev's Portfolio";
 
