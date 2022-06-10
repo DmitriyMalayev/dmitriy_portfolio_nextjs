@@ -23,24 +23,45 @@ const index = () => {
           />
 
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.dmitriymalayev.com/" />
+          <meta
+            property="og:url"
+            content="https://www.dmitriymalayev.com/metaImage.jpeg"
+          />
           <meta property="og:title" content="Dmitriy Malayev's Portfolio" />
           <meta
             property="og:description"
             content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
           />
-          <meta property="og:image" content="https://www.dmitriymalayev.com/metaImage.jpeg" />
+          <meta
+            property="og:image"
+            content="https://www.dmitriymalayev.com/metaImage.jpeg"
+          />
 
-          <meta property="twitter:card" content="https://www.dmitriymalayev.com/metaImage.jpeg" />
-          <meta property="twitter:url" content="https://www.dmitriymalayev.com/" />
-          <meta property="twitter:title" content="Dmitriy Malayev's Portfolio" />
+          <meta
+            property="twitter:card"
+            content="https://www.dmitriymalayev.com/metaImage.jpeg"
+          />
+          <meta
+            property="twitter:url"
+            content="https://www.dmitriymalayev.com/"
+          />
+          <meta
+            property="twitter:title"
+            content="Dmitriy Malayev's Portfolio"
+          />
           <meta
             property="twitter:description"
             content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
           />
-          <meta property="twitter:image" content="https://www.dmitriymalayev.com/metaImage.jpeg" />
+          <meta
+            property="twitter:image"
+            content="https://www.dmitriymalayev.com/metaImage.jpeg"
+          />
 
-          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+          <link
+            href="https://assets.calendly.com/assets/external/widget.css"
+            rel="stylesheet"
+          />
           <script
             src="https://assets.calendly.com/assets/external/widget.js"
             type="text/javascript"
@@ -54,7 +75,10 @@ const index = () => {
             }}
           />
         </Head>
-        <Script id="adobe_pdf" src="https://documentcloud.adobe.com/view-sdk/main.js" />
+        <Script
+          id="adobe_pdf"
+          src="https://documentcloud.adobe.com/view-sdk/main.js"
+        />
         <SectionWrapper
           id="about"
           title="About"
@@ -65,18 +89,34 @@ const index = () => {
           about
         ></SectionWrapper>
 
-        <SectionWrapper id="skills" title="Skills" subtitle="Languages & Frameworks">
+        <SectionWrapper
+          id="skills"
+          title="Skills"
+          subtitle="Languages & Frameworks"
+        >
           <Skills />
         </SectionWrapper>
 
-        <SectionWrapper id="certificates" title="Certificates" subtitle="List of My Certificates">
+        <SectionWrapper
+          id="certificates"
+          title="Certificates"
+          subtitle="List of My Certificates"
+        >
           <Certificates />
         </SectionWrapper>
 
-        <SectionWrapper id="projects" title="Projects" subtitle="YouTube Playlist Of Apps">
+        <SectionWrapper
+          id="projects"
+          title="Projects"
+          subtitle="YouTube Playlist Of Apps"
+        >
           <Projects />
         </SectionWrapper>
-        <SectionWrapper id="contact" title="Contact" subtitle="Communication is Essential">
+        <SectionWrapper
+          id="contact"
+          title="Contact"
+          subtitle="Communication is Essential"
+        >
           <Contact />
         </SectionWrapper>
         <Script />
