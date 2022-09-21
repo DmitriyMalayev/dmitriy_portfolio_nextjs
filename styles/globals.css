@@ -46,18 +46,30 @@
       format("svg"); /* Legacy iOS */
 }
 
+.calendly-badge-widget {
+  left: 50% !important;
+  margin-left: -100px !important;
+}
+
 @layer utilities {
   .custom-ring {
     @apply focus:outline-none focus-visible:ring-4 ring-blue-400;
     @apply space-y-20;
   }
 }
-
+@media only screen and (max-width: 500px) {
+  .g-recaptcha {
+    transform: scale(0.77);
+    transform-origin: 0 0;
+  }
+}
+/* 
 .grecaptcha-badge {
+  width: 10px;
   margin-right: 50px;
   right: -50px !important;
   bottom: 100px !important;
-}
+} */
 /* .calendly-badge-content {
   @apply -translate-y-10
 } */
