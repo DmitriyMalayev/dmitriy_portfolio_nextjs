@@ -49,6 +49,7 @@
 .calendly-badge-widget {
   left: 50% !important;
   margin-left: -100px !important;
+  margin-bottom: 10px;
 }
 
 @layer utilities {

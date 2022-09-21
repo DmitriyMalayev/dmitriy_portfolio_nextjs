@@ -71,7 +71,7 @@ const index = () => {
           <script
             type="text/javascript"
             dangerouslySetInnerHTML={{
-              __html: `window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/dmalayev/30min', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true  }); }`,
+              __html: `window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/dmalayev/30min', text: 'Shall We Speak?', color: '#0069ff', textColor: '#ffffff', branding: true  }); }`,
             }}
           />
         </Head>
