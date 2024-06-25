@@ -25,7 +25,7 @@ const index = () => {
           <meta property="og:type" content="website" />
           <meta
             property="og:url"
-            content="https://www.dmitriymalayev.com/metaImage.jpeg"
+            content="https://www.dmitriymalayev.com/"
           />
           <meta property="og:title" content="Dmitriy Malayev's Portfolio" />
           <meta
