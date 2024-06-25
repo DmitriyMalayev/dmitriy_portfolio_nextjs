@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "engines": {
-    "node": "18.x"
-  },
+  "node": ">=18.0.0"  
+},
   "dependencies": {
     "next": "^14.2.4",
     "react": "^18.3.1",
