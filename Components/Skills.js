@@ -9,6 +9,10 @@ import FireBase from "../public/assets/firebase.webp";
 import GitHub from "../public/assets/github.webp";
 import Tailwind from "../public/assets/tailwind.webp";
 import Mongo from "../public/assets/mongo.webp";
+import NextJS from "../public/assets/nextjs.webp";
+import Kotlin from "../public/assets/kotlin.webp";
+import AWSLogo from "../public/assets/aws.webp";
+
 import Image from "next/image";
 
 const Skills = () => {
@@ -16,12 +20,16 @@ const Skills = () => {
     { title: "HTML", image: HTML },
     { title: "CSS", image: CSS },
     { title: "JS", image: JS },
-    { title: "ReactImg", image: ReactImg },
+    { title: "ReactJS", image: ReactImg },
     { title: "Node", image: Node },
     { title: "Firebase", image: FireBase },
     { title: "Github", image: GitHub },
     { title: "TailwindCSS", image: Tailwind },
-    { title: "Mongo", image: Mongo },
+    { title: "MongoDB", image: Mongo },
+    { title: "NextJS", image: NextJS },
+    { title: "Kotlin", image: Kotlin },
+    { title: "AWS", image: AWSLogo },
+
   ];
   return (
     <div>
