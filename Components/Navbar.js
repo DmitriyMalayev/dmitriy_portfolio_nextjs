@@ -8,12 +8,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed w-full h-[80px] flex justify-between items-center px-4  text-orange-700 gap-10 bg-orange-300/15 backdrop-blur-xl z-50">
+      <div className="fixed w-full h-[80px] flex justify-between items-center px-4  text-orange-700 gap-10 bg-orange-100/5 backdrop-blur-xl z-50">
         <div>
           <Image src={Logo} alt="Logo" width={50} height={40} />
         </div>
 
-        {/* menu */}
         <ul className="hidden md:flex justify-around sm:text-lg md:text-xl lg:text-2xl font-semibold grow ">
           <li className="hover:text-red-600 md:hover:scale-125 ease-in transition duration-300 ">
             <a href="#about">About</a>

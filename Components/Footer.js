@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="text-xs md:text-md lg:text-lg sm:p-2 p-4 rounded-lg shadow flex items-center justify-between md:p-6 text-orange-600 gap-10 bg-orange-300/15 backdrop-blur-xl mt-20 ">
+    <div className="text-xs md:text-md lg:text-lg sm:p-2 p-4 rounded-lg shadow flex items-center justify-between md:p-6 text-orange-700 gap-10 bg-orange-100/5 backdrop-blur-xl mt-20 ">
       <span className="">Created By Dmitriy Malayev</span>
 
       {/* <ul className="flex flex-wrap items-center sm:mt-0">

@@ -8,55 +8,25 @@ import Certificates from "../Components/Certificates";
 import Head from "next/head";
 import Script from "next/script";
 
-let title = "Dmitriy Malayev's Portfolio";
 
 const index = () => {
   return (
     <>
       <div className="text-red-500 pt-32 md:pt-64 lg:pt-0">
         <Head>
-          <title>{title}</title>
+          <title>Dmitriy Malayev's Portfolio</title>
           <meta name="title" content="Dmitriy Malayev's Portfolio" />
-          <meta
-            name="description"
-            content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
-          />
-
+          <meta name="description" content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and Computer Science." />
           <meta property="og:type" content="website" />
-          <meta
-            property="og:url"
-            content="https://www.dmitriymalayev.com/"
-          />
+          <meta property="og:url" content="https://dmitriymalayev.com" />
           <meta property="og:title" content="Dmitriy Malayev's Portfolio" />
-          <meta
-            property="og:description"
-            content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
-          />
-          <meta
-            property="og:image"
-            content="https://www.dmitriymalayev.com/metaImage.jpeg"
-          />
-
-          <meta
-            property="twitter:card"
-            content="https://www.dmitriymalayev.com/metaImage.jpeg"
-          />
-          <meta
-            property="twitter:url"
-            content="https://www.dmitriymalayev.com/"
-          />
-          <meta
-            property="twitter:title"
-            content="Dmitriy Malayev's Portfolio"
-          />
-          <meta
-            property="twitter:description"
-            content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and CS. "
-          />
-          <meta
-            property="twitter:image"
-            content="https://www.dmitriymalayev.com/metaImage.jpeg"
-          />
+          <meta property="og:description" content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and Computer Science." />
+          <meta property="og:image" content="https://www.dmitriymalayev.com/metaImage.jpeg" />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://dmitriymalayev.com" />
+          <meta property="twitter:title" content="Dmitriy Malayev's Portfolio" />
+          <meta property="twitter:description" content="Full-Stack Software Engineer with over three years of experience, a Bachelor of Science degree in Data Comm. and Computer Science." />
+          <meta property="twitter:image" content="https://www.dmitriymalayev.com/metaImage.jpeg" />
 
           <link
             href="https://assets.calendly.com/assets/external/widget.css"
@@ -75,10 +45,6 @@ const index = () => {
             }}
           />
         </Head>
-        <Script
-          id="adobe_pdf"
-          src="https://documentcloud.adobe.com/view-sdk/main.js"
-        />
         <SectionWrapper
           id="about"
           title="About"
