@@ -24,9 +24,9 @@ const Navbar = () => {
             <a href="#certificates">Certificates</a>
           </li>
 
-          <li className="hover:text-red-600 md:hover:scale-125 ease-in transition duration-300">
+          {/* <li className="hover:text-red-600 md:hover:scale-125 ease-in transition duration-300">
             <a href="#projects">Projects</a>
-          </li>
+          </li> */}
 
           <li className="hover:text-red-600 md:hover:scale-125 ease-in transition duration-300">
             <a href="#contact">Contact</a>
@@ -86,11 +86,11 @@ const Navbar = () => {
               Skills
             </a>
           </li>
-          <li className="py-6 text-4xl">
+          {/* <li className="py-6 text-4xl">
             <a onClick={handleClick} href="#projects">
               Projects
             </a>
-          </li>
+          </li> */}
           <li className="py-6 text-4xl">
             <a onClick={handleClick} href="#certificates">
               Certificates

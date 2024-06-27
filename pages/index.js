@@ -71,13 +71,13 @@ const index = () => {
           <Certificates />
         </SectionWrapper>
 
-        <SectionWrapper
+        {/* <SectionWrapper
           id="projects"
           title="Projects"
           subtitle="YouTube Playlist Of Apps"
         >
           <Projects />
-        </SectionWrapper>
+        </SectionWrapper> */}
         <SectionWrapper
           id="contact"
           title="Contact"
