@@ -41,7 +41,7 @@ const SocialMedia = () => {
         <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
           <a
             className="flex justify-between items-center w-full text-gray-300 bg-orange-500 shadow-orange-500/100 shadow-sm p-2"
-            href="/resume.pdf"
+            href="/new_resume.pdf"
           >
             <span>Resume</span>
             <svg
