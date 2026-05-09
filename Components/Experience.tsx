@@ -22,7 +22,9 @@ export default function Experience() {
             <article className="rounded-xl border border-stone-700/80 bg-stone-900/60 p-5 shadow-inner shadow-orange-950/25 backdrop-blur sm:p-6">
               <div className="flex flex-col gap-1 border-b border-stone-700/60 pb-4 sm:flex-row sm:items-start sm:justify-between">
                 <div>
-                  <h3 className="text-xl font-semibold text-orange-300">{job.company}</h3>
+                  <h3 className="text-xl font-semibold text-orange-300">
+                    {job.company}
+                  </h3>
                   <p className="text-base text-stone-300">{job.role}</p>
                 </div>
                 <time className="shrink-0 text-sm tabular-nums text-stone-500 sm:text-right">

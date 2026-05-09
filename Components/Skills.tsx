@@ -19,15 +19,7 @@ function SkillLogo({ src, alt }: { src: string; alt: string }) {
     );
   }
 
-  return (
-    <Image
-      src={src}
-      alt={alt}
-      width={96}
-      height={96}
-      className="h-auto w-auto"
-    />
-  );
+  return <Image src={src} alt={alt} width={96} height={96} className="h-auto w-auto" />;
 }
 
 export default function Skills() {
@@ -55,7 +47,9 @@ export default function Skills() {
                       <div className="mx-auto flex h-[5.5rem] w-20 items-center justify-center drop-shadow-lg shadow-blue-600/50">
                         <SkillLogo src={skill.src} alt={`${skill.title} logo`} />
                       </div>
-                      <p className="my-4 text-xs text-slate-200 sm:text-sm">{skill.title}</p>
+                      <p className="my-4 text-xs text-slate-200 sm:text-sm">
+                        {skill.title}
+                      </p>
                     </div>
                   ))}
                 </div>

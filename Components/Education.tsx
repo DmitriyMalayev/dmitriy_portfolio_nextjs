@@ -10,10 +10,16 @@ export default function Education() {
         >
           <header className="border-b border-stone-700/60 pb-4">
             <h3 className="text-xl font-semibold text-orange-300">{entry.school}</h3>
-            <p className="mt-1 text-base font-medium text-stone-200">{entry.credential}</p>
-            <time className="mt-2 block text-sm tabular-nums text-stone-500">{entry.period}</time>
+            <p className="mt-1 text-base font-medium text-stone-200">
+              {entry.credential}
+            </p>
+            <time className="mt-2 block text-sm tabular-nums text-stone-500">
+              {entry.period}
+            </time>
           </header>
-          <p className="mt-4 flex-grow text-sm leading-relaxed text-slate-200">{entry.notes}</p>
+          <p className="mt-4 flex-grow text-sm leading-relaxed text-slate-200">
+            {entry.notes}
+          </p>
         </article>
       ))}
     </div>

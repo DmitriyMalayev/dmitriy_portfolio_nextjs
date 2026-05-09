@@ -10,7 +10,9 @@ function TypeBadge({ type }: { type: WritingItem['type'] }) {
   };
   const { label, classes } = map[type];
   return (
-    <span className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${classes}`}>{label}</span>
+    <span className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${classes}`}>
+      {label}
+    </span>
   );
 }
 
@@ -64,7 +66,9 @@ export default function Writing() {
             <h3 className="mb-2 font-semibold text-cyan-100 group-hover:text-orange-300">
               {item.title}
             </h3>
-            <p className="flex-grow text-sm leading-relaxed text-slate-400">{item.description}</p>
+            <p className="flex-grow text-sm leading-relaxed text-slate-400">
+              {item.description}
+            </p>
             <span className="mt-4 text-xs font-medium text-orange-500 transition group-hover:text-orange-300">
               Visit ↗
             </span>

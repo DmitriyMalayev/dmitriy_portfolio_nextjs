@@ -1,7 +1,12 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { motion, AnimatePresence, useReducedMotion, type Variants } from 'framer-motion';
+import {
+  motion,
+  AnimatePresence,
+  useReducedMotion,
+  type Variants,
+} from 'framer-motion';
 
 const ROLES = [
   'Full-Stack Engineer',
@@ -47,7 +52,11 @@ export default function Hero() {
           Dmitriy Malayev
         </h1>
 
-        <div className="mt-4 h-10 overflow-hidden md:h-12" aria-live="polite" aria-atomic="true">
+        <div
+          className="mt-4 h-10 overflow-hidden md:h-12"
+          aria-live="polite"
+          aria-atomic="true"
+        >
           {prefersReducedMotion ? (
             <p className="font-dance text-2xl font-bold text-orange-400 md:text-3xl">
               {ROLES[0]}
@@ -69,8 +78,8 @@ export default function Hero() {
         </div>
 
         <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-slate-400 md:text-lg lg:text-xl">
-          Building production-grade features at TorahAnytime — React, Next.js, Kotlin, and cloud
-          data pipelines.
+          Building production-grade features at TorahAnytime — React, Next.js, Kotlin,
+          and cloud data pipelines.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">

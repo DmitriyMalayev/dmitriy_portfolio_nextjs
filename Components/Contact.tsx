@@ -20,7 +20,9 @@ export default function Contact() {
   const [message, setMessage] = useState('');
   const [fieldErrors, setFieldErrors] = useState<FieldErrors>({});
   const [notification, setNotification] = useState('');
-  const [notificationType, setNotificationType] = useState<NotificationType | null>(null);
+  const [notificationType, setNotificationType] = useState<NotificationType | null>(
+    null,
+  );
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const { executeRecaptcha } = useGoogleReCaptcha();

@@ -15,7 +15,9 @@ export default function StatsBar() {
           <p className="font-dance text-2xl font-bold text-orange-400 sm:text-3xl md:text-4xl">
             {item.value}
           </p>
-          <p className="mt-2 text-sm font-medium leading-snug text-stone-200">{item.label}</p>
+          <p className="mt-2 text-sm font-medium leading-snug text-stone-200">
+            {item.label}
+          </p>
           <p
             className="mt-2 text-xs text-stone-500 transition group-hover:text-orange-400/70"
             aria-label={`Context: ${item.context}`}
