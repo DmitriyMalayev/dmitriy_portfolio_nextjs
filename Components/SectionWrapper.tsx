@@ -69,10 +69,10 @@ export default function SectionWrapper({
           </div>
 
           {text ? (
-            <div className="px-2 leading-relaxed text-slate-50 sm:text-md md:pt-2 lg:text-2xl">
+            <div className="px-2 leading-relaxed text-slate-50 sm:text-base md:pt-2 lg:text-2xl">
               <p className="pb-2 pt-2">{text}</p>
-              <p className="pb-2 pt-2">{text2}</p>
-              <p className="pb-2 pt-2">{text3}</p>
+              {text2 ? <p className="pb-2 pt-2">{text2}</p> : null}
+              {text3 ? <p className="pb-2 pt-2">{text3}</p> : null}
             </div>
           ) : null}
         </div>
