@@ -1,22 +1,22 @@
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./public/**/*.{js,ts,jsx,tsx, jpg, svg, png}",
-
-    "./Components/**/*.{js,ts,jsx,tsx}",
+    './Components/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     screens: {
-      sm: "360px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
+      // NOTE: sm is set to 360px (non-standard) to target small phones early.
+      // Tailwind's default is 640px. Keep this in mind when using sm: prefixes.
+      sm: '360px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
     },
     extend: {
       fontFamily: {
-        dance: "'Dance', serif",
+        dance: ['"Dancing Script"', 'serif'],
       },
     },
-    plugins: [],
   },
+  plugins: [],
 };
