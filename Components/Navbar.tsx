@@ -23,7 +23,7 @@ const SECTION_LABELS: Record<SectionId, string> = {
   experience: 'Experience',
   education: 'Education',
   skills: 'Skills',
-  certificates: 'Certificates',
+  certificates: 'Certs',
   projects: 'Projects',
   testimonials: 'Testimonials',
   writing: 'Writing',
@@ -75,15 +75,15 @@ export default function Navbar() {
   const links = SECTION_IDS.map((id) => ({ id, label: SECTION_LABELS[id] }));
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 flex h-[80px] w-full items-center justify-between gap-10 bg-orange-100/10 px-4 text-orange-700 backdrop-blur-xl backdrop-saturate-150">
+    <header className="fixed inset-x-0 top-0 z-50 flex h-[80px] w-full items-center justify-between gap-3 bg-orange-100/10 px-4 text-orange-700 backdrop-blur-xl backdrop-saturate-150">
       <div>
         <Link href="#about" aria-label="Jump to About section">
           <Image src={Logo} alt="" width={50} height={40} priority />
         </Link>
       </div>
 
-      <nav aria-label="Primary">
-        <ul className="hidden grow items-center justify-around gap-1 font-semibold md:flex lg:text-2xl md:text-xl sm:text-lg">
+      <nav aria-label="Primary" className="hidden min-w-0 flex-1 md:block">
+        <ul className="flex items-center justify-around gap-0.5 font-semibold md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base">
           {links.map(({ id, label }) => (
             <li key={id}>
               <a
@@ -100,7 +100,7 @@ export default function Navbar() {
               href="/new_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-2 rounded border border-orange-600 px-3 py-1 text-sm font-semibold text-orange-400 transition hover:bg-orange-900/40 hover:text-orange-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 lg:text-base"
+              className="ml-1 rounded border border-orange-600 px-2 py-0.5 font-semibold text-orange-400 transition hover:bg-orange-900/40 hover:text-orange-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base"
               aria-label="Download résumé PDF"
             >
               Résumé ↗

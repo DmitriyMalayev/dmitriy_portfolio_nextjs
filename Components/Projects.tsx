@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { projects } from '@/data/projects';
 
@@ -10,24 +9,6 @@ export default function Projects() {
           key={project.title}
           className="flex h-full flex-col rounded-xl border border-stone-700/80 bg-stone-900/60 p-5 shadow-inner shadow-orange-950/30 backdrop-blur"
         >
-          {project.imageSrc ? (
-            <div className="relative mb-4 aspect-video w-full overflow-hidden rounded-lg">
-              <Image
-                src={project.imageSrc}
-                alt={`${project.title} preview`}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 33vw"
-              />
-            </div>
-          ) : (
-            <div
-              aria-hidden
-              className="mb-4 flex aspect-video items-center justify-center rounded-lg bg-stone-800/70 text-xs uppercase tracking-[0.2em] text-stone-400"
-            >
-              Project preview
-            </div>
-          )}
           <header>
             <h3 className="text-xl font-semibold text-orange-300">{project.title}</h3>
             <div className="mt-3 flex flex-wrap gap-2">

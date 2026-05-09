@@ -16,7 +16,7 @@ export const projects: Project[] = [
       'Enterprise-facing Kotlin/JS + React portal for energy KPIs and 5,000+ monthly datapoints; GRI reports automated with JasperReports (≈20 hrs saved per cycle). New ELT/ETL validation raised uptime to 99.8% and cut data errors ~40%.',
     tags: ['Kotlin/JS', 'React', 'JasperReports', 'ETL', 'Figma'],
     githubUrl: null,
-    liveUrl: null,
+    liveUrl: 'https://ecosaveinc.com/turnkey-solutions/ecosave-watch/',
     imageSrc: null,
   },
   {
@@ -25,7 +25,7 @@ export const projects: Project[] = [
       'FastAPI appointment bookings plus Twilio A2P messaging for client workflows — part of consultant delivery with Tailwind/HTML front ends and aggressive SEO/PageSpeed lifts (30%+ scores, ~40% faster loads).',
     tags: ['FastAPI', 'Twilio', 'Tailwind', 'SEO'],
     githubUrl: null,
-    liveUrl: null,
+    liveUrl: 'https://pbtucson.com/',
     imageSrc: null,
   },
   {

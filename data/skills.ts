@@ -68,7 +68,7 @@ export const skillsList: Skill[] = [
     src: D('jenkins', 'jenkins-original'),
     category: 'Cloud & DevOps',
   },
-  { title: 'Gradle', src: D('gradle', 'gradle-plain'), category: 'Cloud & DevOps' },
+  { title: 'Gradle', src: D('gradle', 'gradle-original'), category: 'Cloud & DevOps' },
   {
     title: 'Azure DevOps',
     src: D('azure', 'azure-original'),
@@ -77,7 +77,7 @@ export const skillsList: Skill[] = [
   { title: 'AWS CodePipeline', src: '/assets/aws.webp', category: 'Cloud & DevOps' },
 
   // Tools
-  { title: 'Git', src: '/assets/github.webp', category: 'Tools' },
+  { title: 'Git', src: D('git', 'git-original'), category: 'Tools' },
   { title: 'GitHub', src: '/assets/github.webp', category: 'Tools' },
   { title: 'Postman', src: D('postman', 'postman-original'), category: 'Tools' },
   {
