@@ -26,11 +26,14 @@ export interface Skill {
   title: string;
   src: string;
   category: string;
+  /** Apply CSS invert filter — use for black-on-transparent logos on dark backgrounds */
+  invert?: boolean;
 }
 
 export interface Certificate {
   src: string;
   alt: string;
+  name: string;
 }
 
 export interface Stat {
@@ -51,5 +54,5 @@ export interface WritingItem {
   title: string;
   description: string;
   url: string;
-  type: 'video' | 'article' | 'repo';
+  type: 'article' | 'repo';
 }

@@ -13,6 +13,32 @@ type SectionWrapperProps = {
   children?: ReactNode;
 };
 
+function SectionHeader({ title, subtitle }: { title: string; subtitle: string }) {
+  const parts = subtitle.includes(' · ') ? subtitle.split(' · ') : null;
+
+  return (
+    <div className="mb-12 flex flex-col items-center gap-4 text-center">
+      <h2 className="border-b-4 border-orange-600 pb-2 text-3xl font-bold text-cyan-100 md:text-5xl">
+        {title}
+      </h2>
+      {parts ? (
+        <div className="flex flex-wrap justify-center gap-2">
+          {parts.map((part) => (
+            <span
+              key={part}
+              className="rounded-full border border-orange-400/40 bg-orange-900/20 px-3 py-1 text-sm font-semibold text-orange-300"
+            >
+              {part}
+            </span>
+          ))}
+        </div>
+      ) : (
+        <p className="font-dance text-lg font-bold text-orange-300 md:text-xl">{subtitle}</p>
+      )}
+    </div>
+  );
+}
+
 export default function SectionWrapper({
   id,
   title,
@@ -24,60 +50,42 @@ export default function SectionWrapper({
   children,
 }: SectionWrapperProps) {
   return (
-    <section id={id} className="mb-32 w-full py-12 text-slate-300 lg:min-h-screen">
-      <div className="mx-auto flex h-full w-full flex-col items-center justify-center">
-        <div
-          className={`grid w-full max-w-[1000px] gap-2 ${
-            text ? 'place-content-start sm:place-content-center sm:grid-cols-2' : ''
-          }`}
-        >
-          <div
-            className={`mb-4 ml-4 flex flex-col items-start border-l-4 border-orange-300 pl-4 sm:ml-0 sm:border-l-0 sm:pl-0 sm:space-y-0 sm:translate-y-[-60px] ${
-              text ? 'sm:items-end sm:text-right' : 'sm:items-center'
-            } space-y-4`}
-          >
-            <h2
-              className={`inline border-b-4 border-orange-600 pb-2 text-3xl font-bold text-cyan-100 sm:mb-2 sm:px-2 md:text-5xl ${
-                text ? 'sm:translate-x-1/2 lg:translate-x-0' : ''
-              }`}
-            >
-              {title}
-            </h2>
-            <div
-              className={`flex flex-col font-dance text-lg font-bold text-orange-300 md:text-2xl ${
-                text ? 'justify-end' : 'text-center'
-              }`}
-            >
-              <p className={`${text ? 'sm:max-w-[250px]' : ''} sm:self-end sm:p-2`}>
-                {subtitle}
-              </p>
-              {about ? (
-                <div className="mr-4 mt-4 px-2 sm:mr-0 sm:w-[50%] md:w-[30%] lg:w-[40%] sm:self-end">
-                  <Image
-                    src={Photo}
-                    priority
-                    width={520}
-                    height={640}
-                    sizes="(max-width: 768px) 180px, 260px"
-                    className="h-auto w-full rounded-md object-cover"
-                    alt="Portrait photograph of Dmitriy Malayev smiling at the camera."
-                    placeholder="blur"
-                  />
-                </div>
-              ) : null}
+    <section id={id} className="mb-16 w-full py-10 text-slate-300 lg:mb-20 lg:py-14">
+      <div className="mx-auto w-full max-w-5xl px-4 sm:px-8">
+        <SectionHeader title={title} subtitle={subtitle} />
+
+        {about && text && (
+          <div className="flex flex-col items-center gap-10 md:flex-row md:items-start">
+            <div className="shrink-0">
+              <Image
+                src={Photo}
+                priority
+                width={260}
+                height={320}
+                sizes="(max-width: 768px) 220px, 260px"
+                className="h-auto w-[220px] rounded-xl object-cover shadow-2xl shadow-black/60 ring-1 ring-orange-600/25 md:w-[260px]"
+                alt="Portrait photograph of Dmitriy Malayev smiling at the camera."
+                placeholder="blur"
+              />
+            </div>
+            <div className="space-y-5 text-base leading-relaxed text-slate-200 md:text-lg">
+              <p>{text}</p>
+              {text2 && <p>{text2}</p>}
+              {text3 && <p>{text3}</p>}
             </div>
           </div>
+        )}
 
-          {text ? (
-            <div className="px-2 leading-relaxed text-slate-50 sm:text-base md:pt-2 lg:text-2xl">
-              <p className="pb-2 pt-2">{text}</p>
-              {text2 ? <p className="pb-2 pt-2">{text2}</p> : null}
-              {text3 ? <p className="pb-2 pt-2">{text3}</p> : null}
-            </div>
-          ) : null}
-        </div>
-        <div className="w-full">{children}</div>
+        {!about && text && (
+          <div className="space-y-4 text-base leading-relaxed text-slate-200 md:text-lg">
+            <p>{text}</p>
+            {text2 && <p>{text2}</p>}
+            {text3 && <p>{text3}</p>}
+          </div>
+        )}
       </div>
+
+      {children && <div className="mt-10 w-full">{children}</div>}
     </section>
   );
 }

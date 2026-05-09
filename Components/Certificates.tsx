@@ -15,10 +15,12 @@ export default function Certificates() {
             alt={item.alt}
             width={800}
             height={560}
-            className="mx-auto rounded-md object-contain"
+            className="mx-auto h-auto w-full rounded-md object-contain"
             sizes="(max-width: 768px) 100vw, 800px"
           />
-          <figcaption className="sr-only">{item.alt}</figcaption>
+          <figcaption className="mt-2 text-center text-sm text-gray-600 dark:text-gray-400">
+            {item.name}
+          </figcaption>
         </figure>
       ))}
     </Carousel>

@@ -35,7 +35,7 @@ export const skillsList: Skill[] = [
 
   // Back-End
   { title: 'Node.js', src: '/assets/node.webp', category: 'Back-End' },
-  { title: 'Express.js', src: D('express', 'express-original'), category: 'Back-End' },
+  { title: 'Express.js', src: D('express', 'express-original'), category: 'Back-End', invert: true },
   { title: 'Spring Boot', src: D('spring', 'spring-original'), category: 'Back-End' },
   {
     title: 'Ruby on Rails',
@@ -74,24 +74,20 @@ export const skillsList: Skill[] = [
     src: D('azure', 'azure-original'),
     category: 'Cloud & DevOps',
   },
-  { title: 'AWS CodePipeline', src: '/assets/aws.webp', category: 'Cloud & DevOps' },
+  {
+    title: 'AWS CodePipeline',
+    src: 'https://www.iconsforaws.com/aws-icons-list/Architecture-Service-Icons_02072025/Arch_Developer-Tools/64/Arch_AWS-CodePipeline_64.svg',
+    category: 'Cloud & DevOps',
+  },
 
   // Tools
   { title: 'Git', src: D('git', 'git-original'), category: 'Tools' },
   { title: 'GitHub', src: '/assets/github.webp', category: 'Tools' },
   { title: 'Postman', src: D('postman', 'postman-original'), category: 'Tools' },
-  {
-    title: 'Insomnia',
-    src: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/insomnia.svg',
-    category: 'Tools',
-  },
+  { title: 'Insomnia', src: D('insomnia', 'insomnia-original'), category: 'Tools' },
   { title: 'Figma', src: D('figma', 'figma-original'), category: 'Tools' },
   { title: 'Swagger', src: D('swagger', 'swagger-original'), category: 'Tools' },
   { title: 'Chrome DevTools', src: D('chrome', 'chrome-original'), category: 'Tools' },
   { title: 'Jira', src: D('jira', 'jira-original-wordmark'), category: 'Tools' },
-  {
-    title: 'Salesforce',
-    src: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/salesforce.svg',
-    category: 'Tools',
-  },
+  { title: 'Salesforce', src: D('salesforce', 'salesforce-original'), category: 'Tools' },
 ];

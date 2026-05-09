@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 import { skillCategoryOrder, skillsList } from '@/data/skills';
 
-function SkillLogo({ src, alt }: { src: string; alt: string }) {
+function SkillLogo({ src, alt, invert }: { src: string; alt: string; invert?: boolean }) {
+  const invertClass = invert ? 'invert' : '';
   const isRemote = /^https?:\/\//i.test(src);
   if (isRemote) {
     return (
@@ -14,12 +15,14 @@ function SkillLogo({ src, alt }: { src: string; alt: string }) {
         width={96}
         height={96}
         loading="lazy"
-        className="mx-auto h-16 w-16 object-contain"
+        className={`mx-auto h-16 w-16 object-contain ${invertClass}`}
       />
     );
   }
 
-  return <Image src={src} alt={alt} width={96} height={96} className="h-auto w-auto" />;
+  return (
+    <Image src={src} alt={alt} width={96} height={96} className={`h-auto w-auto ${invertClass}`} />
+  );
 }
 
 export default function Skills() {
@@ -30,7 +33,7 @@ export default function Skills() {
 
   return (
     <div>
-      <div className="space-y-14 px-2 sm:px-8 lg:px-24">
+      <div className="space-y-14 px-4 sm:px-8">
         {byCategory.map(
           ({ category, skills }) =>
             skills.length > 0 && (
@@ -38,14 +41,14 @@ export default function Skills() {
                 <h3 className="mb-6 text-center text-sm font-semibold uppercase tracking-[0.35em] text-orange-700/90">
                   {category}
                 </h3>
-                <div className="mx-auto grid grid-cols-3 gap-x-4 gap-y-8 text-center sm:max-w-4xl lg:mx-auto xl:max-w-5xl">
+                <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-4 text-center xl:max-w-5xl">
                   {skills.map((skill) => (
                     <div
-                      className="border-2 border-transparent pt-6 shadow-md shadow-slate-500 duration-700 hover:border-slate-500 motion-safe:hover:scale-110"
+                      className="w-[170px] border-2 border-transparent pt-6 shadow-md shadow-slate-500 duration-700 hover:border-slate-500 motion-safe:hover:scale-110"
                       key={`${skill.category}-${skill.title}`}
                     >
                       <div className="mx-auto flex h-[5.5rem] w-20 items-center justify-center drop-shadow-lg shadow-blue-600/50">
-                        <SkillLogo src={skill.src} alt={`${skill.title} logo`} />
+                        <SkillLogo src={skill.src} alt={`${skill.title} logo`} invert={skill.invert} />
                       </div>
                       <p className="my-4 text-xs text-slate-200 sm:text-sm">
                         {skill.title}

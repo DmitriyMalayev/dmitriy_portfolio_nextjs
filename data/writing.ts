@@ -9,10 +9,10 @@ export const writingItems: WritingItem[] = [
     type: 'repo',
   },
   {
-    title: 'LinkedIn Articles & Posts',
+    title: 'Medium',
     description:
-      'Occasional long-form posts on software engineering, career lessons, and technology trends — alongside my full recommendations.',
-    url: 'https://www.linkedin.com/in/dmitriymalayev/',
+      'Articles on software engineering, career lessons, and technology trends — covering full-stack development, data pipelines, and more.',
+    url: 'https://dmitriy-malayev.medium.com/',
     type: 'article',
   },
 ];
