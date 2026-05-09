@@ -3,7 +3,15 @@ import Link from 'next/link';
 
 import { skillCategoryOrder, skillsList } from '@/data/skills';
 
-function SkillLogo({ src, alt, invert }: { src: string; alt: string; invert?: boolean }) {
+function SkillLogo({
+  src,
+  alt,
+  invert,
+}: {
+  src: string;
+  alt: string;
+  invert?: boolean;
+}) {
   const invertClass = invert ? 'invert' : '';
   const isRemote = /^https?:\/\//i.test(src);
   if (isRemote) {
@@ -21,7 +29,13 @@ function SkillLogo({ src, alt, invert }: { src: string; alt: string; invert?: bo
   }
 
   return (
-    <Image src={src} alt={alt} width={96} height={96} className={`h-auto w-auto ${invertClass}`} />
+    <Image
+      src={src}
+      alt={alt}
+      width={96}
+      height={96}
+      className={`h-auto w-auto ${invertClass}`}
+    />
   );
 }
 
@@ -48,7 +62,11 @@ export default function Skills() {
                       key={`${skill.category}-${skill.title}`}
                     >
                       <div className="mx-auto flex h-[5.5rem] w-20 items-center justify-center drop-shadow-lg shadow-blue-600/50">
-                        <SkillLogo src={skill.src} alt={`${skill.title} logo`} invert={skill.invert} />
+                        <SkillLogo
+                          src={skill.src}
+                          alt={`${skill.title} logo`}
+                          invert={skill.invert}
+                        />
                       </div>
                       <p className="my-4 text-xs text-slate-200 sm:text-sm">
                         {skill.title}

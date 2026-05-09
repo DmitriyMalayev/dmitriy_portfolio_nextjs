@@ -33,7 +33,9 @@ function SectionHeader({ title, subtitle }: { title: string; subtitle: string })
           ))}
         </div>
       ) : (
-        <p className="font-dance text-lg font-bold text-orange-300 md:text-xl">{subtitle}</p>
+        <p className="font-dance text-lg font-bold text-orange-300 md:text-xl">
+          {subtitle}
+        </p>
       )}
     </div>
   );

@@ -35,7 +35,12 @@ export const skillsList: Skill[] = [
 
   // Back-End
   { title: 'Node.js', src: '/assets/node.webp', category: 'Back-End' },
-  { title: 'Express.js', src: D('express', 'express-original'), category: 'Back-End', invert: true },
+  {
+    title: 'Express.js',
+    src: D('express', 'express-original'),
+    category: 'Back-End',
+    invert: true,
+  },
   { title: 'Spring Boot', src: D('spring', 'spring-original'), category: 'Back-End' },
   {
     title: 'Ruby on Rails',
@@ -89,5 +94,9 @@ export const skillsList: Skill[] = [
   { title: 'Swagger', src: D('swagger', 'swagger-original'), category: 'Tools' },
   { title: 'Chrome DevTools', src: D('chrome', 'chrome-original'), category: 'Tools' },
   { title: 'Jira', src: D('jira', 'jira-original-wordmark'), category: 'Tools' },
-  { title: 'Salesforce', src: D('salesforce', 'salesforce-original'), category: 'Tools' },
+  {
+    title: 'Salesforce',
+    src: D('salesforce', 'salesforce-original'),
+    category: 'Tools',
+  },
 ];
