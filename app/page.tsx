@@ -123,7 +123,7 @@ export default function HomePage() {
         <SectionWrapper
           id="contact"
           title="Contact"
-          subtitle="Communication is essential"
+          subtitle="Let's build something together"
         >
           <Contact />
         </SectionWrapper>

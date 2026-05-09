@@ -4,7 +4,6 @@ export interface Project {
   tags: string[];
   githubUrl: string | null;
   liveUrl: string | null;
-  imageSrc: string | null;
 }
 
 export interface ExperienceItem {

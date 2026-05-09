@@ -8,7 +8,6 @@ export const projects: Project[] = [
     tags: ['React', 'Next.js', 'Tailwind CSS', 'Jira'],
     githubUrl: null,
     liveUrl: 'https://torahanytime.com',
-    imageSrc: null,
   },
   {
     title: 'Ecosave sustainability portal',
@@ -17,7 +16,6 @@ export const projects: Project[] = [
     tags: ['Kotlin/JS', 'React', 'JasperReports', 'ETL', 'Figma'],
     githubUrl: null,
     liveUrl: 'https://ecosaveinc.com/turnkey-solutions/ecosave-watch/',
-    imageSrc: null,
   },
   {
     title: 'Appointment & messaging stack',
@@ -26,15 +24,13 @@ export const projects: Project[] = [
     tags: ['FastAPI', 'Twilio', 'Tailwind', 'SEO'],
     githubUrl: null,
     liveUrl: 'https://pbtucson.com/',
-    imageSrc: null,
   },
   {
     title: 'Portfolio (this site)',
     description:
-      'Personal portfolio built with Next.js, Tailwind CSS, and a contact workflow with verification.',
-    tags: ['Next.js', 'Tailwind', 'Resend'],
+      'Personal portfolio built with Next.js 14, Tailwind CSS, and Framer Motion animations. Features reCAPTCHA v3 spam protection, Calendly scheduling integration, JSON-LD structured data, full OG/SEO metadata, and responsive design — deployed on Vercel.',
+    tags: ['Next.js', 'Tailwind', 'Framer Motion', 'Resend', 'Vercel'],
     githubUrl: 'https://github.com/DmitriyMalayev/dmitriy_portfolio_nextjs',
     liveUrl: 'https://dmitriymalayev.com',
-    imageSrc: null,
   },
 ];

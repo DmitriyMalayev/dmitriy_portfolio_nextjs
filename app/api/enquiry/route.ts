@@ -74,6 +74,26 @@ export async function POST(request: Request) {
       );
     }
 
+    const emailRegexValidate = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!name?.trim()) {
+      return NextResponse.json(
+        { status: 'failure', message: 'Name is required.' },
+        { status: 422 },
+      );
+    }
+    if (!email?.trim() || !emailRegexValidate.test(email.trim())) {
+      return NextResponse.json(
+        { status: 'failure', message: 'A valid email address is required.' },
+        { status: 422 },
+      );
+    }
+    if (!message?.trim()) {
+      return NextResponse.json(
+        { status: 'failure', message: 'Message is required.' },
+        { status: 422 },
+      );
+    }
+
     if (!resendKey || !to || !from) {
       console.warn(
         'Contact form: Resend env vars missing (RESEND_API_KEY, CONTACT_TO_EMAIL, RESEND_FROM_EMAIL).',
@@ -96,8 +116,7 @@ export async function POST(request: Request) {
       <p>${escapeHtml(message).replace(/\n/g, '<br />')}</p>
     `.trim();
 
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const replyToSafe = email && emailRegex.test(email) ? email : undefined;
+    const replyToSafe = email && emailRegexValidate.test(email) ? email : undefined;
 
     const resend = new Resend(resendKey);
     const { error } = await resend.emails.send({

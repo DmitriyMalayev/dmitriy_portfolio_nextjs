@@ -24,7 +24,6 @@ export const skillsList: Skill[] = [
   { title: 'Python', src: D('python'), category: 'Languages' },
   { title: 'Ruby', src: D('ruby'), category: 'Languages' },
   { title: 'SQL', src: D('mysql'), category: 'Languages' },
-  { title: 'C#', src: D('csharp'), category: 'Languages' },
 
   // Front-End
   { title: 'React', src: '/assets/react.webp', category: 'Front-End' },
@@ -41,13 +40,13 @@ export const skillsList: Skill[] = [
     category: 'Back-End',
     invert: true,
   },
+  { title: 'FastAPI', src: D('fastapi', 'fastapi-original'), category: 'Back-End' },
   { title: 'Spring Boot', src: D('spring', 'spring-original'), category: 'Back-End' },
   {
     title: 'Ruby on Rails',
     src: D('rails', 'rails-original-wordmark'),
     category: 'Back-End',
   },
-  { title: '.NET', src: D('dot-net', 'dot-net-original'), category: 'Back-End' },
 
   // DB & Data
   {
@@ -76,7 +75,7 @@ export const skillsList: Skill[] = [
   { title: 'Gradle', src: D('gradle', 'gradle-original'), category: 'Cloud & DevOps' },
   {
     title: 'Azure DevOps',
-    src: D('azure', 'azure-original'),
+    src: '/assets/azure-devops.webp',
     category: 'Cloud & DevOps',
   },
   {

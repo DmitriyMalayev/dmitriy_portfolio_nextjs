@@ -78,8 +78,8 @@ export default function Hero() {
         </div>
 
         <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-slate-400 md:text-lg lg:text-xl">
-          Building production-grade features at TorahAnytime — React, Next.js, Kotlin,
-          and cloud data pipelines.
+          5+ years shipping production-grade features — currently at TorahAnytime with
+          React, Next.js, Kotlin, and cloud data pipelines.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">

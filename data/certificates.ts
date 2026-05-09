@@ -17,16 +17,6 @@ export const certificates: Certificate[] = [
     name: 'LinkedIn Learning — Azure Essential Training for Developers',
   },
   {
-    src: '/04.webp',
-    alt: 'LinkedIn Learning — HTML Essential Training (2017) certificate of completion',
-    name: 'LinkedIn Learning — HTML Essential Training (2017)',
-  },
-  {
-    src: '/05.webp',
-    alt: 'LinkedIn Learning — JavaScript Essential Training (2017) certificate of completion',
-    name: 'LinkedIn Learning — JavaScript Essential Training (2017)',
-  },
-  {
     src: '/06.webp',
     alt: 'LinkedIn Learning — Learning the JavaScript Language certificate of completion',
     name: 'LinkedIn Learning — Learning the JavaScript Language',

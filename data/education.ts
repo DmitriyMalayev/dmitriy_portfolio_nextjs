@@ -10,7 +10,7 @@ export const education: EducationItem[] = [
   },
   {
     school: 'Touro College',
-    credential: 'BS — Data Communications & Computer Science',
+    credential: 'B.S. — Data Communications & Computer Science',
     period: 'Jan 2000 – Jun 2003',
     notes:
       'Foundations in networking, operating systems, data structures, and algorithms.',
