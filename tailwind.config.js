@@ -1,8 +1,5 @@
 module.exports = {
-  content: [
-    './Components/**/*.{js,ts,jsx,tsx}',
-    './app/**/*.{js,ts,jsx,tsx}',
-  ],
+  content: ['./Components/**/*.{js,ts,jsx,tsx}', './app/**/*.{js,ts,jsx,tsx}'],
   theme: {
     screens: {
       // NOTE: sm is set to 360px (non-standard) to target small phones early.

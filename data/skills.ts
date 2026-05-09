@@ -37,23 +37,43 @@ export const skillsList: Skill[] = [
   { title: 'Node.js', src: '/assets/node.webp', category: 'Back-End' },
   { title: 'Express.js', src: D('express', 'express-original'), category: 'Back-End' },
   { title: 'Spring Boot', src: D('spring', 'spring-original'), category: 'Back-End' },
-  { title: 'Ruby on Rails', src: D('rails', 'rails-original-wordmark'), category: 'Back-End' },
+  {
+    title: 'Ruby on Rails',
+    src: D('rails', 'rails-original-wordmark'),
+    category: 'Back-End',
+  },
   { title: '.NET', src: D('dot-net', 'dot-net-original'), category: 'Back-End' },
 
   // DB & Data
-  { title: 'PostgreSQL', src: D('postgresql', 'postgresql-original'), category: 'DB & Data' },
+  {
+    title: 'PostgreSQL',
+    src: D('postgresql', 'postgresql-original'),
+    category: 'DB & Data',
+  },
   { title: 'MongoDB', src: '/assets/mongo.webp', category: 'DB & Data' },
   { title: 'Firebase', src: '/assets/firebase.webp', category: 'DB & Data' },
   { title: 'Azure Data', src: D('azure', 'azure-original'), category: 'DB & Data' },
-  { title: 'ETL / ELT', src: D('apacheairflow', 'apacheairflow-original'), category: 'DB & Data' },
+  {
+    title: 'ETL / ELT',
+    src: D('apacheairflow', 'apacheairflow-original'),
+    category: 'DB & Data',
+  },
 
   // Cloud & DevOps
   { title: 'AWS', src: '/assets/aws.webp', category: 'Cloud & DevOps' },
   { title: 'Azure', src: D('azure', 'azure-original'), category: 'Cloud & DevOps' },
   { title: 'Docker', src: D('docker', 'docker-original'), category: 'Cloud & DevOps' },
-  { title: 'Jenkins', src: D('jenkins', 'jenkins-original'), category: 'Cloud & DevOps' },
+  {
+    title: 'Jenkins',
+    src: D('jenkins', 'jenkins-original'),
+    category: 'Cloud & DevOps',
+  },
   { title: 'Gradle', src: D('gradle', 'gradle-plain'), category: 'Cloud & DevOps' },
-  { title: 'Azure DevOps', src: D('azure', 'azure-original'), category: 'Cloud & DevOps' },
+  {
+    title: 'Azure DevOps',
+    src: D('azure', 'azure-original'),
+    category: 'Cloud & DevOps',
+  },
   { title: 'AWS CodePipeline', src: '/assets/aws.webp', category: 'Cloud & DevOps' },
 
   // Tools
