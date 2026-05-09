@@ -61,7 +61,7 @@ export default function Skills() {
                       className="w-[170px] border-2 border-transparent pt-6 shadow-md shadow-slate-500 duration-700 hover:border-slate-500 motion-safe:hover:scale-110"
                       key={`${skill.category}-${skill.title}`}
                     >
-                      <div className="mx-auto flex h-[5.5rem] w-20 items-center justify-center drop-shadow-lg shadow-blue-600/50">
+                      <div className="mx-auto flex h-[5.5rem] w-20 items-center justify-center shadow-lg shadow-blue-600/50">
                         <SkillLogo
                           src={skill.src}
                           alt={`${skill.title} logo`}

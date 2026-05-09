@@ -81,7 +81,7 @@ export const skillsList: Skill[] = [
   },
   {
     title: 'AWS CodePipeline',
-    src: 'https://www.iconsforaws.com/aws-icons-list/Architecture-Service-Icons_02072025/Arch_Developer-Tools/64/Arch_AWS-CodePipeline_64.svg',
+    src: '/assets/aws-codepipeline.svg',
     category: 'Cloud & DevOps',
   },
 
