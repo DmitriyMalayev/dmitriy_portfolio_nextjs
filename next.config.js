@@ -6,8 +6,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 const CALENDLY = 'https://assets.calendly.com';
 const GOOGLE_RECAPTCHA = 'https://www.google.com';
 const GOOGLE_STATIC = 'https://www.gstatic.com';
-const YOUTUBE = 'https://www.youtube.com';
-
 const VERCEL_ANALYTICS = 'https://va.vercel-scripts.com';
 const VERCEL_INSIGHTS = 'https://vitals.vercel-insights.com';
 
@@ -20,7 +18,7 @@ const CONTENT_SECURITY_POLICY = [
   `img-src 'self' data: blob: https:`,
   `font-src 'self' data:`,
   `connect-src 'self' ${GOOGLE_RECAPTCHA} ${GOOGLE_STATIC} https://calendly.com https://api.resend.com ${VERCEL_INSIGHTS} ${VERCEL_ANALYTICS}`,
-  `frame-src 'self' ${GOOGLE_RECAPTCHA} ${YOUTUBE} https://calendly.com`,
+  `frame-src 'self' ${GOOGLE_RECAPTCHA} https://calendly.com`,
   `object-src 'none'`,
   `base-uri 'self'`,
   `form-action 'self'`,

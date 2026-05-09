@@ -69,7 +69,6 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
     sameAs: [
       'https://github.com/DmitriyMalayev',
       'https://www.linkedin.com/in/dmitriymalayev/',
-      'https://www.youtube.com/@DmitriyMalayevProfile',
     ],
   });
 

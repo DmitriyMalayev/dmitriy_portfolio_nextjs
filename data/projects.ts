@@ -29,15 +29,6 @@ export const projects: Project[] = [
     imageSrc: null,
   },
   {
-    title: 'YouTube build series',
-    description:
-      'Watch walkthrough-style videos covering apps and tooling I experiment with.',
-    tags: ['Video', 'Demos'],
-    githubUrl: 'https://github.com/DmitriyMalayev',
-    liveUrl: 'https://www.youtube.com/@DmitriyMalayevProfile',
-    imageSrc: null,
-  },
-  {
     title: 'Portfolio (this site)',
     description:
       'Personal portfolio built with Next.js, Tailwind CSS, and a contact workflow with verification.',
