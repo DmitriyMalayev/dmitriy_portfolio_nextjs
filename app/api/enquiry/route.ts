@@ -64,7 +64,10 @@ export async function POST(request: Request) {
       score?: number;
     };
 
-    if (!recaptchaJson?.success || (recaptchaJson.score !== undefined && recaptchaJson.score <= 0.5)) {
+    if (
+      !recaptchaJson?.success ||
+      (recaptchaJson.score !== undefined && recaptchaJson.score <= 0.5)
+    ) {
       return NextResponse.json(
         {
           status: 'failure',
