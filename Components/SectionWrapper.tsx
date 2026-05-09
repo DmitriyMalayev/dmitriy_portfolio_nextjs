@@ -52,7 +52,10 @@ export default function SectionWrapper({
   children,
 }: SectionWrapperProps) {
   return (
-    <section id={id} className="mb-16 w-full scroll-mt-20 py-10 text-slate-300 lg:mb-20 lg:py-14">
+    <section
+      id={id}
+      className="mb-16 w-full scroll-mt-20 py-10 text-slate-300 lg:mb-20 lg:py-14"
+    >
       <div className="mx-auto w-full max-w-5xl px-4 sm:px-8">
         <SectionHeader title={title} subtitle={subtitle} />
 
