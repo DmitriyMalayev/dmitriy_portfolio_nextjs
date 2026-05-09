@@ -27,7 +27,7 @@ export default async function Image() {
     // Font load failed — fall back to system serif, OG image still renders
   }
 
-  const fonts: ConstructorParameters<typeof ImageResponse>[1]['fonts'] = [];
+  const fonts: NonNullable<ConstructorParameters<typeof ImageResponse>[1]>['fonts'] = [];
   if (dancingScriptData) {
     fonts.push({ name: 'Dancing Script', data: dancingScriptData, weight: 700 });
   }
