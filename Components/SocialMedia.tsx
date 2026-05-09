@@ -1,16 +1,19 @@
 const SocialMedia = () => {
   return (
-    <div className="hidden lg:flex fixed flex-col top-1/2 left-0 -translate-y-1/2">
-      <ul className="space-y-6">
-        <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
+    <div className="fixed left-0 top-1/2 z-40 hidden -translate-y-1/2 lg:flex lg:flex-col">
+      <ul className="flex flex-col space-y-6">
+        <li className="w-[160px] translate-x-[-100px] duration-700 hover:translate-x-0 focus-within:translate-x-0">
           <a
-            className="flex justify-between items-center w-full text-white bg-[#181717] shadow-sm p-2"
+            className="flex w-full items-center justify-between bg-[#181717] p-2 text-white shadow-sm"
             href="https://github.com/DmitriyMalayev"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Open Dmitriy Malayev GitHub profile in a new tab"
           >
-            <span>GitHub</span>
+            <span aria-hidden="true">GitHub</span>
             <svg
-              role="img"
-              className="w-6 h-6 fill-current"
+              aria-hidden="true"
+              className="h-6 w-6 fill-current"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -19,15 +22,18 @@ const SocialMedia = () => {
             </svg>
           </a>
         </li>
-        <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
+        <li className="w-[160px] translate-x-[-100px] duration-700 hover:translate-x-0 focus-within:translate-x-0">
           <a
-            className="flex justify-between items-center w-full text-gray-300 bg-[#0A66C2] shadow-sm p-2 "
+            className="flex w-full items-center justify-between bg-[#0A66C2] p-2 text-gray-300 shadow-sm"
             href="https://www.linkedin.com/in/dmitriymalayev/"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Open Dmitriy Malayev LinkedIn profile in a new tab"
           >
-            <span>LinkedIn</span>
+            <span aria-hidden="true">LinkedIn</span>
             <svg
-              role="img"
-              className="w-6 h-6"
+              aria-hidden="true"
+              className="h-6 w-6"
               fill="white"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -38,14 +44,18 @@ const SocialMedia = () => {
           </a>
         </li>
 
-        <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
+        <li className="w-[160px] translate-x-[-100px] duration-700 hover:translate-x-0 focus-within:translate-x-0">
           <a
-            className="flex justify-between items-center w-full text-gray-300 bg-orange-500 shadow-orange-500/100 shadow-sm p-2"
+            className="flex w-full items-center justify-between bg-orange-500 p-2 text-gray-300 shadow-sm shadow-orange-500/100"
             href="/new_resume.pdf"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Download Dmitriy Malayev résumé PDF"
           >
-            <span>Resume</span>
+            <span aria-hidden="true">Resume</span>
             <svg
-              className="w-6 h-6"
+              className="h-6 w-6"
+              aria-hidden="true"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -60,15 +70,18 @@ const SocialMedia = () => {
             </svg>
           </a>
         </li>
-        <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
+        <li className="w-[160px] translate-x-[-100px] duration-700 hover:translate-x-0 focus-within:translate-x-0">
           <a
-            className="flex justify-between items-center w-full text-gray-300 bg-red-600 shadow-sm p-2"
-            href="https://www.youtube.com/c/DmitriyMalayevProfile"
+            className="flex w-full items-center justify-between bg-red-600 p-2 text-gray-300 shadow-sm"
+            href="https://www.youtube.com/@DmitriyMalayevProfile"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Open Dmitriy Malayev YouTube channel in a new tab"
           >
-            <span>YouTube</span>
+            <span aria-hidden="true">YouTube</span>
             <svg
-              className="w-6 h-6"
-              role="img"
+              className="h-6 w-6"
+              aria-hidden="true"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -76,14 +89,16 @@ const SocialMedia = () => {
             </svg>
           </a>
         </li>
-        <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
+        <li className="w-[160px] translate-x-[-100px] duration-700 hover:translate-x-0 focus-within:translate-x-0">
           <a
-            className="flex justify-between items-center w-full text-gray-300 bg-blue-900 p-2 shadow-blue-900/100 shadow-sm"
+            className="flex w-full items-center justify-between bg-blue-900 p-2 text-gray-300 shadow-sm shadow-blue-900/100"
             href="mailto:dmitriy.malayev@gmail.com"
+            aria-label="Email Dmitriy Malayev"
           >
-            <span>Email</span>
+            <span aria-hidden="true">Email</span>
             <svg
-              className="w-6 h-6"
+              className="h-6 w-6"
+              aria-hidden="true"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -98,15 +113,17 @@ const SocialMedia = () => {
             </svg>
           </a>
         </li>
-        <li className="w-[160px] translate-x-[-100px] hover:translate-x-0 duration-700">
+        <li className="w-[160px] translate-x-[-100px] duration-700 hover:translate-x-0 focus-within:translate-x-0">
           <a
-            className="flex justify-between items-center w-full text-gray-300 bg-stone-600 shadow-sm p-2"
-            href="tel:+1-347-761-4403"
+            className="flex w-full items-center justify-between bg-stone-600 p-2 text-gray-300 shadow-sm"
+            href="tel:+13477614403"
+            aria-label="Call Dmitriy Malayev"
           >
-            <span>Call Me</span>
+            <span aria-hidden="true">Call me</span>
 
             <svg
-              className="w-6 h-6"
+              className="h-6 w-6"
+              aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
