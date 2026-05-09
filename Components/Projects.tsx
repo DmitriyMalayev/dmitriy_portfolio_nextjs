@@ -22,7 +22,7 @@ export default function Projects() {
               ))}
             </div>
           </header>
-          <p className="mt-4 flex-grow text-sm leading-relaxed text-slate-200">
+          <p className="mt-4 grow text-sm leading-relaxed text-slate-200">
             {project.description}
           </p>
           <div className="mt-5 flex flex-wrap gap-4 text-sm">

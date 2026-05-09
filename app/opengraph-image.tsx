@@ -6,16 +6,26 @@ export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
 export default async function Image() {
-  // Fetch Dancing Script 700 from Google Fonts at build/request time
-  const css = await fetch(
-    'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap',
-    { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; NextJS/OG)' } },
-  ).then((r) => r.text());
+  let dancingScriptData: ArrayBuffer | null = null;
 
-  const fontUrl = css.match(/url\((https:\/\/fonts\.gstatic\.com[^)]+)\)/)?.[1];
-  const dancingScriptData = fontUrl
-    ? await fetch(fontUrl).then((r) => r.arrayBuffer())
-    : null;
+  try {
+    const cssRes = await fetch(
+      'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap',
+      { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; NextJS/OG)' } },
+    );
+    if (cssRes.ok) {
+      const css = await cssRes.text();
+      const fontUrl = css.match(/url\((https:\/\/fonts\.gstatic\.com[^)]+)\)/)?.[1];
+      if (fontUrl) {
+        const fontRes = await fetch(fontUrl);
+        if (fontRes.ok) {
+          dancingScriptData = await fontRes.arrayBuffer();
+        }
+      }
+    }
+  } catch {
+    // Font load failed — fall back to system serif, OG image still renders
+  }
 
   const fonts: ConstructorParameters<typeof ImageResponse>[1]['fonts'] = [];
   if (dancingScriptData) {

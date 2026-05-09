@@ -60,7 +60,7 @@ export default function Writing() {
             <h3 className="mb-2 font-semibold text-cyan-100 group-hover:text-orange-300">
               {item.title}
             </h3>
-            <p className="flex-grow text-sm leading-relaxed text-slate-400">
+            <p className="grow text-sm leading-relaxed text-slate-400">
               {item.description}
             </p>
             <span className="mt-4 text-xs font-medium text-orange-500 transition group-hover:text-orange-300">

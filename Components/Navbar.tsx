@@ -48,6 +48,16 @@ export default function Navbar() {
     );
     if (elements.length === 0) return undefined;
 
+    /** Derive active section from scroll position when no section hits the observer band. */
+    const getActiveSectionFromScroll = (): SectionId => {
+      const mid = window.scrollY + window.innerHeight * 0.4;
+      let best = elements[0];
+      for (const el of elements) {
+        if (el.offsetTop <= mid) best = el;
+      }
+      return (best.id as SectionId) ?? 'about';
+    };
+
     const observer = new IntersectionObserver(
       (entries) => {
         const visible = entries
@@ -56,12 +66,14 @@ export default function Navbar() {
         const top = visible[0];
         if (top?.target?.id) {
           setActiveSection(top.target.id as SectionId);
+        } else {
+          setActiveSection(getActiveSectionFromScroll());
         }
       },
       {
         root: null,
-        rootMargin: '-45% 0px -45% 0px',
-        threshold: [0, 0.15, 0.35, 0.55],
+        rootMargin: '-30% 0px -60% 0px',
+        threshold: [0, 0.1, 0.25, 0.5],
       },
     );
 

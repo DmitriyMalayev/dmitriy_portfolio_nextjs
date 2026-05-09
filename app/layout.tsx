@@ -67,6 +67,7 @@ export const metadata: Metadata = {
     description:
       'Full-stack engineer with 5+ years of experience — React, Next.js, Kotlin, and cloud data pipelines.',
     creator: '@dmitriymalayev',
+    images: ['/opengraph-image'],
   },
 };
 

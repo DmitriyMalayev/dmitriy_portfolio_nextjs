@@ -12,7 +12,9 @@ function parseValue(raw: string): { target: number; suffix: string; decimals: nu
   if (!match) return { target: 0, suffix: raw, decimals: 0 };
   const numStr = match[1];
   const decimals = numStr.includes('.') ? numStr.split('.')[1].length : 0;
-  return { target: parseFloat(numStr), suffix: match[2], decimals };
+  const target = parseFloat(numStr);
+  if (!isFinite(target)) return { target: 0, suffix: raw, decimals: 0 };
+  return { target, suffix: match[2], decimals };
 }
 
 export default function CountUpStat({ value }: Props) {

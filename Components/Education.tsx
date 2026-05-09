@@ -17,7 +17,7 @@ export default function Education() {
               {entry.period}
             </time>
           </header>
-          <p className="mt-4 flex-grow text-sm leading-relaxed text-slate-200">
+          <p className="mt-4 grow text-sm leading-relaxed text-slate-200">
             {entry.notes}
           </p>
         </article>

@@ -23,9 +23,9 @@ function SectionHeader({ title, subtitle }: { title: string; subtitle: string })
       </h2>
       {parts ? (
         <div className="flex flex-wrap justify-center gap-2">
-          {parts.map((part, i) => (
+          {parts.map((part) => (
             <span
-              key={i}
+              key={part}
               className="rounded-full border border-orange-400/40 bg-orange-900/20 px-3 py-1 text-sm font-semibold text-orange-300"
             >
               {part}
