@@ -60,21 +60,12 @@ export const metadata: Metadata = {
       'Full-stack engineer with 5+ years of experience — React, Next.js, Kotlin, and cloud data pipelines.',
     locale: 'en_US',
     siteName: 'Dmitriy Malayev',
-    images: [
-      {
-        url: `${siteUrl}/metaImage.jpeg`,
-        width: 1200,
-        height: 630,
-        alt: 'Dmitriy Malayev portfolio preview',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Dmitriy Malayev | Full-Stack Engineer',
     description:
       'Full-stack engineer with 5+ years of experience — React, Next.js, Kotlin, and cloud data pipelines.',
-    images: [`${siteUrl}/metaImage.jpeg`],
     creator: '@dmitriymalayev',
   },
 };
