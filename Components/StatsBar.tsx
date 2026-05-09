@@ -1,4 +1,5 @@
 import { stats } from '@/data/stats';
+import CountUpStat from './CountUpStat';
 
 export default function StatsBar() {
   return (
@@ -13,7 +14,7 @@ export default function StatsBar() {
           className="group rounded-lg border border-stone-700/60 bg-orange-100/5 p-4 text-center shadow backdrop-blur-xl transition hover:border-orange-700/40 sm:p-6"
         >
           <p className="font-dance text-2xl font-bold text-orange-400 sm:text-3xl md:text-4xl">
-            {item.value}
+            <CountUpStat value={item.value} />
           </p>
           <p className="mt-2 text-sm font-medium leading-snug text-stone-200">
             {item.label}

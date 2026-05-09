@@ -26,11 +26,31 @@ export const metadata: Metadata = {
   },
   description:
     'Full-stack engineer with 5+ years of experience — React, Next.js, Kotlin, and cloud data pipelines. Portfolio, skills, certifications, projects, and contact.',
+  keywords: [
+    'Dmitriy Malayev',
+    'Full-Stack Engineer',
+    'Software Engineer',
+    'React',
+    'Next.js',
+    'TypeScript',
+    'Kotlin',
+    'Cloud Data Pipelines',
+    'Portfolio',
+    'Web Developer',
+  ],
+  authors: [{ name: 'Dmitriy Malayev', url: siteUrl }],
+  creator: 'Dmitriy Malayev',
   alternates: { canonical: '/' },
   manifest: '/site.webmanifest',
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
   openGraph: {
     type: 'website',
@@ -55,6 +75,7 @@ export const metadata: Metadata = {
     description:
       'Full-stack engineer with 5+ years of experience — React, Next.js, Kotlin, and cloud data pipelines.',
     images: [`${siteUrl}/metaImage.jpeg`],
+    creator: '@dmitriymalayev',
   },
 };
 
