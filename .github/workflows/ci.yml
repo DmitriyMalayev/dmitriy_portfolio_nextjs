@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_RECAPTCHA_SITE_KEY: ci_dummy_site_key
+      RECAPTCHA_SECRET_KEY: ci_dummy_secret_key
+      SITE_URL: https://example.com
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run lint -- --max-warnings=0
+      - run: npm run build
