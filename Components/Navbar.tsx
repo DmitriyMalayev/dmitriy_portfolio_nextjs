@@ -75,84 +75,86 @@ export default function Navbar() {
   const links = SECTION_IDS.map((id) => ({ id, label: SECTION_LABELS[id] }));
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 flex h-[80px] w-full items-center justify-between gap-3 bg-orange-100/10 px-4 text-orange-700 backdrop-blur-xl backdrop-saturate-150">
-      <div>
-        <Link href="#about" aria-label="Jump to About section">
-          <Image src={Logo} alt="" width={50} height={40} priority />
-        </Link>
-      </div>
+    <>
+      <header className="fixed inset-x-0 top-0 z-50 flex h-[80px] w-full items-center justify-between gap-3 bg-orange-100/10 px-4 text-orange-700 backdrop-blur-xl backdrop-saturate-150">
+        <div>
+          <Link href="#about" aria-label="Jump to About section">
+            <Image src={Logo} alt="" width={50} height={40} priority />
+          </Link>
+        </div>
 
-      <nav aria-label="Primary" className="hidden min-w-0 flex-1 md:block">
-        <ul className="flex items-center justify-around gap-0.5 font-semibold md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base">
-          {links.map(({ id, label }) => (
-            <li key={id}>
+        <nav aria-label="Primary" className="hidden min-w-0 flex-1 md:block">
+          <ul className="flex items-center justify-around gap-0.5 font-semibold md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base">
+            {links.map(({ id, label }) => (
+              <li key={id}>
+                <a
+                  href={`#${id}`}
+                  aria-current={activeSection === id ? 'location' : undefined}
+                  className={navLinkClass(activeSection === id)}
+                >
+                  {label}
+                </a>
+              </li>
+            ))}
+            <li>
               <a
-                href={`#${id}`}
-                aria-current={activeSection === id ? 'location' : undefined}
-                className={navLinkClass(activeSection === id)}
+                href="/new_resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-1 rounded border border-orange-600 px-2 py-0.5 font-semibold text-orange-400 transition hover:bg-orange-900/40 hover:text-orange-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base"
+                aria-label="Download résumé PDF"
               >
-                {label}
+                Résumé ↗
               </a>
             </li>
-          ))}
-          <li>
-            <a
-              href="/new_resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-1 rounded border border-orange-600 px-2 py-0.5 font-semibold text-orange-400 transition hover:bg-orange-900/40 hover:text-orange-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base"
-              aria-label="Download résumé PDF"
-            >
-              Résumé ↗
-            </a>
-          </li>
-        </ul>
-      </nav>
+          </ul>
+        </nav>
 
-      <button
-        type="button"
-        className="z-[60] rounded p-2 md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
-        onClick={toggleMenu}
-        aria-expanded={navOpen}
-        aria-controls="mobile-menu"
-        aria-label={navOpen ? 'Close navigation menu' : 'Open navigation menu'}
-      >
-        {!navOpen ? (
-          <svg
-            className="h-6 w-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden
-            focusable="false"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        ) : (
-          <svg
-            className="h-6 w-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden
-            focusable="false"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        )}
-      </button>
+        <button
+          type="button"
+          className="z-[60] rounded p-2 md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
+          onClick={toggleMenu}
+          aria-expanded={navOpen}
+          aria-controls="mobile-menu"
+          aria-label={navOpen ? 'Close navigation menu' : 'Open navigation menu'}
+        >
+          {!navOpen ? (
+            <svg
+              className="h-6 w-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden
+              focusable="false"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          ) : (
+            <svg
+              className="h-6 w-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden
+              focusable="false"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          )}
+        </button>
+      </header>
 
       <nav aria-label="Mobile">
         <ul
@@ -161,7 +163,7 @@ export default function Navbar() {
           className={
             !navOpen
               ? 'hidden'
-              : 'absolute left-0 top-0 z-[55] flex h-screen w-full flex-col items-center justify-center bg-stone-900 md:hidden'
+              : 'fixed left-0 top-0 z-[55] flex h-screen w-full flex-col items-center justify-center bg-stone-900 md:hidden'
           }
         >
           {links.map(({ id, label }) => (
@@ -188,6 +190,6 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
-    </header>
+    </>
   );
 }
