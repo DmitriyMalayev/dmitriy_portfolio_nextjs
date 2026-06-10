@@ -21,18 +21,24 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Dmitriy Malayev | Full-Stack Engineer',
+    default: 'Dmitriy Malayev | Senior Full Stack Software Engineer',
     template: '%s | Dmitriy Malayev',
   },
   description:
-    'Full-stack engineer with 5+ years of experience — React, Next.js, Kotlin, and cloud data pipelines. Portfolio, skills, certifications, projects, and contact.',
+    'Senior full-stack engineer with 5+ years of experience — Django, Angular, React, Next.js, AI/RAG, and cloud data pipelines. Portfolio, skills, certifications, projects, and contact.',
   keywords: [
     'Dmitriy Malayev',
+    'Senior Full Stack Software Engineer',
     'Full-Stack Engineer',
     'Software Engineer',
+    'Django',
+    'Angular',
     'React',
     'Next.js',
     'TypeScript',
+    'AI Engineer',
+    'RAG',
+    'LLM',
     'Kotlin',
     'Cloud Data Pipelines',
     'Portfolio',
@@ -55,17 +61,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: siteUrl,
-    title: 'Dmitriy Malayev | Full-Stack Engineer',
+    title: 'Dmitriy Malayev | Senior Full Stack Software Engineer',
     description:
-      'Full-stack engineer with 5+ years of experience — React, Next.js, Kotlin, and cloud data pipelines.',
+      'Senior full-stack engineer with 5+ years of experience — Django, Angular, React, Next.js, AI/RAG, and cloud data pipelines.',
     locale: 'en_US',
     siteName: 'Dmitriy Malayev',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dmitriy Malayev | Full-Stack Engineer',
+    title: 'Dmitriy Malayev | Senior Full Stack Software Engineer',
     description:
-      'Full-stack engineer with 5+ years of experience — React, Next.js, Kotlin, and cloud data pipelines.',
+      'Senior full-stack engineer with 5+ years of experience — Django, Angular, React, Next.js, AI/RAG, and cloud data pipelines.',
     creator: '@dmitriymalayev',
     images: ['/opengraph-image'],
   },
@@ -77,8 +83,8 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
     '@type': 'Person',
     name: 'Dmitriy Malayev',
     url: siteUrl,
-    jobTitle: 'Full Stack Software Engineer',
-    worksFor: { '@type': 'Organization', name: 'TorahAnytime' },
+    jobTitle: 'Senior Full Stack Software Engineer',
+    worksFor: { '@type': 'Organization', name: 'SCYFOR Consulting, LLC' },
     sameAs: [
       'https://github.com/DmitriyMalayev',
       'https://www.linkedin.com/in/dmitriymalayev/',

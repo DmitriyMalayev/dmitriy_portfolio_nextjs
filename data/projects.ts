@@ -2,12 +2,12 @@ import type { Project } from './types';
 
 export const projects: Project[] = [
   {
-    title: 'TorahAnytime content & admin',
+    title: 'BrightArchive — multi-tenant document SaaS',
     description:
-      'User-facing playback, filtered search, and downloads alongside an admin panel — cutting content-update time by 20% for non‑technical staff. Cached REST APIs reduced metadata latency ~30%; Swagger, tests, and profiling keep APIs reliable.',
-    tags: ['React', 'Next.js', 'Tailwind CSS', 'Jira'],
+      'Sole-engineered a multi-tenant document management platform from a Paperless-ngx fork — Django 5.2, Angular 20, PostgreSQL with row-level tenant isolation. AI/RAG layer with 6+ LLM providers, pgvector hybrid search, subscription portal (FastAPI + Chargebee + Keycloak), automated email/OCR ingestion, and CI/CD on self-hosted GitHub Actions.',
+    tags: ['Django', 'Angular', 'PostgreSQL', 'FastAPI', 'AI/RAG', 'Keycloak'],
     githubUrl: null,
-    liveUrl: 'https://torahanytime.com',
+    liveUrl: null,
   },
   {
     title: 'Ecosave sustainability portal',

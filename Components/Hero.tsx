@@ -9,10 +9,10 @@ import {
 } from 'framer-motion';
 
 const ROLES = [
-  'Full-Stack Engineer',
+  'Senior Full Stack Software Engineer',
+  'Django & Angular Developer',
+  'AI & RAG Architect',
   'React & Next.js Developer',
-  'Kotlin & Cloud Builder',
-  'Data Pipeline Engineer',
 ];
 
 export default function Hero() {
@@ -79,8 +79,8 @@ export default function Hero() {
 
         <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-slate-400 md:text-lg lg:text-xl">
           I work across the full stack — from the interface down to the infrastructure —
-          and I care about every layer. Five years in production, currently at
-          TorahAnytime.
+          and I care about every layer. Five years in production, currently building
+          BrightArchive at SCYFOR Consulting.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
