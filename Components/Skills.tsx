@@ -34,7 +34,7 @@ function SkillLogo({
       alt={alt}
       width={96}
       height={96}
-      className={`h-auto w-auto ${invertClass}`}
+      className={`h-16 w-16 object-contain ${invertClass}`}
     />
   );
 }

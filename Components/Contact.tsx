@@ -147,7 +147,7 @@ export default function Contact() {
               className="mt-2 inline-flex items-center gap-2 rounded-lg border border-sky-600 px-4 py-2 text-sm font-semibold text-sky-300 transition hover:bg-sky-900/40 hover:text-sky-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400"
             >
               <svg
-                className="h-4 w-4"
+                className="h-6 w-6"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
