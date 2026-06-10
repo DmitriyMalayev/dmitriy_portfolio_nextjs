@@ -112,7 +112,7 @@ export default function HomePage() {
         <SectionWrapper
           id="writing"
           title="Writing & Content"
-          subtitle="Videos, articles & open source"
+          subtitle="Articles & open source"
         >
           <Writing />
         </SectionWrapper>

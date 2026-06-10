@@ -7,6 +7,28 @@ const Footer = () => {
         <li>
           <a
             className="hover:underline hover:underline-offset-4"
+            href="https://github.com/DmitriyMalayev"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a
+            className="hover:underline hover:underline-offset-4"
+            href="https://www.linkedin.com/in/dmitriymalayev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a
+            className="hover:underline hover:underline-offset-4"
             href="mailto:dmitriy.malayev@gmail.com"
           >
             Email me

@@ -18,7 +18,7 @@ export default function Certificates() {
             className="mx-auto h-auto w-full rounded-md object-contain"
             sizes="(max-width: 768px) 100vw, 800px"
           />
-          <figcaption className="mt-4 text-center text-sm text-gray-600 dark:text-gray-400">
+          <figcaption className="mt-4 text-center text-sm text-stone-400">
             {item.name}
           </figcaption>
         </figure>

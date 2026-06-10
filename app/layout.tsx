@@ -83,11 +83,16 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
     '@type': 'Person',
     name: 'Dmitriy Malayev',
     url: siteUrl,
+    image: `${siteUrl}/photo.webp`,
+    description:
+      'Senior Full Stack Software Engineer with 5+ years of experience building scalable web applications and AI-powered systems.',
     jobTitle: 'Senior Full Stack Software Engineer',
     worksFor: { '@type': 'Organization', name: 'SCYFOR Consulting, LLC' },
     sameAs: [
       'https://github.com/DmitriyMalayev',
       'https://www.linkedin.com/in/dmitriymalayev/',
+      'https://dmitriy-malayev.medium.com/',
+      'https://trailblazer.me/id/dmalayev',
     ],
   });
 
