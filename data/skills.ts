@@ -28,16 +28,16 @@ export const skillsList: Skill[] = [
   // Front-End
   { title: 'Angular', src: D('angular', 'angular-original'), category: 'Front-End' },
   { title: 'React', src: '/assets/react.webp', category: 'Front-End' },
-  { title: 'Next.js', src: '/assets/nextjs.webp', category: 'Front-End' },
+  { title: 'Next.js', src: D('nextjs'), category: 'Front-End', invert: true },
   { title: 'Redux', src: D('redux'), category: 'Front-End' },
-  { title: 'Tailwind CSS', src: '/assets/tailwind.webp', category: 'Front-End' },
+  { title: 'Tailwind CSS', src: D('tailwindcss'), category: 'Front-End' },
 
   // Back-End
-  { title: 'Django', src: D('django', 'django-plain'), category: 'Back-End' },
   {
-    title: 'Django REST Framework',
+    title: 'Django / DRF',
     src: D('django', 'django-plain'),
     category: 'Back-End',
+    invert: true,
   },
   { title: 'FastAPI', src: D('fastapi', 'fastapi-original'), category: 'Back-End' },
   { title: 'Node.js', src: '/assets/node.webp', category: 'Back-End' },
@@ -47,7 +47,6 @@ export const skillsList: Skill[] = [
     category: 'Back-End',
     invert: true,
   },
-  { title: 'Celery', src: D('python'), category: 'Back-End' },
   { title: 'Spring Boot', src: D('spring', 'spring-original'), category: 'Back-End' },
   {
     title: 'Ruby on Rails',
@@ -56,30 +55,20 @@ export const skillsList: Skill[] = [
   },
 
   // AI & RAG
-  { title: 'RAG', src: D('openai', 'openai-original'), category: 'AI & RAG' },
   {
-    title: 'LLM Integration',
-    src: D('openai', 'openai-original'),
+    title: 'OpenAI / LLMs',
+    src: '/assets/openai.svg',
     category: 'AI & RAG',
+    invert: true,
   },
   {
-    title: 'Vector Embeddings',
-    src: D('postgresql', 'postgresql-original'),
+    title: 'RAG Pipelines',
+    src: D('elasticsearch', 'elasticsearch-original'),
     category: 'AI & RAG',
   },
   {
     title: 'pgvector',
     src: D('postgresql', 'postgresql-original'),
-    category: 'AI & RAG',
-  },
-  {
-    title: 'Hybrid Search',
-    src: D('elasticsearch', 'elasticsearch-original'),
-    category: 'AI & RAG',
-  },
-  {
-    title: 'Agentic Retrieval',
-    src: D('openai', 'openai-original'),
     category: 'AI & RAG',
   },
 
@@ -99,9 +88,8 @@ export const skillsList: Skill[] = [
   // Cloud & DevOps
   { title: 'AWS', src: '/assets/aws.webp', category: 'Cloud & DevOps' },
   { title: 'Azure', src: D('azure', 'azure-original'), category: 'Cloud & DevOps' },
-  { title: 'Docker', src: D('docker', 'docker-original'), category: 'Cloud & DevOps' },
   {
-    title: 'Docker Compose',
+    title: 'Docker / Compose',
     src: D('docker', 'docker-original'),
     category: 'Cloud & DevOps',
   },
@@ -117,8 +105,7 @@ export const skillsList: Skill[] = [
   },
 
   // Tools
-  { title: 'Keycloak', src: D('java', 'java-original'), category: 'Tools' },
-  { title: 'Chargebee', src: D('stripe', 'stripe-original'), category: 'Tools' },
+  { title: 'Chargebee', src: '/assets/chargebee.svg', category: 'Tools' },
   { title: 'Redis', src: D('redis', 'redis-original'), category: 'Tools' },
   {
     title: 'Playwright',
@@ -127,7 +114,7 @@ export const skillsList: Skill[] = [
   },
   { title: 'pytest', src: D('pytest', 'pytest-original'), category: 'Tools' },
   { title: 'Git', src: D('git', 'git-original'), category: 'Tools' },
-  { title: 'GitHub', src: '/assets/github.webp', category: 'Tools' },
+  { title: 'GitHub', src: D('github'), category: 'Tools', invert: true },
   { title: 'Postman', src: D('postman', 'postman-original'), category: 'Tools' },
   { title: 'Figma', src: D('figma', 'figma-original'), category: 'Tools' },
 ];

@@ -4,7 +4,7 @@ import CountUpStat from './CountUpStat';
 export default function StatsBar() {
   return (
     <div
-      className="mx-auto grid max-w-[1000px] grid-cols-2 gap-3 px-4 sm:gap-4 lg:grid-cols-4"
+      className="mx-auto grid max-w-[1100px] grid-cols-2 gap-3 px-4 sm:gap-4 lg:grid-cols-5"
       aria-label="Selected impact highlights"
     >
       {stats.map((item) => (
