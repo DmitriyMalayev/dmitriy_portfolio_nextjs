@@ -120,7 +120,11 @@ export const skillsList: Skill[] = [
   { title: 'Keycloak', src: D('java', 'java-original'), category: 'Tools' },
   { title: 'Chargebee', src: D('stripe', 'stripe-original'), category: 'Tools' },
   { title: 'Redis', src: D('redis', 'redis-original'), category: 'Tools' },
-  { title: 'Playwright', src: D('playwright', 'playwright-original'), category: 'Tools' },
+  {
+    title: 'Playwright',
+    src: D('playwright', 'playwright-original'),
+    category: 'Tools',
+  },
   { title: 'pytest', src: D('pytest', 'pytest-original'), category: 'Tools' },
   { title: 'Git', src: D('git', 'git-original'), category: 'Tools' },
   { title: 'GitHub', src: '/assets/github.webp', category: 'Tools' },
