@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "test -f new_resume.pdf && cp new_resume.pdf public/new_resume.pdf || true",
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
