@@ -28,7 +28,9 @@ async function main(): Promise<void> {
 
     const sc = countSentences(entry.answer);
     if (sc < MIN_SENTENCES || sc > MAX_SENTENCES) {
-      errors.push(`${entry.id}: ${sc} sentences (need ${MIN_SENTENCES}-${MAX_SENTENCES})`);
+      errors.push(
+        `${entry.id}: ${sc} sentences (need ${MIN_SENTENCES}-${MAX_SENTENCES})`,
+      );
     }
 
     if (entry.company === 'iqtech') iqtech++;

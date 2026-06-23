@@ -152,7 +152,9 @@ async function main(): Promise<void> {
   }
 
   await writeFile(path.join(OUT_DIR, 'interview-prep.md'), body, 'utf-8');
-  console.log(`Wrote ${path.join(OUT_DIR, 'interview-prep.md')} (${entries.length} Q&As, numbered Q1–Q${qNum - 1})`);
+  console.log(
+    `Wrote ${path.join(OUT_DIR, 'interview-prep.md')} (${entries.length} Q&As, numbered Q1–Q${qNum - 1})`,
+  );
 }
 
 main().catch((err) => {

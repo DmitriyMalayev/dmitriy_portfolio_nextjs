@@ -60,7 +60,9 @@ function generateIqtechCategory(
             ? 'Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern.'
             : undefined;
     const sentences = buildIqtechAnswer(topic, angle, i, clientName, stack, extra);
-    out.push(makeEntry(padId(prefix, i + 1), 'iqtech', category, client, q, ...sentences));
+    out.push(
+      makeEntry(padId(prefix, i + 1), 'iqtech', category, client, q, ...sentences),
+    );
   }
   return out;
 }
@@ -80,15 +82,25 @@ function generateEcosaveCategory(
     const ctx = ' on the Ecosave sustainability portal';
     const q = ANGLES[angle](topic, ctx);
     const sentences = buildEcosaveAnswer(topic, angle, i, area, metric);
-    out.push(makeEntry(padId(prefix, i + 1), 'ecosave', category, null, q, ...sentences));
+    out.push(
+      makeEntry(padId(prefix, i + 1), 'ecosave', category, null, q, ...sentences),
+    );
   }
   return out;
 }
 
-async function writeJson(subdir: string, filename: string, data: QAEntry[]): Promise<void> {
+async function writeJson(
+  subdir: string,
+  filename: string,
+  data: QAEntry[],
+): Promise<void> {
   const dir = path.join(DATA, subdir);
   await mkdir(dir, { recursive: true });
-  await writeFile(path.join(dir, filename), JSON.stringify(data, null, 2) + '\n', 'utf-8');
+  await writeFile(
+    path.join(dir, filename),
+    JSON.stringify(data, null, 2) + '\n',
+    'utf-8',
+  );
   console.log(`  ${subdir}/${filename}: ${data.length}`);
 }
 
@@ -341,7 +353,15 @@ async function main(): Promise<void> {
     ['react-fundamentals.json', reactFundamentalsBank],
     [
       'redux.json',
-      generateIqtechCategory('iqtech-redux', 'Redux', 'shared', null, reduxTopics, ['Redux Toolkit'], 35),
+      generateIqtechCategory(
+        'iqtech-redux',
+        'Redux',
+        'shared',
+        null,
+        reduxTopics,
+        ['Redux Toolkit'],
+        35,
+      ),
     ],
     [
       'react-query.json',
@@ -357,7 +377,15 @@ async function main(): Promise<void> {
     ],
     [
       'typescript.json',
-      generateIqtechCategory('iqtech-ts', 'TypeScript', 'shared', null, tsTopics, ['TypeScript', 'React'], 25),
+      generateIqtechCategory(
+        'iqtech-ts',
+        'TypeScript',
+        'shared',
+        null,
+        tsTopics,
+        ['TypeScript', 'React'],
+        25,
+      ),
     ],
     [
       'component-library.json',
@@ -373,7 +401,15 @@ async function main(): Promise<void> {
     ],
     [
       'auth-rbac.json',
-      generateIqtechCategory('iqtech-auth', 'Auth & RBAC', 'shared', null, authTopics, ['JWT', 'Redux'], 40),
+      generateIqtechCategory(
+        'iqtech-auth',
+        'Auth & RBAC',
+        'shared',
+        null,
+        authTopics,
+        ['JWT', 'Redux'],
+        40,
+      ),
     ],
     [
       'client-meridian.json',
@@ -413,11 +449,27 @@ async function main(): Promise<void> {
     ],
     [
       'testing.json',
-      generateIqtechCategory('iqtech-test', 'Testing', 'shared', null, testTopics, ['Jest', 'RTL'], 20),
+      generateIqtechCategory(
+        'iqtech-test',
+        'Testing',
+        'shared',
+        null,
+        testTopics,
+        ['Jest', 'RTL'],
+        20,
+      ),
     ],
     [
       'a11y.json',
-      generateIqtechCategory('iqtech-a11y', 'Accessibility', 'shared', null, a11yTopics, ['React', 'ARIA'], 15),
+      generateIqtechCategory(
+        'iqtech-a11y',
+        'Accessibility',
+        'shared',
+        null,
+        a11yTopics,
+        ['React', 'ARIA'],
+        15,
+      ),
     ],
     [
       'behavioral.json',
@@ -436,7 +488,13 @@ async function main(): Promise<void> {
   const ecosaveFiles: Array<[string, QAEntry[]]> = [
     [
       'architecture.json',
-      generateEcosaveCategory('ecosave-arch', 'Portal Architecture', ecoArchTopics, 'Kotlin/JS and React', 30),
+      generateEcosaveCategory(
+        'ecosave-arch',
+        'Portal Architecture',
+        ecoArchTopics,
+        'Kotlin/JS and React',
+        30,
+      ),
     ],
     [
       'data-kpis.json',

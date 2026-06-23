@@ -46,7 +46,12 @@ function iqtechAngleOpener(topic: string, angle: AngleIdx, where: string): strin
   return openers[angle % 10] ?? openers[0];
 }
 
-function iqtechAngleDetail(topic: string, angle: AngleIdx, stack: string[], extra?: string): string {
+function iqtechAngleDetail(
+  topic: string,
+  angle: AngleIdx,
+  stack: string[],
+  extra?: string,
+): string {
   if (extra) return extra;
   const stackLine = stack.length
     ? `The implementation leaned on ${stack.join(', ')} with TypeScript types shared across repos.`
@@ -74,7 +79,9 @@ export function buildIqtechAnswer(
   stack: string[],
   extra?: string,
 ): string[] {
-  const where = clientLabel ? ` on the ${clientLabel} engagement` : ' across IQTech client projects';
+  const where = clientLabel
+    ? ` on the ${clientLabel} engagement`
+    : ' across IQTech client projects';
   const sentences = [
     iqtechAngleOpener(topic, angle, where),
     iqtechAngleDetail(topic, angle, stack, extra),
@@ -82,7 +89,11 @@ export function buildIqtechAnswer(
     pick(IQTECH_OUTCOMES, index + angle),
   ];
   if ((topic.length + angle + index) % 3 === 0) {
-    sentences.splice(2, 0, `Protected routes and JWT refresh handling ensured ${topic} never leaked data across tenant boundaries.`);
+    sentences.splice(
+      2,
+      0,
+      `Protected routes and JWT refresh handling ensured ${topic} never leaked data across tenant boundaries.`,
+    );
   }
   return sentences.slice(0, 4 + ((index + angle) % 3));
 }
@@ -104,7 +115,12 @@ function ecosaveAngleOpener(topic: string, angle: AngleIdx): string {
   return openers[angle % 10] ?? openers[0];
 }
 
-function ecosaveAngleDetail(topic: string, angle: AngleIdx, area: string, metric?: string): string {
+function ecosaveAngleDetail(
+  topic: string,
+  angle: AngleIdx,
+  area: string,
+  metric?: string,
+): string {
   if (metric && angle % 4 === 0) return metric;
   const details: Record<number, string> = {
     0: `Engineering applied ${area} with explicit API contracts so frontend and Kotlin services could evolve independently.`,
@@ -136,7 +152,11 @@ export function buildEcosaveAnswer(
     pick(ECOSAVE_OUTCOMES, index + angle),
   ];
   if ((index + angle) % 2 === 0) {
-    sentences.splice(3, 0, `Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle.`);
+    sentences.splice(
+      3,
+      0,
+      `Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle.`,
+    );
   }
   return sentences.slice(0, 4 + ((index + angle) % 3));
 }
