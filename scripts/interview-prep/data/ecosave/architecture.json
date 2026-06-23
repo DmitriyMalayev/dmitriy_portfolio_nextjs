@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ecosave-arch-001",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "How did you implement Kotlin/JS and React integration boundaries on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented Kotlin/JS and React integration boundaries on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Kotlin/JS and React with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-arch-002",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "How did you implement KPI dashboard module structure on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented KPI dashboard module structure on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Kotlin/JS and React with explicit API contracts so frontend and Kotlin services could evolve independently. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on KPI dashboard module structure. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-arch-003",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "How did you implement shared API client layer on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented shared API client layer on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Kotlin/JS and React with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on shared API client layer. Stakeholders saved an estimated twenty hours per cycle once GRI reports were automated."
+  },
+  {
+    "id": "ecosave-arch-004",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "How did you implement routing between Kotlin and React views on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented routing between Kotlin and React views on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Kotlin/JS and React with explicit API contracts so frontend and Kotlin services could evolve independently. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on routing between Kotlin and React views."
+  },
+  {
+    "id": "ecosave-arch-005",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "How did you implement build pipeline for mixed frontend on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented build pipeline for mixed frontend on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Kotlin/JS and React with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on build pipeline for mixed frontend."
+  },
+  {
+    "id": "ecosave-arch-006",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "How did you implement environment configuration per stage on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented environment configuration per stage on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Kotlin/JS and React with explicit API contracts so frontend and Kotlin services could evolve independently. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on environment configuration per stage. These changes supported ninety-nine point eight percent uptime across reporting seasons."
+  },
+  {
+    "id": "ecosave-arch-007",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "How did you implement feature flags for enterprise tenants on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented feature flags for enterprise tenants on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Kotlin/JS and React with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-arch-008",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "How did you implement module federation considerations on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented module federation considerations on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Kotlin/JS and React with explicit API contracts so frontend and Kotlin services could evolve independently. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on module federation considerations. Stakeholders saved an estimated twenty hours per cycle once GRI reports were automated."
+  },
+  {
+    "id": "ecosave-arch-009",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "How did you implement state sharing across runtimes on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented state sharing across runtimes on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Kotlin/JS and React with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on state sharing across runtimes. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-arch-010",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "How did you implement local development workflow on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented local development workflow on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Kotlin/JS and React with explicit API contracts so frontend and Kotlin services could evolve independently. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on local development workflow."
+  },
+  {
+    "id": "ecosave-arch-011",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "Why did Kotlin/JS and React integration boundaries matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Kotlin/JS and React integration boundaries mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to Kotlin/JS and React integration boundaries. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on Kotlin/JS and React integration boundaries. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-arch-012",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "Why did KPI dashboard module structure matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. KPI dashboard module structure mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to KPI dashboard module structure. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-arch-013",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "Why did shared API client layer matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Shared API client layer mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to shared API client layer. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on shared API client layer. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-arch-014",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "Why did routing between Kotlin and React views matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Routing between Kotlin and React views mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to routing between Kotlin and React views. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on routing between Kotlin and React views. Enterprise clients could trust KPI dashboards because validation caught bad uploads before they propagated."
+  },
+  {
+    "id": "ecosave-arch-015",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "Why did build pipeline for mixed frontend matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Build pipeline for mixed frontend mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to build pipeline for mixed frontend. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on build pipeline for mixed frontend."
+  },
+  {
+    "id": "ecosave-arch-016",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "Why did environment configuration per stage matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Environment configuration per stage mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to environment configuration per stage. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on environment configuration per stage."
+  },
+  {
+    "id": "ecosave-arch-017",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "Why did feature flags for enterprise tenants matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Feature flags for enterprise tenants mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to feature flags for enterprise tenants. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on feature flags for enterprise tenants. Stakeholders saved an estimated twenty hours per cycle once GRI reports were automated."
+  },
+  {
+    "id": "ecosave-arch-018",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "Why did module federation considerations matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Module federation considerations mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to module federation considerations. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-arch-019",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "Why did state sharing across runtimes matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. State sharing across runtimes mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to state sharing across runtimes. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on state sharing across runtimes. Enterprise clients could trust KPI dashboards because validation caught bad uploads before they propagated."
+  },
+  {
+    "id": "ecosave-arch-020",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "Why did local development workflow matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Local development workflow mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to local development workflow. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on local development workflow. These changes supported ninety-nine point eight percent uptime across reporting seasons."
+  },
+  {
+    "id": "ecosave-arch-021",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "What tradeoffs did you weigh for Kotlin/JS and React integration boundaries on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on Kotlin/JS and React integration boundaries was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on Kotlin/JS and React integration boundaries."
+  },
+  {
+    "id": "ecosave-arch-022",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "What tradeoffs did you weigh for KPI dashboard module structure on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on KPI dashboard module structure was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on KPI dashboard module structure. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-arch-023",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "What tradeoffs did you weigh for shared API client layer on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on shared API client layer was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-arch-024",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "What tradeoffs did you weigh for routing between Kotlin and React views on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on routing between Kotlin and React views was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on routing between Kotlin and React views. These changes supported ninety-nine point eight percent uptime across reporting seasons."
+  },
+  {
+    "id": "ecosave-arch-025",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "What tradeoffs did you weigh for build pipeline for mixed frontend on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on build pipeline for mixed frontend was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on build pipeline for mixed frontend. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-arch-026",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "What tradeoffs did you weigh for environment configuration per stage on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on environment configuration per stage was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on environment configuration per stage."
+  },
+  {
+    "id": "ecosave-arch-027",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "What tradeoffs did you weigh for feature flags for enterprise tenants on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on feature flags for enterprise tenants was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on feature flags for enterprise tenants."
+  },
+  {
+    "id": "ecosave-arch-028",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "What tradeoffs did you weigh for module federation considerations on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on module federation considerations was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on module federation considerations. Enterprise clients could trust KPI dashboards because validation caught bad uploads before they propagated."
+  },
+  {
+    "id": "ecosave-arch-029",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "What tradeoffs did you weigh for state sharing across runtimes on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on state sharing across runtimes was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-arch-030",
+    "company": "ecosave",
+    "category": "Portal Architecture",
+    "client": null,
+    "question": "What tradeoffs did you weigh for local development workflow on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on local development workflow was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on local development workflow. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  }
+]

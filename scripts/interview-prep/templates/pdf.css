@@ -1,0 +1,260 @@
+@page {
+  size: letter;
+  margin: 0.85in 0.9in 1in;
+}
+
+:root {
+  --text: #1c1c1e;
+  --muted: #5c5c63;
+  --border: #d8d8de;
+  --iqtech: #1a4d8f;
+  --iqtech-bg: #eef4fb;
+  --ecosave: #1a6b4a;
+  --ecosave-bg: #edf7f1;
+  --accent: #2d2d32;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  color: var(--text);
+  max-width: 100%;
+}
+
+/* Cover */
+.cover {
+  min-height: 8.5in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5in 0.25in;
+  page-break-after: always;
+}
+
+.cover h1 {
+  font-size: 30pt;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+  page-break-before: avoid;
+  color: var(--accent);
+}
+
+.cover-subtitle {
+  font-size: 13pt;
+  color: var(--muted);
+  margin: 0 0 1.5em;
+  line-height: 1.4;
+}
+
+.cover-author {
+  font-size: 14pt;
+  font-weight: 600;
+  margin: 0 0 1.25em;
+}
+
+.cover-stats {
+  font-size: 11pt;
+  line-height: 1.7;
+  margin-bottom: 1.5em;
+}
+
+.cover-meta {
+  font-size: 9.5pt;
+  color: var(--muted);
+  margin: 0 0 0.75em;
+}
+
+.cover-hint {
+  font-size: 9.5pt;
+  color: var(--muted);
+  font-style: italic;
+  margin: 0;
+}
+
+/* Headings */
+h1 {
+  font-size: 20pt;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  page-break-before: always;
+  page-break-after: avoid;
+  letter-spacing: -0.01em;
+}
+
+h1:first-of-type {
+  page-break-before: avoid;
+}
+
+h2 {
+  font-size: 16pt;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.75em;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+}
+
+/* Company dividers */
+.company-divider {
+  page-break-before: always;
+  page-break-after: avoid;
+  padding: 1.25em 1em;
+  border-radius: 6px;
+  margin-bottom: 0.5em;
+}
+
+.company-divider.iqtech {
+  background: var(--iqtech-bg);
+  border-left: 4px solid var(--iqtech);
+}
+
+.company-divider.ecosave {
+  background: var(--ecosave-bg);
+  border-left: 4px solid var(--ecosave);
+}
+
+.company-divider h1 {
+  page-break-before: avoid;
+  margin-bottom: 0.25em;
+}
+
+.company-divider em {
+  display: block;
+  color: var(--muted);
+  font-size: 10.5pt;
+  margin-bottom: 0.75em;
+}
+
+.company-blurb {
+  margin: 0;
+  font-size: 10pt;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* Category sections */
+.category-section {
+  page-break-before: always;
+}
+
+.category-section h1 {
+  page-break-before: avoid;
+  padding-bottom: 0.25em;
+  border-bottom: 2px solid var(--border);
+}
+
+.category-section.iqtech h1 {
+  color: var(--iqtech);
+}
+
+.category-section.ecosave h1 {
+  color: var(--ecosave);
+}
+
+.category-intro {
+  font-size: 10pt;
+  color: var(--muted);
+  margin: 0 0 1.25em;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* Q&A blocks */
+.qa-block {
+  margin: 0 0 1.1em;
+  padding: 0.75em 0.85em 0.85em;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  page-break-inside: avoid;
+  background: #fafafa;
+}
+
+.question {
+  margin: 0 0 0.55em;
+  font-weight: 600;
+  font-size: 10.5pt;
+  line-height: 1.45;
+  color: var(--accent);
+}
+
+.q-label {
+  display: inline-block;
+  font-size: 8.5pt;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--accent);
+  padding: 0.15em 0.45em;
+  border-radius: 3px;
+  margin-right: 0.45em;
+  vertical-align: baseline;
+}
+
+.category-section.iqtech .q-label {
+  background: var(--iqtech);
+}
+
+.category-section.ecosave .q-label {
+  background: var(--ecosave);
+}
+
+.answer {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 10.25pt;
+  line-height: 1.55;
+  color: #2a2a2e;
+}
+
+/* TOC */
+ul {
+  margin: 0.4em 0;
+  padding-left: 1.4em;
+}
+
+li {
+  margin: 0.3em 0;
+  line-height: 1.45;
+}
+
+a {
+  color: var(--iqtech);
+  text-decoration: none;
+}
+
+.page-break {
+  page-break-before: always;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1.5em 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+p {
+  margin: 0.5em 0;
+}

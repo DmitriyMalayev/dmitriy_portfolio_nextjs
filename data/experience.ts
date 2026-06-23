@@ -4,7 +4,7 @@ export const experience: ExperienceItem[] = [
   {
     company: 'SCYFOR Consulting, LLC',
     role: 'Senior Full Stack Software Engineer (Contract)',
-    period: 'Jan 2025 – Present',
+    period: 'Apr 2024 – Present',
     bullets: [
       'Sole-engineered a multi-tenant document management SaaS (BrightArchive) from a Paperless-ngx fork, delivering 1,200+ commits across Django 5.2, Angular 20, and PostgreSQL (AWS RDS) with strict row-level tenant isolation, tenant-aware media storage, and automatic ORM query filtering.',
       'Built an AI/RAG document intelligence layer supporting 6+ LLM providers (OpenAI, Anthropic, DeepSeek, Novita) with pgvector embeddings, hybrid semantic/keyword search, and agentic retrieval — enabling per-tenant document summaries, auto-tagging, and conversational Q&A with source citations.',
@@ -24,17 +24,6 @@ export const experience: ExperienceItem[] = [
       'GitHub Actions',
       'pgvector',
     ],
-  },
-  {
-    company: 'Self Employed',
-    role: 'Independent Consultant',
-    period: 'Apr 2024 – Jan 2025',
-    bullets: [
-      'Built three production websites using JavaScript and Tailwind CSS, increasing client visibility by 20%.',
-      'Boosted search rankings and organic traffic through SEO strategies that improved PageSpeed scores by 30% and cut load times by 40%.',
-      'Engineered a FastAPI appointment system with Twilio A2P messaging to automate client booking and notifications.',
-    ],
-    tech: ['JavaScript', 'Tailwind CSS', 'FastAPI', 'Twilio', 'SEO'],
   },
   {
     company: 'Ecosave',

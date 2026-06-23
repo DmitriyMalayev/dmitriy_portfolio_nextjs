@@ -1,0 +1,202 @@
+[
+  {
+    "id": "iqtech-beh-001",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "How did you implement onboarding as a frontend consultant across IQTech client projects?",
+    "answer": "We implemented onboarding as a frontend consultant across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on consulting, delivery with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant onboarding as a frontend consultant looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-beh-002",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "How did you implement gathering requirements from enterprise stakeholders across IQTech client projects?",
+    "answer": "We implemented gathering requirements from enterprise stakeholders across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on consulting, delivery with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant gathering requirements from enterprise stakeholders looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-beh-003",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "How did you implement demo cadence with non-technical clients across IQTech client projects?",
+    "answer": "We implemented demo cadence with non-technical clients across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on consulting, delivery with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant demo cadence with non-technical clients looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-beh-004",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "How did you implement handoff documentation between engagements across IQTech client projects?",
+    "answer": "We implemented handoff documentation between engagements across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on consulting, delivery with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant handoff documentation between engagements looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-beh-005",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "How did you implement estimating UI work for fixed-bid contracts across IQTech client projects?",
+    "answer": "We implemented estimating UI work for fixed-bid contracts across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on consulting, delivery with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant estimating UI work for fixed-bid contracts looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-beh-006",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "How did you implement code review standards across contractors across IQTech client projects?",
+    "answer": "We implemented code review standards across contractors across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on consulting, delivery with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured code review standards across contractors never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant code review standards across contractors looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-beh-007",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "How did you implement resolving ninety percent of bugs within one day across IQTech client projects?",
+    "answer": "We implemented resolving ninety percent of bugs within one day across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on consulting, delivery with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant resolving ninety percent of bugs within one day looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-beh-008",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "How did you implement thirty percent faster delivery via ui-core reuse across IQTech client projects?",
+    "answer": "We implemented thirty percent faster delivery via ui-core reuse across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on consulting, delivery with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant thirty percent faster delivery via ui-core reuse looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-beh-009",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "How did you implement balancing three concurrent client codebases across IQTech client projects?",
+    "answer": "We implemented balancing three concurrent client codebases across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on consulting, delivery with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured balancing three concurrent client codebases never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant balancing three concurrent client codebases looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-beh-010",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "How did you implement communicating tradeoffs to project managers across IQTech client projects?",
+    "answer": "We implemented communicating tradeoffs to project managers across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on consulting, delivery with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant communicating tradeoffs to project managers looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-beh-011",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "Why did onboarding as a frontend consultant matter across IQTech client projects?",
+    "answer": "Onboarding as a frontend consultant mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised onboarding as a frontend consultant under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant onboarding as a frontend consultant looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-beh-012",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "Why did gathering requirements from enterprise stakeholders matter across IQTech client projects?",
+    "answer": "Gathering requirements from enterprise stakeholders mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised gathering requirements from enterprise stakeholders under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured gathering requirements from enterprise stakeholders never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant gathering requirements from enterprise stakeholders looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-beh-013",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "Why did demo cadence with non-technical clients matter across IQTech client projects?",
+    "answer": "Demo cadence with non-technical clients mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised demo cadence with non-technical clients under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant demo cadence with non-technical clients looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-beh-014",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "Why did handoff documentation between engagements matter across IQTech client projects?",
+    "answer": "Handoff documentation between engagements mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised handoff documentation between engagements under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant handoff documentation between engagements looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-beh-015",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "Why did estimating UI work for fixed-bid contracts matter across IQTech client projects?",
+    "answer": "Estimating UI work for fixed-bid contracts mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised estimating UI work for fixed-bid contracts under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured estimating UI work for fixed-bid contracts never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant estimating UI work for fixed-bid contracts looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-beh-016",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "Why did code review standards across contractors matter across IQTech client projects?",
+    "answer": "Code review standards across contractors mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised code review standards across contractors under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant code review standards across contractors looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-beh-017",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "Why did resolving ninety percent of bugs within one day matter across IQTech client projects?",
+    "answer": "Resolving ninety percent of bugs within one day mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised resolving ninety percent of bugs within one day under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant resolving ninety percent of bugs within one day looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-beh-018",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "Why did thirty percent faster delivery via ui-core reuse matter across IQTech client projects?",
+    "answer": "Thirty percent faster delivery via ui-core reuse mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised thirty percent faster delivery via ui-core reuse under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured thirty percent faster delivery via ui-core reuse never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant thirty percent faster delivery via ui-core reuse looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-beh-019",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "Why did balancing three concurrent client codebases matter across IQTech client projects?",
+    "answer": "Balancing three concurrent client codebases mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised balancing three concurrent client codebases under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant balancing three concurrent client codebases looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-beh-020",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "Why did communicating tradeoffs to project managers matter across IQTech client projects?",
+    "answer": "Communicating tradeoffs to project managers mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised communicating tradeoffs to project managers under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured communicating tradeoffs to project managers never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant communicating tradeoffs to project managers looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-beh-021",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for onboarding as a frontend consultant across IQTech client projects?",
+    "answer": "The main tradeoff around onboarding as a frontend consultant across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured onboarding as a frontend consultant never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant onboarding as a frontend consultant looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-beh-022",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for gathering requirements from enterprise stakeholders across IQTech client projects?",
+    "answer": "The main tradeoff around gathering requirements from enterprise stakeholders across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant gathering requirements from enterprise stakeholders looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-beh-023",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for demo cadence with non-technical clients across IQTech client projects?",
+    "answer": "The main tradeoff around demo cadence with non-technical clients across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured demo cadence with non-technical clients never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant demo cadence with non-technical clients looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-beh-024",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for handoff documentation between engagements across IQTech client projects?",
+    "answer": "The main tradeoff around handoff documentation between engagements across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured handoff documentation between engagements never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant handoff documentation between engagements looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-beh-025",
+    "company": "iqtech",
+    "category": "Behavioral",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for estimating UI work for fixed-bid contracts across IQTech client projects?",
+    "answer": "The main tradeoff around estimating UI work for fixed-bid contracts across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant estimating UI work for fixed-bid contracts looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  }
+]

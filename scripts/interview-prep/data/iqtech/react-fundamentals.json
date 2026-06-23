@@ -1,0 +1,362 @@
+[
+  {
+    "id": "iqtech-react-001",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "Why did you choose React for enterprise portals at IQTech?",
+    "answer": "At IQTech we standardized on React because every client needed a rich authenticated SPA rather than a marketing site. React’s component model let us ship a shared library once and reuse it across Meridian Health, Atlas Freight, and Summit Capital. The ecosystem in 2021–2022 — React Router v6, Redux Toolkit, React Query — was mature enough for long-lived enterprise codebases. TypeScript integration was strong, which mattered when multiple consultants touched the same repos. Clients already had REST backends; React let us iterate on UX weekly without redeploying server monoliths."
+  },
+  {
+    "id": "iqtech-react-002",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you structure component folders on IQTech client projects?",
+    "answer": "We used a feature-first layout: features/intake, features/schedule, and shared components under components/. Each feature owned its hooks, subcomponents, and React Query keys so boundaries stayed clear during code review. Cross-client primitives lived in the private @iqtech/ui-core package rather than being copied into every repo. Pages were thin wrappers that composed feature modules and wired route-level data loaders. This structure made onboarding new IQTech contractors faster because every engagement looked familiar."
+  },
+  {
+    "id": "iqtech-react-003",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "When did you use useMemo versus useCallback at IQTech?",
+    "answer": "I reached for useMemo when derived data — filtered tables, grouped KPIs — was expensive to recompute on every render. useCallback was reserved for callbacks passed to memoized children or listed as effect dependencies. On Atlas Freight’s shipment grid we memoized column definitions so the shared DataTable did not re-render unnecessarily. We avoided blanket memoization because profiling showed most IQTech screens were network-bound, not CPU-bound. The team documented a short checklist in ui-core so everyone applied hooks consistently."
+  },
+  {
+    "id": "iqtech-react-004",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you handle error boundaries in production React apps?",
+    "answer": "We wrapped each major route segment in an error boundary so a widget failure did not white-screen the entire portal. The fallback UI showed a support reference ID from the logged error and a path back to the dashboard. Summit Capital’s client-facing routes had a softer fallback message because end users were less technical. Errors were also forwarded to our centralized logging endpoint with user id and tenant context when available. We tested boundaries in Jest by throwing inside stub components to verify recovery flows."
+  },
+  {
+    "id": "iqtech-react-005",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "Explain how you used React.lazy and code splitting at IQTech.",
+    "answer": "Admin-heavy modules — compliance exports, bulk user imports — were lazy loaded because only a subset of roles needed them. We split on route boundaries with React.lazy and Suspense fallbacks that matched our skeleton loaders from ui-core. Meridian’s intake wizard stayed in the main bundle because it was the highest-traffic path for front-desk staff. Webpack bundle analyzer runs were part of release prep whenever a client approached two megabytes gzipped. The pattern reduced initial load for Summit’s client login route, which was often opened on mobile networks."
+  },
+  {
+    "id": "iqtech-react-006",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you manage forms in React across IQTech clients?",
+    "answer": "We standardized on React Hook Form because it minimized re-renders on large enterprise forms. Shared FormField wrappers connected labels, aria-describedby, and error text for accessibility consistency. Meridian’s multi-step intake wizard kept partial step data in component state and validated per step before advancing. Server errors from POST failures mapped back to field names through a small normalizeApiErrors helper. Summit’s report publish flow reused the same form primitives with different Zod-style validation rules."
+  },
+  {
+    "id": "iqtech-react-007",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "What was your approach to React keys in large lists?",
+    "answer": "We always keyed rows by stable server ids — shipmentId, patientId — never by array index. Atlas’s exception queue could reorder after polling refreshes; stable keys prevented state from jumping between rows. When ids were temporarily unavailable during optimistic creates, we used client-generated UUIDs until the server responded. Storybook examples in ui-core documented the anti-pattern so new contributors did not regress list behavior. Mis-keyed lists were a common review comment early on and rare once DataTable enforced id fields."
+  },
+  {
+    "id": "iqtech-react-008",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you debug unnecessary re-renders?",
+    "answer": "React DevTools Profiler was the first stop when a screen felt sluggish after feature work. We logged render counts temporarily in development when investigating DataTable prop churn. Splitting context providers — auth versus theme — reduced cascade re-renders on Meridian’s schedule board. Memoizing row components mattered on Atlas dashboards that polled every sixty seconds. Fixes were verified with before-and-after profiler recordings attached to pull requests."
+  },
+  {
+    "id": "iqtech-react-009",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you use custom hooks to share logic between clients?",
+    "answer": "Hooks like useDebouncedSearch, usePagination, and usePermissions lived in ui-core and shipped with unit tests. Atlas’s filter bar consumed useDebouncedSearch so URL-synced queries did not hammer the API on every keystroke. usePermissions read the Redux auth slice and exposed can(action, resource) for JSX and route guards. Feature-specific hooks stayed colocated — useIntakeWizard on Meridian, useShipmentTimeline on Atlas. Extracting hooks too early was discouraged; we promoted them after the second copy-paste."
+  },
+  {
+    "id": "iqtech-react-010",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "What React version did IQTech projects target and why?",
+    "answer": "We started on React 17 during early 2021 engagements to avoid concurrent-mode surprises in production. By late 2022 we migrated active clients to React 18 for automatic batching and improved hydration patterns. Upgrades were staged per client with full regression passes on auth and DataTable flows. Create React App was our baseline bundler until one client needed custom alias support in webpack. Staying current mattered because security patches and typing improvements landed in minor releases."
+  },
+  {
+    "id": "iqtech-react-011",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you handle loading and empty states consistently?",
+    "answer": "@iqtech/ui-core exported SkeletonTable, EmptyState, and InlineSpinner so every client used the same visual language. React Query’s isLoading and isFetching flags drove which skeleton variant appeared on Atlas list pages. Empty states included a primary action — create intake, clear filters — when the user could fix the situation. Meridian’s schedule view distinguished “no appointments” from “filters returned zero results.” Consistency here reduced UX review cycles with client stakeholders."
+  },
+  {
+    "id": "iqtech-react-012",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "Describe your approach to prop drilling versus context at IQTech.",
+    "answer": "Auth and theme used React Context because dozens of nested components needed the same small slice of data. We did not put server-fetched lists into context; React Query remained the source of truth for remote data. Prop drilling one or two levels was acceptable when it kept data flow explicit and easy to trace. Summit’s advisor hierarchy passed clientId as a prop rather than a global store to avoid accidental coupling. Over-using context caused hard-to-debug updates, so new contexts required a short design note in PRs."
+  },
+  {
+    "id": "iqtech-react-013",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you implement modal dialogs across the component library?",
+    "answer": "Modal, ConfirmDialog, and Drawer lived in ui-core with focus trap and escape-key handling built in. Atlas used ConfirmDialog before bulk status changes so dispatchers had a consistent destructive-action pattern. We rendered modals with portals to document.body to avoid z-index fights in nested layouts. aria-modal and labelled titles were enforced through the shared component API rather than per-feature markup. Storybook interaction tests verified focus returned to the triggering button on close."
+  },
+  {
+    "id": "iqtech-react-014",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "What conventions did you use for naming event handlers?",
+    "answer": "Props from parents used onSubmit, onClose, and onChange prefixes while internal handlers used handleSubmit locally. That distinction made it obvious in JSX whether a callback was passed through or defined in the file. TypeScript interfaces for component props documented optional versus required handlers explicitly. Lint rules flagged inline arrow functions in hot list rows where memoization mattered. The convention was documented in ui-core’s contributing guide within the first month of the library."
+  },
+  {
+    "id": "iqtech-react-015",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you approach controlled versus uncontrolled inputs?",
+    "answer": "Enterprise forms were almost always controlled through React Hook Form for validation and error mapping. Uncontrolled inputs appeared only in legacy migration shims where we wrapped old markup temporarily. File uploads on Summit’s document vault used controlled metadata state with uncontrolled binary input refs. Switching mid-project caused subtle bugs, so code review blocked new uncontrolled patterns unless justified. Developers could copy working examples from Meridian’s intake feature as the reference implementation."
+  },
+  {
+    "id": "iqtech-react-016",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you configure React Router v6 for nested enterprise layouts?",
+    "answer": "Each IQTech portal used a PageShell layout route with child routes for dashboard, detail, and admin sections. Route definitions colocated with feature folders so Meridian intake routes did not leak into Atlas repos. ProtectedRoute wrapped segments that required authentication and specific permissionMap entries. URL parameters like shipmentId or patientId fed React Query detail hooks on Atlas and Meridian respectively. We used navigate with replace after form submissions to prevent duplicate POSTs on browser back."
+  },
+  {
+    "id": "iqtech-react-017",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "What patterns did you use for useEffect cleanup?",
+    "answer": "Subscriptions to websocket feeds on Atlas cleared in useEffect return handlers to avoid duplicate listeners. Debounced search hooks cancelled pending timers on unmount so stale results never overwrote fresh queries. We avoided effects that fetched data when React Query already owned the same server state. Strict Mode double-invocation in React 18 helped us catch missing cleanups during local development. Effect dependency arrays were linted; missing deps were treated as bugs unless explicitly documented."
+  },
+  {
+    "id": "iqtech-react-018",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you use React refs at IQTech?",
+    "answer": "Refs focused on DOM imperatives — focusing the first invalid field, measuring scroll containers — not storing app state. Summit’s PDF viewer used a ref to scroll the statement container without triggering full re-renders. forwardRef on ui-core inputs let FormField wire aria attributes and focus management consistently. We did not mirror Redux or query cache data into refs because it duplicated sources of truth. Code review flagged useRef shortcuts that should have been lifted state or query invalidation instead."
+  },
+  {
+    "id": "iqtech-react-019",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you handle conditional rendering without nested ternary sprawl?",
+    "answer": "Early returns in route-level components handled auth loading and permission denied states cleanly. Small helper components like RequiresPermission kept JSX readable inside Meridian schedule cells. We preferred explicit if blocks over chained ternaries when more than two UI branches existed. Skeleton placeholders rendered whenever isLoading was true even if cached data was still visible. Atlas exception badges used lookup maps from status codes to badge components instead of switch statements in JSX."
+  },
+  {
+    "id": "iqtech-react-020",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "What was your approach to lifting state up versus colocation?",
+    "answer": "Form wizard state stayed inside the wizard until a step successfully persisted to the API. Shared filter state between a chart and table on Atlas lived in the parent route component with URL sync. We colocated ephemeral UI state — drawer open, active tab — inside the feature that owned the interaction. Redux held cross-route session data; React Query owned fetched entities; local state covered the rest. Premature lifting caused prop drilling complaints, so we promoted state only after a second consumer appeared."
+  },
+  {
+    "id": "iqtech-react-021",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you compose children and slot-like APIs in ui-core?",
+    "answer": "PageShell accepted header, sidebar, and footer slots so clients themed chrome without forking layout code. Compound components like DataTable.Column kept column definitions declarative and type-safe. Render props appeared rarely; we favored explicit props and children for readability in enterprise codebases. Storybook docs showed composition examples so contractors did not wrap components unnecessarily. Breaking changes to slot APIs required a minor version bump in the internal package changelog."
+  },
+  {
+    "id": "iqtech-react-022",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you integrate third-party chart libraries in React dashboards?",
+    "answer": "Chart wrappers in ui-core isolated imperative chart APIs behind declarative props for KPI cards. Atlas delay-trend charts resized on window changes through a hook that listened to ResizeObserver. We lazy loaded chart modules on Summit advisor dashboards because not every page needed visualization code. Accessibility fallbacks included data tables export when color-only encoding was insufficient. Theme tokens from ui-core fed chart colors so status semantics matched badges elsewhere in the app."
+  },
+  {
+    "id": "iqtech-react-023",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "What role did React Strict Mode play in IQTech projects?",
+    "answer": "Strict Mode stayed enabled in development to surface unsafe lifecycles and missing effect cleanups early. Double rendering occasionally exposed race conditions in Meridian intake autosave before they reached QA. We did not disable Strict Mode to silence warnings; we fixed the underlying patterns instead. Production builds excluded Strict Mode overhead while keeping dev parity with client staging environments. Junior developers learned to treat Strict Mode warnings as blocking issues during pull request review."
+  },
+  {
+    "id": "iqtech-react-024",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you manage environment-specific configuration in React apps?",
+    "answer": "REACT_APP_* variables held API base URLs and feature flags per staging and production. Secrets never lived in the frontend bundle; only public endpoints and client ids were exposed. Summit used separate auth issuer URLs per environment with matching redirect allowlists. Build pipelines injected env files so contractors could not accidentally point demos at production APIs. Runtime config mismatches were caught by health-check screens before users reached authenticated routes."
+  },
+  {
+    "id": "iqtech-react-025",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you approach responsive layouts for tablet users?",
+    "answer": "Meridian front-desk staff often used iPads; breakpoints prioritized touch targets and readable table density. Atlas dispatchers collapsed filter sidebars into drawers below lg breakpoints to preserve map and grid space. ui-core grid tokens documented minimum column widths so features did not ship broken layouts silently. We tested responsive behavior in Storybook with viewport addons before client UAT sessions. Horizontal scroll on DataTable was a last resort; column priority props hid low-value fields on narrow screens."
+  },
+  {
+    "id": "iqtech-react-026",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you handle date and time display across IQTech clients?",
+    "answer": "We standardized on date-fns for formatting and kept timezone conversion close to API boundaries. Meridian appointment times displayed in clinic local time with explicit timezone labels for multi-site admins. Relative times — “updated 5m ago” — refreshed on Atlas polling intervals without shifting absolute timestamps. ISO strings from REST responses were parsed once in selectors or query select functions, not in every cell. Daylight-saving edge cases were covered by unit tests around schedule conflict detection."
+  },
+  {
+    "id": "iqtech-react-027",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "What was your strategy for optimistic UI updates?",
+    "answer": "React Query mutations on Atlas shipment status used onMutate rollbacks when the API rejected transitions. We only optimistic-updated fields where business rules were simple and conflicts were rare. Meridian intake creation showed a pending row with a client UUID until the server assigned a real id. Toast messages clarified when optimistic data was replaced by authoritative server responses. Destructive actions never used optimism without ConfirmDialog acknowledgment first."
+  },
+  {
+    "id": "iqtech-react-028",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you prevent memory leaks in long-lived SPA sessions?",
+    "answer": "Enterprise users kept portals open all day, so listeners and intervals always had cleanup paths. React Query cache garbage collection was tuned so stale detail views did not accumulate indefinitely. Global event buses were banned; features used scoped hooks or query invalidation instead. Atlas sixty-second polling paused when document.hidden was true to save battery on dispatcher laptops. Chrome heap snapshots during profiling verified that route changes dropped detached DOM subtrees."
+  },
+  {
+    "id": "iqtech-react-029",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you document React patterns for rotating contractors?",
+    "answer": "ui-core shipped with Storybook stories, prop tables, and copy-paste examples for each primitive. Each client repo linked to a short ARCHITECTURE.md describing feature folders and state boundaries. Pull request templates asked authors to note which shared components they extended or introduced. Recorded Loom walkthroughs covered auth flow and DataTable customization for Summit onboarding. When patterns changed, we updated one golden feature per client so diffs were easy to follow."
+  },
+  {
+    "id": "iqtech-react-030",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you handle feature flags in React frontends?",
+    "answer": "Flags arrived from bootstrap config or a lightweight /features endpoint cached for the session. Summit compliance modules hid navigation entries entirely when flags were off — not just disabled buttons. We avoided flag checks scattered in dozens of files by centralizing useFeatureFlag hooks. QA matrices documented flag combinations because enterprise clients enabled features per contract. Removing a flag after full rollout included deleting dead branches to prevent drift."
+  },
+  {
+    "id": "iqtech-react-031",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "What was your approach to internationalization readiness?",
+    "answer": "IQTech clients were US-focused, but ui-core strings lived in message files for future extraction. Dates, numbers, and currencies used format helpers rather than hard-coded toLocaleString calls. Layout components allowed longer German-length labels in Storybook stress tests even before i18n shipped. Meridian legal copy stayed in CMS-driven content blocks rather than buried in component strings. When i18n was out of scope, we still avoided concatenating translated fragments manually."
+  },
+  {
+    "id": "iqtech-react-032",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you integrate Axios with React Query at IQTech?",
+    "answer": "A shared apiClient applied JWT interceptors, tenant headers, and normalized error shapes. Query functions stayed thin — they called apiClient and returned typed DTOs for selectors. 401 responses triggered coordinated refresh logic before retrying the failed request once. Bulk endpoints on Atlas used POST with filter payloads; we documented them in shared OpenAPI snippets. Mock Service Worker supported local development when backend sandboxes were unavailable."
+  },
+  {
+    "id": "iqtech-react-033",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you structure Storybook for the shared component library?",
+    "answer": "Stories grouped by primitive type — inputs, layout, data display — with controls for key props. Interaction tests covered Modal focus trap, DataTable sort toggles, and StepWizard navigation. Visual regression ran on critical stories before publishing new ui-core versions to client repos. Contributors added a story with every new component; empty states and error states were mandatory variants. Client-specific theming was demonstrated through global decorators rather than forked story files."
+  },
+  {
+    "id": "iqtech-react-034",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you handle authentication loading states in React?",
+    "answer": "Bootstrap showed a full-page spinner until Redux auth slice hydrated from secure storage. Protected routes rendered nothing flash-inducing — skeleton shell with neutral copy — during token refresh. Summit differentiated advisor versus client boot flows with separate route trees after auth resolved. Failed hydration cleared tokens and redirected to login with a session-expired message. Tests mocked slow auth responses to ensure children never rendered without permission checks."
+  },
+  {
+    "id": "iqtech-react-035",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "What eslint and TypeScript rules protected React code quality?",
+    "answer": "eslint-config-react-app plus custom rules banned unused state and missing hook dependencies. Import order rules kept React, third-party, and local imports consistent for faster reviews. TypeScript strict mode caught nullable API fields before they crashed DataTable renderers. no-restricted-imports blocked deep imports into ui-core internals that were not part of the public API. CI failed on lint warnings so contractors could not merge quick fixes that eroded standards."
+  },
+  {
+    "id": "iqtech-react-036",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you approach CSS styling in React components?",
+    "answer": "ui-core used CSS modules for encapsulation; client apps followed the same pattern for feature code. Design tokens for spacing, color, and typography prevented one-off hex values in client repos. Summit client branding swapped token overrides at the PageShell level instead of forked components. Global resets were minimal; most layout lived in composable utilities tied to the grid system. We avoided runtime CSS-in-JS libraries to keep bundle size predictable on Create React App builds."
+  },
+  {
+    "id": "iqtech-react-037",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you test async React components?",
+    "answer": "React Testing Library queries used findBy* helpers with realistic user-event flows. MSW handlers mirrored REST contracts so components never mocked fetch implementation details. We awaited absence of skeletons before asserting table row counts on Atlas list tests. Act warnings were treated as failures; they usually meant state updates leaked outside user events. Coverage focused on permission gates and mutation error paths, not snapshotting entire pages."
+  },
+  {
+    "id": "iqtech-react-038",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you handle large bundle sizes in enterprise React apps?",
+    "answer": "Route-level code splitting was the first lever; vendor chunks separated react, charts, and pdf tooling. Import linting blocked accidental full lodash imports when a single function sufficed. Summit’s client bundle excluded advisor-only admin tools through lazy routes and role-based preloading skips. Bundle analyzer diffs attached to release PRs when gzipped size grew more than five percent. Tree-shaking friendly ESM dependencies were preferred when adding new libraries."
+  },
+  {
+    "id": "iqtech-react-039",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you coordinate React releases with backend API changes?",
+    "answer": "Contract-first discussions produced typed client models before either side merged breaking changes. Feature flags let frontend ship UI behind toggles while backend endpoints rolled out gradually. Versioned API paths were rare; instead we negotiated additive fields and deprecation windows. Meridian intake API changes included parallel frontend handling for old and new response shapes during migration. Shared Slack channels with backend engineers shortened feedback loops when serializers changed."
+  },
+  {
+    "id": "iqtech-react-040",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you handle drag-and-drop or complex interactions in React?",
+    "answer": "We reached for battle-tested libraries only when native HTML drag was insufficient for accessibility. Meridian schedule reorder used keyboard-accessible controls rather than mouse-only drag handles alone. Complex widgets lived behind ui-core wrappers so client features shared behavior and tests. Pointer event handlers did not replace semantic buttons; actions remained focusable and screen-reader friendly. Performance-sensitive drag previews used CSS transforms instead of React state updates every mousemove."
+  },
+  {
+    "id": "iqtech-react-041",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "What was your approach to default props versus default parameters?",
+    "answer": "TypeScript default parameters in destructuring replaced legacy defaultProps on function components. Optional props documented in interfaces with JSDoc when behavior was non-obvious. DataTable defaults for page size and sort direction matched Atlas operational expectations. We avoided defaulting callback props to no-op functions when omission should be explicit. Storybook controls demonstrated default versus customized prop values for library consumers."
+  },
+  {
+    "id": "iqtech-react-042",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you share types between React apps and API layers?",
+    "answer": "Shared npm packages or generated OpenAPI clients kept DTOs aligned with backend serializers. Manual duplication was allowed only temporarily with TODO tickets linking to generator adoption. Discriminated unions modeled API success and error payloads for safer mutation handlers. Summit portfolio types separated advisor-enriched fields from client-safe read-only views. Type drift was caught in CI when mock fixtures no longer satisfied strict component props."
+  },
+  {
+    "id": "iqtech-react-043",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you handle offline or flaky network scenarios?",
+    "answer": "React Query retry policies used exponential backoff for idempotent GET requests only. Atlas dispatchers saw inline banners when polling failed repeatedly, with manual refresh actions. Mutation forms kept draft state locally until connectivity returned; we warned before navigation away. Service worker offline support was out of scope for admin portals focused on live operational data. Playwright smoke tests simulated offline to verify error messaging on Summit client login."
+  },
+  {
+    "id": "iqtech-react-044",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you approach performance profiling in React 18?",
+    "answer": "Concurrent features were enabled selectively after verifying Suspense boundaries did not flash wrong data. Profiler recordings compared commit times before and after memoization changes on hot routes. Transitions marked non-urgent filter updates on Atlas so typing stayed responsive during heavy tables. We profiled production-like datasets — thousands of rows — not trivial ten-row fixtures alone. Performance fixes required evidence; intuition-based memoization was removed if profiling showed no gain."
+  },
+  {
+    "id": "iqtech-react-045",
+    "company": "iqtech",
+    "category": "React Fundamentals",
+    "client": "shared",
+    "question": "How did you manage concurrent client engagements without mixing code?",
+    "answer": "Separate repos per client shared only the published ui-core package version pin. Branch naming and ticket ids tied commits to Meridian, Atlas, or Summit backlogs explicitly. Contractors were blocked from copy-pasting proprietary client logic across repositories. Weekly syncs shared generic bug fixes upstream into ui-core rather than cherry-picking client hacks. Context switching was easier because React patterns matched even when business domains differed."
+  }
+]

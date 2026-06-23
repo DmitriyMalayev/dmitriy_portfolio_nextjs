@@ -1,0 +1,162 @@
+[
+  {
+    "id": "iqtech-test-001",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "How did you implement Jest unit tests for selectors across IQTech client projects?",
+    "answer": "We implemented Jest unit tests for selectors across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Jest, RTL with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant Jest unit tests for selectors looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-test-002",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "How did you implement React Testing Library form flows across IQTech client projects?",
+    "answer": "We implemented React Testing Library form flows across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Jest, RTL with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured React Testing Library form flows never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant React Testing Library form flows looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-test-003",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "How did you implement mocking React Query in tests across IQTech client projects?",
+    "answer": "We implemented mocking React Query in tests across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Jest, RTL with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured mocking React Query in tests never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant mocking React Query in tests looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-test-004",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "How did you implement permissionMap regression tests across IQTech client projects?",
+    "answer": "We implemented permissionMap regression tests across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Jest, RTL with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured permissionMap regression tests never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant permissionMap regression tests looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-test-005",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "How did you implement ProtectedRoute navigation tests across IQTech client projects?",
+    "answer": "We implemented ProtectedRoute navigation tests across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Jest, RTL with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant ProtectedRoute navigation tests looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-test-006",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "How did you implement Storybook interaction tests across IQTech client projects?",
+    "answer": "We implemented Storybook interaction tests across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Jest, RTL with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant Storybook interaction tests looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-test-007",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "How did you implement CI running tests on pull requests across IQTech client projects?",
+    "answer": "We implemented CI running tests on pull requests across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Jest, RTL with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured CI running tests on pull requests never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant CI running tests on pull requests looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-test-008",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "How did you implement snapshot testing for ui-core across IQTech client projects?",
+    "answer": "We implemented snapshot testing for ui-core across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Jest, RTL with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant snapshot testing for ui-core looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-test-009",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "Why did Jest unit tests for selectors matter across IQTech client projects?",
+    "answer": "Jest unit tests for selectors mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised Jest unit tests for selectors under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant Jest unit tests for selectors looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-test-010",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "Why did React Testing Library form flows matter across IQTech client projects?",
+    "answer": "React Testing Library form flows mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised React Testing Library form flows under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured React Testing Library form flows never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant React Testing Library form flows looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-test-011",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "Why did mocking React Query in tests matter across IQTech client projects?",
+    "answer": "Mocking React Query in tests mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised mocking React Query in tests under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured mocking React Query in tests never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant mocking React Query in tests looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-test-012",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "Why did permissionMap regression tests matter across IQTech client projects?",
+    "answer": "PermissionMap regression tests mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised permissionMap regression tests under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured permissionMap regression tests never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant permissionMap regression tests looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-test-013",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "Why did ProtectedRoute navigation tests matter across IQTech client projects?",
+    "answer": "ProtectedRoute navigation tests mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised ProtectedRoute navigation tests under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant ProtectedRoute navigation tests looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-test-014",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "Why did Storybook interaction tests matter across IQTech client projects?",
+    "answer": "Storybook interaction tests mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised Storybook interaction tests under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant Storybook interaction tests looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-test-015",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "Why did CI running tests on pull requests matter across IQTech client projects?",
+    "answer": "CI running tests on pull requests mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised CI running tests on pull requests under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured CI running tests on pull requests never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant CI running tests on pull requests looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-test-016",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "Why did snapshot testing for ui-core matter across IQTech client projects?",
+    "answer": "Snapshot testing for ui-core mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised snapshot testing for ui-core under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant snapshot testing for ui-core looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-test-017",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for Jest unit tests for selectors across IQTech client projects?",
+    "answer": "The main tradeoff around Jest unit tests for selectors across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant Jest unit tests for selectors looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-test-018",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for React Testing Library form flows across IQTech client projects?",
+    "answer": "The main tradeoff around React Testing Library form flows across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured React Testing Library form flows never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant React Testing Library form flows looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-test-019",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for mocking React Query in tests across IQTech client projects?",
+    "answer": "The main tradeoff around mocking React Query in tests across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured mocking React Query in tests never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant mocking React Query in tests looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-test-020",
+    "company": "iqtech",
+    "category": "Testing",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for permissionMap regression tests across IQTech client projects?",
+    "answer": "The main tradeoff around permissionMap regression tests across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured permissionMap regression tests never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant permissionMap regression tests looked different per client theme but behaved the same under RBAC checks."
+  }
+]

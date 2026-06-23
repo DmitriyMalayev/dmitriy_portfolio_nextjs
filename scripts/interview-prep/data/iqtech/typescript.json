@@ -1,0 +1,202 @@
+[
+  {
+    "id": "iqtech-ts-001",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "How did you implement strict TypeScript configuration across IQTech client projects?",
+    "answer": "We implemented strict TypeScript configuration across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on TypeScript, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant strict TypeScript configuration looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-ts-002",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "How did you implement typed React component props across IQTech client projects?",
+    "answer": "We implemented typed React component props across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on TypeScript, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant typed React component props looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-ts-003",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "How did you implement generic DataTable column definitions across IQTech client projects?",
+    "answer": "We implemented generic DataTable column definitions across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on TypeScript, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant generic DataTable column definitions looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-ts-004",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "How did you implement discriminated unions for API responses across IQTech client projects?",
+    "answer": "We implemented discriminated unions for API responses across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on TypeScript, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant discriminated unions for API responses looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-ts-005",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "How did you implement typing Redux hooks with RootState across IQTech client projects?",
+    "answer": "We implemented typing Redux hooks with RootState across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on TypeScript, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant typing Redux hooks with RootState looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-ts-006",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "How did you implement enum versus union for role names across IQTech client projects?",
+    "answer": "We implemented enum versus union for role names across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on TypeScript, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant enum versus union for role names looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-ts-007",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "How did you implement type guards on JWT payload parsing across IQTech client projects?",
+    "answer": "We implemented type guards on JWT payload parsing across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on TypeScript, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant type guards on JWT payload parsing looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-ts-008",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "How did you implement shared API types package across IQTech client projects?",
+    "answer": "We implemented shared API types package across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on TypeScript, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant shared API types package looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-ts-009",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "How did you implement  narrowing on permission strings across IQTech client projects?",
+    "answer": "We implemented  narrowing on permission strings across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on TypeScript, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant  narrowing on permission strings looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-ts-010",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "How did you implement utility types for form schemas across IQTech client projects?",
+    "answer": "We implemented utility types for form schemas across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on TypeScript, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured utility types for form schemas never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant utility types for form schemas looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-ts-011",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "Why did strict TypeScript configuration matter across IQTech client projects?",
+    "answer": "Strict TypeScript configuration mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised strict TypeScript configuration under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured strict TypeScript configuration never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant strict TypeScript configuration looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-ts-012",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "Why did typed React component props matter across IQTech client projects?",
+    "answer": "Typed React component props mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised typed React component props under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured typed React component props never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant typed React component props looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-ts-013",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "Why did generic DataTable column definitions matter across IQTech client projects?",
+    "answer": "Generic DataTable column definitions mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised generic DataTable column definitions under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant generic DataTable column definitions looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-ts-014",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "Why did discriminated unions for API responses matter across IQTech client projects?",
+    "answer": "Discriminated unions for API responses mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised discriminated unions for API responses under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant discriminated unions for API responses looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-ts-015",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "Why did typing Redux hooks with RootState matter across IQTech client projects?",
+    "answer": "Typing Redux hooks with RootState mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised typing Redux hooks with RootState under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured typing Redux hooks with RootState never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant typing Redux hooks with RootState looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-ts-016",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "Why did enum versus union for role names matter across IQTech client projects?",
+    "answer": "Enum versus union for role names mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised enum versus union for role names under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured enum versus union for role names never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant enum versus union for role names looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-ts-017",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "Why did type guards on JWT payload parsing matter across IQTech client projects?",
+    "answer": "Type guards on JWT payload parsing mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised type guards on JWT payload parsing under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured type guards on JWT payload parsing never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant type guards on JWT payload parsing looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-ts-018",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "Why did shared API types package matter across IQTech client projects?",
+    "answer": "Shared API types package mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised shared API types package under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured shared API types package never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant shared API types package looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-ts-019",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "Why did  narrowing on permission strings matter across IQTech client projects?",
+    "answer": "Narrowing on permission strings mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised  narrowing on permission strings under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured  narrowing on permission strings never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant  narrowing on permission strings looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-ts-020",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "Why did utility types for form schemas matter across IQTech client projects?",
+    "answer": "Utility types for form schemas mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised utility types for form schemas under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant utility types for form schemas looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-ts-021",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for strict TypeScript configuration across IQTech client projects?",
+    "answer": "The main tradeoff around strict TypeScript configuration across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant strict TypeScript configuration looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-ts-022",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for typed React component props across IQTech client projects?",
+    "answer": "The main tradeoff around typed React component props across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant typed React component props looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-ts-023",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for generic DataTable column definitions across IQTech client projects?",
+    "answer": "The main tradeoff around generic DataTable column definitions across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured generic DataTable column definitions never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant generic DataTable column definitions looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-ts-024",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for discriminated unions for API responses across IQTech client projects?",
+    "answer": "The main tradeoff around discriminated unions for API responses across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured discriminated unions for API responses never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant discriminated unions for API responses looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-ts-025",
+    "company": "iqtech",
+    "category": "TypeScript",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for typing Redux hooks with RootState across IQTech client projects?",
+    "answer": "The main tradeoff around typing Redux hooks with RootState across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant typing Redux hooks with RootState looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  }
+]

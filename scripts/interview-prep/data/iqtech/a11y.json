@@ -1,0 +1,122 @@
+[
+  {
+    "id": "iqtech-a11y-001",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "How did you implement keyboard navigation in DataTable across IQTech client projects?",
+    "answer": "We implemented keyboard navigation in DataTable across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React, ARIA with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant keyboard navigation in DataTable looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-a11y-002",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "How did you implement ARIA labels on form fields across IQTech client projects?",
+    "answer": "We implemented ARIA labels on form fields across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React, ARIA with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured ARIA labels on form fields never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant ARIA labels on form fields looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-a11y-003",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "How did you implement focus management in modals across IQTech client projects?",
+    "answer": "We implemented focus management in modals across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React, ARIA with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant focus management in modals looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-a11y-004",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "How did you implement color contrast for status badges across IQTech client projects?",
+    "answer": "We implemented color contrast for status badges across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React, ARIA with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant color contrast for status badges looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-a11y-005",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "How did you implement screen reader announcements for toasts across IQTech client projects?",
+    "answer": "We implemented screen reader announcements for toasts across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React, ARIA with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured screen reader announcements for toasts never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant screen reader announcements for toasts looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-a11y-006",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "How did you implement skip links on dashboard pages across IQTech client projects?",
+    "answer": "We implemented skip links on dashboard pages across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React, ARIA with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant skip links on dashboard pages looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-a11y-007",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "How did you implement responsive layouts for tablets across IQTech client projects?",
+    "answer": "We implemented responsive layouts for tablets across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React, ARIA with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured responsive layouts for tablets never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant responsive layouts for tablets looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-a11y-008",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "Why did keyboard navigation in DataTable matter across IQTech client projects?",
+    "answer": "Keyboard navigation in DataTable mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised keyboard navigation in DataTable under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant keyboard navigation in DataTable looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-a11y-009",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "Why did ARIA labels on form fields matter across IQTech client projects?",
+    "answer": "ARIA labels on form fields mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised ARIA labels on form fields under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant ARIA labels on form fields looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-a11y-010",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "Why did focus management in modals matter across IQTech client projects?",
+    "answer": "Focus management in modals mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised focus management in modals under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured focus management in modals never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant focus management in modals looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-a11y-011",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "Why did color contrast for status badges matter across IQTech client projects?",
+    "answer": "Color contrast for status badges mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised color contrast for status badges under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant color contrast for status badges looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-a11y-012",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "Why did screen reader announcements for toasts matter across IQTech client projects?",
+    "answer": "Screen reader announcements for toasts mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised screen reader announcements for toasts under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant screen reader announcements for toasts looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-a11y-013",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "Why did skip links on dashboard pages matter across IQTech client projects?",
+    "answer": "Skip links on dashboard pages mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised skip links on dashboard pages under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured skip links on dashboard pages never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant skip links on dashboard pages looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-a11y-014",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "Why did responsive layouts for tablets matter across IQTech client projects?",
+    "answer": "Responsive layouts for tablets mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised responsive layouts for tablets under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant responsive layouts for tablets looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-a11y-015",
+    "company": "iqtech",
+    "category": "Accessibility",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for keyboard navigation in DataTable across IQTech client projects?",
+    "answer": "The main tradeoff around keyboard navigation in DataTable across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured keyboard navigation in DataTable never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant keyboard navigation in DataTable looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  }
+]

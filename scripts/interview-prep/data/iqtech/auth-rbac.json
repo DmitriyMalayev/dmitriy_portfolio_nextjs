@@ -1,0 +1,322 @@
+[
+  {
+    "id": "iqtech-auth-001",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "How did you implement JWT access and refresh token flow across IQTech client projects?",
+    "answer": "We implemented JWT access and refresh token flow across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on JWT, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured JWT access and refresh token flow never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant JWT access and refresh token flow looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-auth-002",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "How did you implement ProtectedRoute wrapper across IQTech client projects?",
+    "answer": "We implemented ProtectedRoute wrapper across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on JWT, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant ProtectedRoute wrapper looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-auth-003",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "How did you implement permissionMap RBAC configuration across IQTech client projects?",
+    "answer": "We implemented permissionMap RBAC configuration across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on JWT, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant permissionMap RBAC configuration looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-auth-004",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "How did you implement CanAccess render guard component across IQTech client projects?",
+    "answer": "We implemented CanAccess render guard component across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on JWT, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant CanAccess render guard component looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-auth-005",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "How did you implement Axios interceptors for 401 handling across IQTech client projects?",
+    "answer": "We implemented Axios interceptors for 401 handling across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on JWT, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured Axios interceptors for 401 handling never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant Axios interceptors for 401 handling looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-auth-006",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "How did you implement role-based navigation menus across IQTech client projects?",
+    "answer": "We implemented role-based navigation menus across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on JWT, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant role-based navigation menus looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-auth-007",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "How did you implement session timeout warnings across IQTech client projects?",
+    "answer": "We implemented session timeout warnings across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on JWT, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured session timeout warnings never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant session timeout warnings looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-auth-008",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "How did you implement logout and token revocation across IQTech client projects?",
+    "answer": "We implemented logout and token revocation across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on JWT, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant logout and token revocation looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-auth-009",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "How did you implement MFA challenge screen on Summit across IQTech client projects?",
+    "answer": "We implemented MFA challenge screen on Summit across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on JWT, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant MFA challenge screen on Summit looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-auth-010",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "How did you implement advisor versus client route separation across IQTech client projects?",
+    "answer": "We implemented advisor versus client route separation across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on JWT, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant advisor versus client route separation looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-auth-011",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Why did JWT access and refresh token flow matter across IQTech client projects?",
+    "answer": "JWT access and refresh token flow mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised JWT access and refresh token flow under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant JWT access and refresh token flow looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-auth-012",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Why did ProtectedRoute wrapper matter across IQTech client projects?",
+    "answer": "ProtectedRoute wrapper mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised ProtectedRoute wrapper under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant ProtectedRoute wrapper looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-auth-013",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Why did permissionMap RBAC configuration matter across IQTech client projects?",
+    "answer": "PermissionMap RBAC configuration mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised permissionMap RBAC configuration under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured permissionMap RBAC configuration never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant permissionMap RBAC configuration looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-auth-014",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Why did CanAccess render guard component matter across IQTech client projects?",
+    "answer": "CanAccess render guard component mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised CanAccess render guard component under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant CanAccess render guard component looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-auth-015",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Why did Axios interceptors for 401 handling matter across IQTech client projects?",
+    "answer": "Axios interceptors for 401 handling mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised Axios interceptors for 401 handling under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant Axios interceptors for 401 handling looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-auth-016",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Why did role-based navigation menus matter across IQTech client projects?",
+    "answer": "Role-based navigation menus mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised role-based navigation menus under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant role-based navigation menus looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-auth-017",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Why did session timeout warnings matter across IQTech client projects?",
+    "answer": "Session timeout warnings mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised session timeout warnings under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant session timeout warnings looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-auth-018",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Why did logout and token revocation matter across IQTech client projects?",
+    "answer": "Logout and token revocation mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised logout and token revocation under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured logout and token revocation never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant logout and token revocation looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-auth-019",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Why did MFA challenge screen on Summit matter across IQTech client projects?",
+    "answer": "MFA challenge screen on Summit mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised MFA challenge screen on Summit under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant MFA challenge screen on Summit looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-auth-020",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Why did advisor versus client route separation matter across IQTech client projects?",
+    "answer": "Advisor versus client route separation mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised advisor versus client route separation under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant advisor versus client route separation looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-auth-021",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for JWT access and refresh token flow across IQTech client projects?",
+    "answer": "The main tradeoff around JWT access and refresh token flow across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant JWT access and refresh token flow looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-auth-022",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for ProtectedRoute wrapper across IQTech client projects?",
+    "answer": "The main tradeoff around ProtectedRoute wrapper across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured ProtectedRoute wrapper never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant ProtectedRoute wrapper looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-auth-023",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for permissionMap RBAC configuration across IQTech client projects?",
+    "answer": "The main tradeoff around permissionMap RBAC configuration across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant permissionMap RBAC configuration looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-auth-024",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for CanAccess render guard component across IQTech client projects?",
+    "answer": "The main tradeoff around CanAccess render guard component across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured CanAccess render guard component never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant CanAccess render guard component looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-auth-025",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for Axios interceptors for 401 handling across IQTech client projects?",
+    "answer": "The main tradeoff around Axios interceptors for 401 handling across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant Axios interceptors for 401 handling looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-auth-026",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for role-based navigation menus across IQTech client projects?",
+    "answer": "The main tradeoff around role-based navigation menus across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured role-based navigation menus never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant role-based navigation menus looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-auth-027",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for session timeout warnings across IQTech client projects?",
+    "answer": "The main tradeoff around session timeout warnings across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant session timeout warnings looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-auth-028",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for logout and token revocation across IQTech client projects?",
+    "answer": "The main tradeoff around logout and token revocation across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant logout and token revocation looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-auth-029",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for MFA challenge screen on Summit across IQTech client projects?",
+    "answer": "The main tradeoff around MFA challenge screen on Summit across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured MFA challenge screen on Summit never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant MFA challenge screen on Summit looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-auth-030",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for advisor versus client route separation across IQTech client projects?",
+    "answer": "The main tradeoff around advisor versus client route separation across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured advisor versus client route separation never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant advisor versus client route separation looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-auth-031",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Explain JWT access and refresh token flow across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe JWT access and refresh token flow across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Protected routes and JWT refresh handling ensured JWT access and refresh token flow never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant JWT access and refresh token flow looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-auth-032",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Explain ProtectedRoute wrapper across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe ProtectedRoute wrapper across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant ProtectedRoute wrapper looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-auth-033",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Explain permissionMap RBAC configuration across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe permissionMap RBAC configuration across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant permissionMap RBAC configuration looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-auth-034",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Explain CanAccess render guard component across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe CanAccess render guard component across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant CanAccess render guard component looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-auth-035",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Explain Axios interceptors for 401 handling across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe Axios interceptors for 401 handling across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Protected routes and JWT refresh handling ensured Axios interceptors for 401 handling never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant Axios interceptors for 401 handling looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-auth-036",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Explain role-based navigation menus across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe role-based navigation menus across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant role-based navigation menus looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-auth-037",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Explain session timeout warnings across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe session timeout warnings across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Protected routes and JWT refresh handling ensured session timeout warnings never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant session timeout warnings looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-auth-038",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Explain logout and token revocation across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe logout and token revocation across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant logout and token revocation looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-auth-039",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Explain MFA challenge screen on Summit across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe MFA challenge screen on Summit across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant MFA challenge screen on Summit looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-auth-040",
+    "company": "iqtech",
+    "category": "Auth & RBAC",
+    "client": "shared",
+    "question": "Explain advisor versus client route separation across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe advisor versus client route separation across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant advisor versus client route separation looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  }
+]

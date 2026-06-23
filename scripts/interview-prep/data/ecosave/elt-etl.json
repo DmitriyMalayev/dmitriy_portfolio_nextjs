@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ecosave-elt-001",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "How did you implement ELT pipeline test harness on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented ELT pipeline test harness on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Pipeline hardening raised uptime to ninety-nine point eight percent and cut data errors about forty percent. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-elt-002",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "How did you implement fixture data for regression suites on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented fixture data for regression suites on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Pipeline hardening raised uptime to ninety-nine point eight percent and cut data errors about forty percent. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on fixture data for regression suites. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-elt-003",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "How did you implement ninety-nine point eight percent uptime goal on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented ninety-nine point eight percent uptime goal on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Pipeline hardening raised uptime to ninety-nine point eight percent and cut data errors about forty percent. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on ninety-nine point eight percent uptime goal. Stakeholders saved an estimated twenty hours per cycle once GRI reports were automated."
+  },
+  {
+    "id": "ecosave-elt-004",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "How did you implement forty percent error reduction metrics on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented forty percent error reduction metrics on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Pipeline hardening raised uptime to ninety-nine point eight percent and cut data errors about forty percent. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on forty percent error reduction metrics."
+  },
+  {
+    "id": "ecosave-elt-005",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "How did you implement idempotent load steps on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented idempotent load steps on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Pipeline hardening raised uptime to ninety-nine point eight percent and cut data errors about forty percent. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on idempotent load steps."
+  },
+  {
+    "id": "ecosave-elt-006",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "How did you implement data reconciliation reports on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented data reconciliation reports on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Pipeline hardening raised uptime to ninety-nine point eight percent and cut data errors about forty percent. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on data reconciliation reports. These changes supported ninety-nine point eight percent uptime across reporting seasons."
+  },
+  {
+    "id": "ecosave-elt-007",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "How did you implement alerting on failed batches on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented alerting on failed batches on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Pipeline hardening raised uptime to ninety-nine point eight percent and cut data errors about forty percent. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-elt-008",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "How did you implement rollback procedures for bad loads on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented rollback procedures for bad loads on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Pipeline hardening raised uptime to ninety-nine point eight percent and cut data errors about forty percent. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on rollback procedures for bad loads. Stakeholders saved an estimated twenty hours per cycle once GRI reports were automated."
+  },
+  {
+    "id": "ecosave-elt-009",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "How did you implement monitoring dashboard for ops on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented monitoring dashboard for ops on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Pipeline hardening raised uptime to ninety-nine point eight percent and cut data errors about forty percent. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on monitoring dashboard for ops. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-elt-010",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "How did you implement CI gates before production promotion on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented CI gates before production promotion on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Pipeline hardening raised uptime to ninety-nine point eight percent and cut data errors about forty percent. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on CI gates before production promotion."
+  },
+  {
+    "id": "ecosave-elt-011",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "Why did ELT pipeline test harness matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. ELT pipeline test harness mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to ELT pipeline test harness. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on ELT pipeline test harness. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-elt-012",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "Why did fixture data for regression suites matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Fixture data for regression suites mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to fixture data for regression suites. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-elt-013",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "Why did ninety-nine point eight percent uptime goal matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Ninety-nine point eight percent uptime goal mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to ninety-nine point eight percent uptime goal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on ninety-nine point eight percent uptime goal. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-elt-014",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "Why did forty percent error reduction metrics matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Forty percent error reduction metrics mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to forty percent error reduction metrics. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on forty percent error reduction metrics. Enterprise clients could trust KPI dashboards because validation caught bad uploads before they propagated."
+  },
+  {
+    "id": "ecosave-elt-015",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "Why did idempotent load steps matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Idempotent load steps mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to idempotent load steps. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on idempotent load steps."
+  },
+  {
+    "id": "ecosave-elt-016",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "Why did data reconciliation reports matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Data reconciliation reports mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to data reconciliation reports. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on data reconciliation reports."
+  },
+  {
+    "id": "ecosave-elt-017",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "Why did alerting on failed batches matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Alerting on failed batches mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to alerting on failed batches. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on alerting on failed batches. Stakeholders saved an estimated twenty hours per cycle once GRI reports were automated."
+  },
+  {
+    "id": "ecosave-elt-018",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "Why did rollback procedures for bad loads matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Rollback procedures for bad loads mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to rollback procedures for bad loads. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-elt-019",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "Why did monitoring dashboard for ops matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Monitoring dashboard for ops mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to monitoring dashboard for ops. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on monitoring dashboard for ops. Enterprise clients could trust KPI dashboards because validation caught bad uploads before they propagated."
+  },
+  {
+    "id": "ecosave-elt-020",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "Why did CI gates before production promotion matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. CI gates before production promotion mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to CI gates before production promotion. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on CI gates before production promotion. These changes supported ninety-nine point eight percent uptime across reporting seasons."
+  },
+  {
+    "id": "ecosave-elt-021",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "What tradeoffs did you weigh for ELT pipeline test harness on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on ELT pipeline test harness was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on ELT pipeline test harness."
+  },
+  {
+    "id": "ecosave-elt-022",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "What tradeoffs did you weigh for fixture data for regression suites on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on fixture data for regression suites was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on fixture data for regression suites. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-elt-023",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "What tradeoffs did you weigh for ninety-nine point eight percent uptime goal on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on ninety-nine point eight percent uptime goal was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-elt-024",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "What tradeoffs did you weigh for forty percent error reduction metrics on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on forty percent error reduction metrics was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on forty percent error reduction metrics. These changes supported ninety-nine point eight percent uptime across reporting seasons."
+  },
+  {
+    "id": "ecosave-elt-025",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "What tradeoffs did you weigh for idempotent load steps on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on idempotent load steps was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on idempotent load steps. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-elt-026",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "What tradeoffs did you weigh for data reconciliation reports on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on data reconciliation reports was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on data reconciliation reports."
+  },
+  {
+    "id": "ecosave-elt-027",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "What tradeoffs did you weigh for alerting on failed batches on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on alerting on failed batches was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on alerting on failed batches."
+  },
+  {
+    "id": "ecosave-elt-028",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "What tradeoffs did you weigh for rollback procedures for bad loads on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on rollback procedures for bad loads was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on rollback procedures for bad loads. Enterprise clients could trust KPI dashboards because validation caught bad uploads before they propagated."
+  },
+  {
+    "id": "ecosave-elt-029",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "What tradeoffs did you weigh for monitoring dashboard for ops on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on monitoring dashboard for ops was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-elt-030",
+    "company": "ecosave",
+    "category": "ELT/ETL Pipeline",
+    "client": null,
+    "question": "What tradeoffs did you weigh for CI gates before production promotion on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on CI gates before production promotion was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on CI gates before production promotion. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  }
+]

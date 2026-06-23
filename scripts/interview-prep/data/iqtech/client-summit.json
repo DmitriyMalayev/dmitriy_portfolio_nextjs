@@ -1,0 +1,202 @@
+[
+  {
+    "id": "iqtech-summit-001",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "How did you implement advisor client list dashboard on the Summit Capital Advisors engagement?",
+    "answer": "We implemented advisor client list dashboard on the Summit Capital Advisors engagement by extending patterns already proven in @iqtech/ui-core. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant advisor client list dashboard looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-summit-002",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "How did you implement AUM summary cards on the Summit Capital Advisors engagement?",
+    "answer": "We implemented AUM summary cards on the Summit Capital Advisors engagement by extending patterns already proven in @iqtech/ui-core. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Protected routes and JWT refresh handling ensured AUM summary cards never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant AUM summary cards looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-summit-003",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "How did you implement report publish wizard on the Summit Capital Advisors engagement?",
+    "answer": "We implemented report publish wizard on the Summit Capital Advisors engagement by extending patterns already proven in @iqtech/ui-core. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant report publish wizard looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-summit-004",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "How did you implement client read-only portfolio view on the Summit Capital Advisors engagement?",
+    "answer": "We implemented client read-only portfolio view on the Summit Capital Advisors engagement by extending patterns already proven in @iqtech/ui-core. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant client read-only portfolio view looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-summit-005",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "How did you implement document vault uploads on the Summit Capital Advisors engagement?",
+    "answer": "We implemented document vault uploads on the Summit Capital Advisors engagement by extending patterns already proven in @iqtech/ui-core. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant document vault uploads looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-summit-006",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "How did you implement PDF statement viewer on the Summit Capital Advisors engagement?",
+    "answer": "We implemented PDF statement viewer on the Summit Capital Advisors engagement by extending patterns already proven in @iqtech/ui-core. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant PDF statement viewer looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-summit-007",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "How did you implement compliance audit export on the Summit Capital Advisors engagement?",
+    "answer": "We implemented compliance audit export on the Summit Capital Advisors engagement by extending patterns already proven in @iqtech/ui-core. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant compliance audit export looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-summit-008",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "How did you implement tax document season workflow on the Summit Capital Advisors engagement?",
+    "answer": "We implemented tax document season workflow on the Summit Capital Advisors engagement by extending patterns already proven in @iqtech/ui-core. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant tax document season workflow looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-summit-009",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "How did you implement MFA login challenge UI on the Summit Capital Advisors engagement?",
+    "answer": "We implemented MFA login challenge UI on the Summit Capital Advisors engagement by extending patterns already proven in @iqtech/ui-core. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Protected routes and JWT refresh handling ensured MFA login challenge UI never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant MFA login challenge UI looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-summit-010",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "How did you implement signed download URLs on the Summit Capital Advisors engagement?",
+    "answer": "We implemented signed download URLs on the Summit Capital Advisors engagement by extending patterns already proven in @iqtech/ui-core. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant signed download URLs looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-summit-011",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "Why did advisor client list dashboard matter on the Summit Capital Advisors engagement?",
+    "answer": "Advisor client list dashboard mattered on the Summit Capital Advisors engagement because enterprise users expected predictable, permission-aware UX every session. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant advisor client list dashboard looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-summit-012",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "Why did AUM summary cards matter on the Summit Capital Advisors engagement?",
+    "answer": "AUM summary cards mattered on the Summit Capital Advisors engagement because enterprise users expected predictable, permission-aware UX every session. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant AUM summary cards looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-summit-013",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "Why did report publish wizard matter on the Summit Capital Advisors engagement?",
+    "answer": "Report publish wizard mattered on the Summit Capital Advisors engagement because enterprise users expected predictable, permission-aware UX every session. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant report publish wizard looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-summit-014",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "Why did client read-only portfolio view matter on the Summit Capital Advisors engagement?",
+    "answer": "Client read-only portfolio view mattered on the Summit Capital Advisors engagement because enterprise users expected predictable, permission-aware UX every session. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Protected routes and JWT refresh handling ensured client read-only portfolio view never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant client read-only portfolio view looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-summit-015",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "Why did document vault uploads matter on the Summit Capital Advisors engagement?",
+    "answer": "Document vault uploads mattered on the Summit Capital Advisors engagement because enterprise users expected predictable, permission-aware UX every session. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant document vault uploads looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-summit-016",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "Why did PDF statement viewer matter on the Summit Capital Advisors engagement?",
+    "answer": "PDF statement viewer mattered on the Summit Capital Advisors engagement because enterprise users expected predictable, permission-aware UX every session. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Protected routes and JWT refresh handling ensured PDF statement viewer never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant PDF statement viewer looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-summit-017",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "Why did compliance audit export matter on the Summit Capital Advisors engagement?",
+    "answer": "Compliance audit export mattered on the Summit Capital Advisors engagement because enterprise users expected predictable, permission-aware UX every session. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant compliance audit export looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-summit-018",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "Why did tax document season workflow matter on the Summit Capital Advisors engagement?",
+    "answer": "Tax document season workflow mattered on the Summit Capital Advisors engagement because enterprise users expected predictable, permission-aware UX every session. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant tax document season workflow looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-summit-019",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "Why did MFA login challenge UI matter on the Summit Capital Advisors engagement?",
+    "answer": "MFA login challenge UI mattered on the Summit Capital Advisors engagement because enterprise users expected predictable, permission-aware UX every session. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant MFA login challenge UI looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-summit-020",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "Why did signed download URLs matter on the Summit Capital Advisors engagement?",
+    "answer": "Signed download URLs mattered on the Summit Capital Advisors engagement because enterprise users expected predictable, permission-aware UX every session. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant signed download URLs looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-summit-021",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "What tradeoffs did you weigh for advisor client list dashboard on the Summit Capital Advisors engagement?",
+    "answer": "The main tradeoff around advisor client list dashboard on the Summit Capital Advisors engagement was speed of delivery versus long-term maintainability across three client codebases. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Protected routes and JWT refresh handling ensured advisor client list dashboard never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant advisor client list dashboard looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-summit-022",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "What tradeoffs did you weigh for AUM summary cards on the Summit Capital Advisors engagement?",
+    "answer": "The main tradeoff around AUM summary cards on the Summit Capital Advisors engagement was speed of delivery versus long-term maintainability across three client codebases. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant AUM summary cards looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-summit-023",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "What tradeoffs did you weigh for report publish wizard on the Summit Capital Advisors engagement?",
+    "answer": "The main tradeoff around report publish wizard on the Summit Capital Advisors engagement was speed of delivery versus long-term maintainability across three client codebases. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Protected routes and JWT refresh handling ensured report publish wizard never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant report publish wizard looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-summit-024",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "What tradeoffs did you weigh for client read-only portfolio view on the Summit Capital Advisors engagement?",
+    "answer": "The main tradeoff around client read-only portfolio view on the Summit Capital Advisors engagement was speed of delivery versus long-term maintainability across three client codebases. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Shared @iqtech/ui-core components meant client read-only portfolio view looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-summit-025",
+    "company": "iqtech",
+    "category": "Summit Capital Advisors",
+    "client": "summit",
+    "question": "What tradeoffs did you weigh for document vault uploads on the Summit Capital Advisors engagement?",
+    "answer": "The main tradeoff around document vault uploads on the Summit Capital Advisors engagement was speed of delivery versus long-term maintainability across three client codebases. Summit Capital required stricter JWT refresh handling and separate advisor versus client route trees. Protected routes and JWT refresh handling ensured document vault uploads never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant document vault uploads looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  }
+]

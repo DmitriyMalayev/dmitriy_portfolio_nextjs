@@ -1,0 +1,282 @@
+[
+  {
+    "id": "iqtech-redux-001",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "How did you implement Redux Toolkit auth slice across IQTech client projects?",
+    "answer": "We implemented Redux Toolkit auth slice across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Redux Toolkit with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured Redux Toolkit auth slice never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant Redux Toolkit auth slice looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-redux-002",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "How did you implement normalized entity caches in Redux across IQTech client projects?",
+    "answer": "We implemented normalized entity caches in Redux across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Redux Toolkit with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant normalized entity caches in Redux looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-redux-003",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "How did you implement middleware for API error toasts across IQTech client projects?",
+    "answer": "We implemented middleware for API error toasts across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Redux Toolkit with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured middleware for API error toasts never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant middleware for API error toasts looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-redux-004",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "How did you implement selectors with createSelector across IQTech client projects?",
+    "answer": "We implemented selectors with createSelector across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Redux Toolkit with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant selectors with createSelector looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-redux-005",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "How did you implement UI slice for sidebar and theme across IQTech client projects?",
+    "answer": "We implemented UI slice for sidebar and theme across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Redux Toolkit with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant UI slice for sidebar and theme looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-redux-006",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "How did you implement hydrating auth state on refresh across IQTech client projects?",
+    "answer": "We implemented hydrating auth state on refresh across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Redux Toolkit with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured hydrating auth state on refresh never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant hydrating auth state on refresh looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-redux-007",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "How did you implement dispatch patterns in DataTable bulk actions across IQTech client projects?",
+    "answer": "We implemented dispatch patterns in DataTable bulk actions across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Redux Toolkit with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant dispatch patterns in DataTable bulk actions looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-redux-008",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "How did you implement DevTools usage during bug triage across IQTech client projects?",
+    "answer": "We implemented DevTools usage during bug triage across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Redux Toolkit with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured DevTools usage during bug triage never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant DevTools usage during bug triage looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-redux-009",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "How did you implement splitting reducers by feature domain across IQTech client projects?",
+    "answer": "We implemented splitting reducers by feature domain across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Redux Toolkit with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant splitting reducers by feature domain looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-redux-010",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "How did you implement avoiding duplicate server state in Redux across IQTech client projects?",
+    "answer": "We implemented avoiding duplicate server state in Redux across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Redux Toolkit with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant avoiding duplicate server state in Redux looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-redux-011",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Why did Redux Toolkit auth slice matter across IQTech client projects?",
+    "answer": "Redux Toolkit auth slice mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised Redux Toolkit auth slice under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant Redux Toolkit auth slice looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-redux-012",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Why did normalized entity caches in Redux matter across IQTech client projects?",
+    "answer": "Normalized entity caches in Redux mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised normalized entity caches in Redux under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured normalized entity caches in Redux never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant normalized entity caches in Redux looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-redux-013",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Why did middleware for API error toasts matter across IQTech client projects?",
+    "answer": "Middleware for API error toasts mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised middleware for API error toasts under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant middleware for API error toasts looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-redux-014",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Why did selectors with createSelector matter across IQTech client projects?",
+    "answer": "Selectors with createSelector mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised selectors with createSelector under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant selectors with createSelector looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-redux-015",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Why did UI slice for sidebar and theme matter across IQTech client projects?",
+    "answer": "UI slice for sidebar and theme mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised UI slice for sidebar and theme under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured UI slice for sidebar and theme never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant UI slice for sidebar and theme looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-redux-016",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Why did hydrating auth state on refresh matter across IQTech client projects?",
+    "answer": "Hydrating auth state on refresh mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised hydrating auth state on refresh under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant hydrating auth state on refresh looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-redux-017",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Why did dispatch patterns in DataTable bulk actions matter across IQTech client projects?",
+    "answer": "Dispatch patterns in DataTable bulk actions mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised dispatch patterns in DataTable bulk actions under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured dispatch patterns in DataTable bulk actions never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant dispatch patterns in DataTable bulk actions looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-redux-018",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Why did DevTools usage during bug triage matter across IQTech client projects?",
+    "answer": "DevTools usage during bug triage mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised DevTools usage during bug triage under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant DevTools usage during bug triage looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-redux-019",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Why did splitting reducers by feature domain matter across IQTech client projects?",
+    "answer": "Splitting reducers by feature domain mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised splitting reducers by feature domain under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant splitting reducers by feature domain looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-redux-020",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Why did avoiding duplicate server state in Redux matter across IQTech client projects?",
+    "answer": "Avoiding duplicate server state in Redux mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised avoiding duplicate server state in Redux under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured avoiding duplicate server state in Redux never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant avoiding duplicate server state in Redux looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-redux-021",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for Redux Toolkit auth slice across IQTech client projects?",
+    "answer": "The main tradeoff around Redux Toolkit auth slice across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant Redux Toolkit auth slice looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-redux-022",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for normalized entity caches in Redux across IQTech client projects?",
+    "answer": "The main tradeoff around normalized entity caches in Redux across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant normalized entity caches in Redux looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-redux-023",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for middleware for API error toasts across IQTech client projects?",
+    "answer": "The main tradeoff around middleware for API error toasts across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant middleware for API error toasts looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-redux-024",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for selectors with createSelector across IQTech client projects?",
+    "answer": "The main tradeoff around selectors with createSelector across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured selectors with createSelector never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant selectors with createSelector looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-redux-025",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for UI slice for sidebar and theme across IQTech client projects?",
+    "answer": "The main tradeoff around UI slice for sidebar and theme across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant UI slice for sidebar and theme looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-redux-026",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for hydrating auth state on refresh across IQTech client projects?",
+    "answer": "The main tradeoff around hydrating auth state on refresh across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant hydrating auth state on refresh looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-redux-027",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for dispatch patterns in DataTable bulk actions across IQTech client projects?",
+    "answer": "The main tradeoff around dispatch patterns in DataTable bulk actions across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant dispatch patterns in DataTable bulk actions looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-redux-028",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for DevTools usage during bug triage across IQTech client projects?",
+    "answer": "The main tradeoff around DevTools usage during bug triage across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant DevTools usage during bug triage looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-redux-029",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for splitting reducers by feature domain across IQTech client projects?",
+    "answer": "The main tradeoff around splitting reducers by feature domain across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured splitting reducers by feature domain never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant splitting reducers by feature domain looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-redux-030",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for avoiding duplicate server state in Redux across IQTech client projects?",
+    "answer": "The main tradeoff around avoiding duplicate server state in Redux across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant avoiding duplicate server state in Redux looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-redux-031",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Explain Redux Toolkit auth slice across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe Redux Toolkit auth slice across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Protected routes and JWT refresh handling ensured Redux Toolkit auth slice never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant Redux Toolkit auth slice looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-redux-032",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Explain normalized entity caches in Redux across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe normalized entity caches in Redux across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant normalized entity caches in Redux looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-redux-033",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Explain middleware for API error toasts across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe middleware for API error toasts across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Protected routes and JWT refresh handling ensured middleware for API error toasts never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant middleware for API error toasts looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-redux-034",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Explain selectors with createSelector across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe selectors with createSelector across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant selectors with createSelector looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-redux-035",
+    "company": "iqtech",
+    "category": "Redux",
+    "client": "shared",
+    "question": "Explain UI slice for sidebar and theme across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe UI slice for sidebar and theme across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant UI slice for sidebar and theme looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  }
+]

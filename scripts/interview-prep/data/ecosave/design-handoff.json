@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ecosave-design-001",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "How did you implement Figma component library alignment on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented Figma component library alignment on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Figma and Draw.io workflows with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-design-002",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "How did you implement Draw.io ELT workflow diagrams on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented Draw.io ELT workflow diagrams on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Figma and Draw.io workflows with explicit API contracts so frontend and Kotlin services could evolve independently. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on Draw.io ELT workflow diagrams. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-design-003",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "How did you implement design critique sessions on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented design critique sessions on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Figma and Draw.io workflows with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on design critique sessions. Stakeholders saved an estimated twenty hours per cycle once GRI reports were automated."
+  },
+  {
+    "id": "ecosave-design-004",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "How did you implement handoff annotations for engineers on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented handoff annotations for engineers on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Figma and Draw.io workflows with explicit API contracts so frontend and Kotlin services could evolve independently. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on handoff annotations for engineers."
+  },
+  {
+    "id": "ecosave-design-005",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "How did you implement responsive breakpoint decisions on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented responsive breakpoint decisions on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Figma and Draw.io workflows with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on responsive breakpoint decisions."
+  },
+  {
+    "id": "ecosave-design-006",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "How did you implement reducing rework from mockups on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented reducing rework from mockups on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Figma and Draw.io workflows with explicit API contracts so frontend and Kotlin services could evolve independently. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on reducing rework from mockups. These changes supported ninety-nine point eight percent uptime across reporting seasons."
+  },
+  {
+    "id": "ecosave-design-007",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "How did you implement accessibility review with design on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented accessibility review with design on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied Figma and Draw.io workflows with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-design-008",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "Why did Figma component library alignment matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Figma component library alignment mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to Figma component library alignment. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on Figma component library alignment. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-design-009",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "Why did Draw.io ELT workflow diagrams matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Draw.io ELT workflow diagrams mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to Draw.io ELT workflow diagrams. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on Draw.io ELT workflow diagrams."
+  },
+  {
+    "id": "ecosave-design-010",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "Why did design critique sessions matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Design critique sessions mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to design critique sessions. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on design critique sessions."
+  },
+  {
+    "id": "ecosave-design-011",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "Why did handoff annotations for engineers matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Handoff annotations for engineers mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to handoff annotations for engineers. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on handoff annotations for engineers. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-design-012",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "Why did responsive breakpoint decisions matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Responsive breakpoint decisions mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to responsive breakpoint decisions. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-design-013",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "Why did reducing rework from mockups matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Reducing rework from mockups mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to reducing rework from mockups. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on reducing rework from mockups. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-design-014",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "Why did accessibility review with design matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Accessibility review with design mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to accessibility review with design. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on accessibility review with design. Enterprise clients could trust KPI dashboards because validation caught bad uploads before they propagated."
+  },
+  {
+    "id": "ecosave-design-015",
+    "company": "ecosave",
+    "category": "Design Handoff",
+    "client": null,
+    "question": "What tradeoffs did you weigh for Figma component library alignment on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on Figma component library alignment was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on Figma component library alignment."
+  }
+]

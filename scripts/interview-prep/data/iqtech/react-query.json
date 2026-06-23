@@ -1,0 +1,282 @@
+[
+  {
+    "id": "iqtech-rq-001",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "How did you implement query key conventions across IQTech client projects?",
+    "answer": "We implemented query key conventions across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React Query, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured query key conventions never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant query key conventions looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-rq-002",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "How did you implement staleTime and cacheTime tuning across IQTech client projects?",
+    "answer": "We implemented staleTime and cacheTime tuning across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React Query, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant staleTime and cacheTime tuning looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-rq-003",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "How did you implement optimistic mutations for shipment updates across IQTech client projects?",
+    "answer": "We implemented optimistic mutations for shipment updates across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React Query, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant optimistic mutations for shipment updates looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-rq-004",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "How did you implement invalidation after form submissions across IQTech client projects?",
+    "answer": "We implemented invalidation after form submissions across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React Query, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant invalidation after form submissions looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-rq-005",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "How did you implement prefetching detail routes on row hover across IQTech client projects?",
+    "answer": "We implemented prefetching detail routes on row hover across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React Query, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured prefetching detail routes on row hover never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant prefetching detail routes on row hover looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-rq-006",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "How did you implement polling active shipments every sixty seconds across IQTech client projects?",
+    "answer": "We implemented polling active shipments every sixty seconds across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React Query, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant polling active shipments every sixty seconds looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-rq-007",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "How did you implement pagination with useInfiniteQuery across IQTech client projects?",
+    "answer": "We implemented pagination with useInfiniteQuery across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React Query, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant pagination with useInfiniteQuery looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-rq-008",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "How did you implement global QueryClient error handlers across IQTech client projects?",
+    "answer": "We implemented global QueryClient error handlers across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React Query, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant global QueryClient error handlers looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-rq-009",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "How did you implement retry backoff for flaky endpoints across IQTech client projects?",
+    "answer": "We implemented retry backoff for flaky endpoints across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React Query, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant retry backoff for flaky endpoints looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-rq-010",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "How did you implement dependent queries for detail drawers across IQTech client projects?",
+    "answer": "We implemented dependent queries for detail drawers across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on React Query, Redux with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured dependent queries for detail drawers never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant dependent queries for detail drawers looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-rq-011",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Why did query key conventions matter across IQTech client projects?",
+    "answer": "Query key conventions mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised query key conventions under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant query key conventions looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-rq-012",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Why did staleTime and cacheTime tuning matter across IQTech client projects?",
+    "answer": "StaleTime and cacheTime tuning mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised staleTime and cacheTime tuning under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured staleTime and cacheTime tuning never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant staleTime and cacheTime tuning looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-rq-013",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Why did optimistic mutations for shipment updates matter across IQTech client projects?",
+    "answer": "Optimistic mutations for shipment updates mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised optimistic mutations for shipment updates under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured optimistic mutations for shipment updates never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant optimistic mutations for shipment updates looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-rq-014",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Why did invalidation after form submissions matter across IQTech client projects?",
+    "answer": "Invalidation after form submissions mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised invalidation after form submissions under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant invalidation after form submissions looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-rq-015",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Why did prefetching detail routes on row hover matter across IQTech client projects?",
+    "answer": "Prefetching detail routes on row hover mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised prefetching detail routes on row hover under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant prefetching detail routes on row hover looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-rq-016",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Why did polling active shipments every sixty seconds matter across IQTech client projects?",
+    "answer": "Polling active shipments every sixty seconds mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised polling active shipments every sixty seconds under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured polling active shipments every sixty seconds never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant polling active shipments every sixty seconds looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-rq-017",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Why did pagination with useInfiniteQuery matter across IQTech client projects?",
+    "answer": "Pagination with useInfiniteQuery mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised pagination with useInfiniteQuery under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant pagination with useInfiniteQuery looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-rq-018",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Why did global QueryClient error handlers matter across IQTech client projects?",
+    "answer": "Global QueryClient error handlers mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised global QueryClient error handlers under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured global QueryClient error handlers never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant global QueryClient error handlers looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-rq-019",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Why did retry backoff for flaky endpoints matter across IQTech client projects?",
+    "answer": "Retry backoff for flaky endpoints mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised retry backoff for flaky endpoints under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant retry backoff for flaky endpoints looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-rq-020",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Why did dependent queries for detail drawers matter across IQTech client projects?",
+    "answer": "Dependent queries for detail drawers mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised dependent queries for detail drawers under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant dependent queries for detail drawers looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-rq-021",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for query key conventions across IQTech client projects?",
+    "answer": "The main tradeoff around query key conventions across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant query key conventions looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-rq-022",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for staleTime and cacheTime tuning across IQTech client projects?",
+    "answer": "The main tradeoff around staleTime and cacheTime tuning across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant staleTime and cacheTime tuning looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-rq-023",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for optimistic mutations for shipment updates across IQTech client projects?",
+    "answer": "The main tradeoff around optimistic mutations for shipment updates across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant optimistic mutations for shipment updates looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-rq-024",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for invalidation after form submissions across IQTech client projects?",
+    "answer": "The main tradeoff around invalidation after form submissions across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured invalidation after form submissions never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant invalidation after form submissions looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-rq-025",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for prefetching detail routes on row hover across IQTech client projects?",
+    "answer": "The main tradeoff around prefetching detail routes on row hover across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant prefetching detail routes on row hover looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-rq-026",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for polling active shipments every sixty seconds across IQTech client projects?",
+    "answer": "The main tradeoff around polling active shipments every sixty seconds across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant polling active shipments every sixty seconds looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-rq-027",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for pagination with useInfiniteQuery across IQTech client projects?",
+    "answer": "The main tradeoff around pagination with useInfiniteQuery across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured pagination with useInfiniteQuery never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant pagination with useInfiniteQuery looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-rq-028",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for global QueryClient error handlers across IQTech client projects?",
+    "answer": "The main tradeoff around global QueryClient error handlers across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant global QueryClient error handlers looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-rq-029",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for retry backoff for flaky endpoints across IQTech client projects?",
+    "answer": "The main tradeoff around retry backoff for flaky endpoints across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured retry backoff for flaky endpoints never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant retry backoff for flaky endpoints looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-rq-030",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for dependent queries for detail drawers across IQTech client projects?",
+    "answer": "The main tradeoff around dependent queries for detail drawers across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant dependent queries for detail drawers looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-rq-031",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Explain query key conventions across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe query key conventions across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Protected routes and JWT refresh handling ensured query key conventions never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant query key conventions looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-rq-032",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Explain staleTime and cacheTime tuning across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe staleTime and cacheTime tuning across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant staleTime and cacheTime tuning looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-rq-033",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Explain optimistic mutations for shipment updates across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe optimistic mutations for shipment updates across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant optimistic mutations for shipment updates looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-rq-034",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Explain invalidation after form submissions across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe invalidation after form submissions across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Shared @iqtech/ui-core components meant invalidation after form submissions looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-rq-035",
+    "company": "iqtech",
+    "category": "React Query",
+    "client": "shared",
+    "question": "Explain prefetching detail routes on row hover across IQTech client projects as you would in a senior React interview.",
+    "answer": "In a senior interview I would describe prefetching detail routes on row hover across IQTech client projects as the glue between shared UI standards and client-specific workflows. I walked interviewers through one concrete flow: auth gating, data fetch, empty state, and error recovery. Protected routes and JWT refresh handling ensured prefetching detail routes on row hover never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant prefetching detail routes on row hover looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  }
+]

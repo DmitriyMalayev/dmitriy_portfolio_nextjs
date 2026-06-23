@@ -62,7 +62,7 @@ const SocialMedia = () => {
         <li className="w-[160px] translate-x-[-100px] duration-700 hover:translate-x-0 focus-within:translate-x-0">
           <a
             className="flex w-full items-center justify-between bg-orange-500 p-2 text-gray-300 shadow-sm shadow-orange-500/100"
-            href="/new_resume.pdf"
+            href="/dmitriy_malayev_resume.pdf"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="Download Dmitriy Malayev résumé PDF"

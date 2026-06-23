@@ -1,0 +1,242 @@
+[
+  {
+    "id": "iqtech-lib-001",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "How did you implement Storybook documentation for ui-core across IQTech client projects?",
+    "answer": "We implemented Storybook documentation for ui-core across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Storybook, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant Storybook documentation for ui-core looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-lib-002",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "How did you implement DataTable sorting and filtering API across IQTech client projects?",
+    "answer": "We implemented DataTable sorting and filtering API across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Storybook, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured DataTable sorting and filtering API never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant DataTable sorting and filtering API looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-lib-003",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "How did you implement StepWizard for multi-step flows across IQTech client projects?",
+    "answer": "We implemented StepWizard for multi-step flows across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Storybook, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Protected routes and JWT refresh handling ensured StepWizard for multi-step flows never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant StepWizard for multi-step flows looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-lib-004",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "How did you implement Modal focus trap implementation across IQTech client projects?",
+    "answer": "We implemented Modal focus trap implementation across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Storybook, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant Modal focus trap implementation looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-lib-005",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "How did you implement shared Button and FormField tokens across IQTech client projects?",
+    "answer": "We implemented shared Button and FormField tokens across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Storybook, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant shared Button and FormField tokens looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-lib-006",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "How did you implement semantic color tokens for status badges across IQTech client projects?",
+    "answer": "We implemented semantic color tokens for status badges across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Storybook, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant semantic color tokens for status badges looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-lib-007",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "How did you implement versioning internal packages across IQTech client projects?",
+    "answer": "We implemented versioning internal packages across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Storybook, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant versioning internal packages looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-lib-008",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "How did you implement contributing guidelines for contractors across IQTech client projects?",
+    "answer": "We implemented contributing guidelines for contractors across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Storybook, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant contributing guidelines for contractors looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-lib-009",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "How did you implement Composable PageShell layout across IQTech client projects?",
+    "answer": "We implemented Composable PageShell layout across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Storybook, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant Composable PageShell layout looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-lib-010",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "How did you implement EmptyState and Skeleton loaders across IQTech client projects?",
+    "answer": "We implemented EmptyState and Skeleton loaders across IQTech client projects by extending patterns already proven in @iqtech/ui-core. The implementation leaned on Storybook, React with TypeScript types shared across repos. Feature teams copied the reference implementation instead of inventing local variants. Shared @iqtech/ui-core components meant EmptyState and Skeleton loaders looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-lib-011",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "Why did Storybook documentation for ui-core matter across IQTech client projects?",
+    "answer": "Storybook documentation for ui-core mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised Storybook documentation for ui-core under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant Storybook documentation for ui-core looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-lib-012",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "Why did DataTable sorting and filtering API matter across IQTech client projects?",
+    "answer": "DataTable sorting and filtering API mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised DataTable sorting and filtering API under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant DataTable sorting and filtering API looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-lib-013",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "Why did StepWizard for multi-step flows matter across IQTech client projects?",
+    "answer": "StepWizard for multi-step flows mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised StepWizard for multi-step flows under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant StepWizard for multi-step flows looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-lib-014",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "Why did Modal focus trap implementation matter across IQTech client projects?",
+    "answer": "Modal focus trap implementation mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised Modal focus trap implementation under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured Modal focus trap implementation never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant Modal focus trap implementation looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-lib-015",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "Why did shared Button and FormField tokens matter across IQTech client projects?",
+    "answer": "Shared Button and FormField tokens mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised shared Button and FormField tokens under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant shared Button and FormField tokens looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-lib-016",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "Why did semantic color tokens for status badges matter across IQTech client projects?",
+    "answer": "Semantic color tokens for status badges mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised semantic color tokens for status badges under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant semantic color tokens for status badges looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-lib-017",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "Why did versioning internal packages matter across IQTech client projects?",
+    "answer": "Versioning internal packages mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised versioning internal packages under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured versioning internal packages never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant versioning internal packages looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-lib-018",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "Why did contributing guidelines for contractors matter across IQTech client projects?",
+    "answer": "Contributing guidelines for contractors mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised contributing guidelines for contractors under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured contributing guidelines for contractors never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant contributing guidelines for contractors looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-lib-019",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "Why did Composable PageShell layout matter across IQTech client projects?",
+    "answer": "Composable PageShell layout mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised Composable PageShell layout under different role matrices, which stress-tested the design early. Shared @iqtech/ui-core components meant Composable PageShell layout looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-lib-020",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "Why did EmptyState and Skeleton loaders matter across IQTech client projects?",
+    "answer": "EmptyState and Skeleton loaders mattered across IQTech client projects because enterprise users expected predictable, permission-aware UX every session. Meridian Health, Atlas Freight, and Summit Capital all exercised EmptyState and Skeleton loaders under different role matrices, which stress-tested the design early. Protected routes and JWT refresh handling ensured EmptyState and Skeleton loaders never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant EmptyState and Skeleton loaders looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-lib-021",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for Storybook documentation for ui-core across IQTech client projects?",
+    "answer": "The main tradeoff around Storybook documentation for ui-core across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured Storybook documentation for ui-core never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant Storybook documentation for ui-core looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-lib-022",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for DataTable sorting and filtering API across IQTech client projects?",
+    "answer": "The main tradeoff around DataTable sorting and filtering API across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant DataTable sorting and filtering API looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-lib-023",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for StepWizard for multi-step flows across IQTech client projects?",
+    "answer": "The main tradeoff around StepWizard for multi-step flows across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant StepWizard for multi-step flows looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-lib-024",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for Modal focus trap implementation across IQTech client projects?",
+    "answer": "The main tradeoff around Modal focus trap implementation across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant Modal focus trap implementation looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-lib-025",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for shared Button and FormField tokens across IQTech client projects?",
+    "answer": "The main tradeoff around shared Button and FormField tokens across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured shared Button and FormField tokens never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant shared Button and FormField tokens looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-lib-026",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for semantic color tokens for status badges across IQTech client projects?",
+    "answer": "The main tradeoff around semantic color tokens for status badges across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured semantic color tokens for status badges never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant semantic color tokens for status badges looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-lib-027",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for versioning internal packages across IQTech client projects?",
+    "answer": "The main tradeoff around versioning internal packages across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant versioning internal packages looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-lib-028",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for contributing guidelines for contractors across IQTech client projects?",
+    "answer": "The main tradeoff around contributing guidelines for contractors across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant contributing guidelines for contractors looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-lib-029",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for Composable PageShell layout across IQTech client projects?",
+    "answer": "The main tradeoff around Composable PageShell layout across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Protected routes and JWT refresh handling ensured Composable PageShell layout never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant Composable PageShell layout looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-lib-030",
+    "company": "iqtech",
+    "category": "Component Library",
+    "client": "shared",
+    "question": "What tradeoffs did you weigh for EmptyState and Skeleton loaders across IQTech client projects?",
+    "answer": "The main tradeoff around EmptyState and Skeleton loaders across IQTech client projects was speed of delivery versus long-term maintainability across three client codebases. We rejected shortcuts that would have duplicated markup in client repos — the shared library was the default path. Shared @iqtech/ui-core components meant EmptyState and Skeleton loaders looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  }
+]

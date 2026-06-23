@@ -30,3 +30,8 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# interview prep (private, local-only)
+scripts/interview-prep/output/*.md
+scripts/interview-prep/output/*.pdf
+public/interview-prep-iqtech-ecosave.pdf

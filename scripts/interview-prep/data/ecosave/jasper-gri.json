@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ecosave-jasper-001",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "How did you implement JasperReports template design on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented JasperReports template design on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Report automation saved roughly twenty hours of manual work each reporting cycle. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-jasper-002",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "How did you implement GRI compliance section mapping on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented GRI compliance section mapping on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Report automation saved roughly twenty hours of manual work each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on GRI compliance section mapping. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-jasper-003",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "How did you implement parameterized report generation on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented parameterized report generation on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Report automation saved roughly twenty hours of manual work each reporting cycle. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on parameterized report generation. Stakeholders saved an estimated twenty hours per cycle once GRI reports were automated."
+  },
+  {
+    "id": "ecosave-jasper-004",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "How did you implement scheduling quarterly report jobs on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented scheduling quarterly report jobs on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Report automation saved roughly twenty hours of manual work each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on scheduling quarterly report jobs."
+  },
+  {
+    "id": "ecosave-jasper-005",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "How did you implement PDF output validation on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented PDF output validation on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Report automation saved roughly twenty hours of manual work each reporting cycle. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on PDF output validation."
+  },
+  {
+    "id": "ecosave-jasper-006",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "How did you implement Kotlin report service integration on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented Kotlin report service integration on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Report automation saved roughly twenty hours of manual work each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on Kotlin report service integration. These changes supported ninety-nine point eight percent uptime across reporting seasons."
+  },
+  {
+    "id": "ecosave-jasper-007",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "How did you implement twenty hour cycle time savings on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented twenty hour cycle time savings on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Report automation saved roughly twenty hours of manual work each reporting cycle. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-jasper-008",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "How did you implement versioning report templates on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented versioning report templates on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Report automation saved roughly twenty hours of manual work each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on versioning report templates. Stakeholders saved an estimated twenty hours per cycle once GRI reports were automated."
+  },
+  {
+    "id": "ecosave-jasper-009",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "How did you implement staging reports before client delivery on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented staging reports before client delivery on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Report automation saved roughly twenty hours of manual work each reporting cycle. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on staging reports before client delivery. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-jasper-010",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "How did you implement error handling for failed renders on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented error handling for failed renders on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Report automation saved roughly twenty hours of manual work each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on error handling for failed renders."
+  },
+  {
+    "id": "ecosave-jasper-011",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "Why did JasperReports template design matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. JasperReports template design mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to JasperReports template design. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on JasperReports template design. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-jasper-012",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "Why did GRI compliance section mapping matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. GRI compliance section mapping mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to GRI compliance section mapping. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-jasper-013",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "Why did parameterized report generation matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Parameterized report generation mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to parameterized report generation. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on parameterized report generation. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-jasper-014",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "Why did scheduling quarterly report jobs matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Scheduling quarterly report jobs mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to scheduling quarterly report jobs. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on scheduling quarterly report jobs. Enterprise clients could trust KPI dashboards because validation caught bad uploads before they propagated."
+  },
+  {
+    "id": "ecosave-jasper-015",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "Why did PDF output validation matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. PDF output validation mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to PDF output validation. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on PDF output validation."
+  },
+  {
+    "id": "ecosave-jasper-016",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "Why did Kotlin report service integration matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Kotlin report service integration mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to Kotlin report service integration. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on Kotlin report service integration."
+  },
+  {
+    "id": "ecosave-jasper-017",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "Why did twenty hour cycle time savings matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Twenty hour cycle time savings mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to twenty hour cycle time savings. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on twenty hour cycle time savings. Stakeholders saved an estimated twenty hours per cycle once GRI reports were automated."
+  },
+  {
+    "id": "ecosave-jasper-018",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "Why did versioning report templates matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Versioning report templates mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to versioning report templates. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-jasper-019",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "Why did staging reports before client delivery matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Staging reports before client delivery mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to staging reports before client delivery. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on staging reports before client delivery. Enterprise clients could trust KPI dashboards because validation caught bad uploads before they propagated."
+  },
+  {
+    "id": "ecosave-jasper-020",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "Why did error handling for failed renders matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Error handling for failed renders mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to error handling for failed renders. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on error handling for failed renders. These changes supported ninety-nine point eight percent uptime across reporting seasons."
+  },
+  {
+    "id": "ecosave-jasper-021",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "What tradeoffs did you weigh for JasperReports template design on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on JasperReports template design was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on JasperReports template design."
+  },
+  {
+    "id": "ecosave-jasper-022",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "What tradeoffs did you weigh for GRI compliance section mapping on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on GRI compliance section mapping was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on GRI compliance section mapping. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-jasper-023",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "What tradeoffs did you weigh for parameterized report generation on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on parameterized report generation was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-jasper-024",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "What tradeoffs did you weigh for scheduling quarterly report jobs on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on scheduling quarterly report jobs was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on scheduling quarterly report jobs. These changes supported ninety-nine point eight percent uptime across reporting seasons."
+  },
+  {
+    "id": "ecosave-jasper-025",
+    "company": "ecosave",
+    "category": "JasperReports & GRI",
+    "client": null,
+    "question": "What tradeoffs did you weigh for PDF output validation on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on PDF output validation was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on PDF output validation. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  }
+]

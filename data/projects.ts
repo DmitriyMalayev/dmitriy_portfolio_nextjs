@@ -18,14 +18,6 @@ export const projects: Project[] = [
     liveUrl: 'https://ecosaveinc.com/turnkey-solutions/ecosave-watch/',
   },
   {
-    title: 'Appointment & messaging stack',
-    description:
-      'FastAPI appointment bookings plus Twilio A2P messaging for client workflows — part of consultant delivery with Tailwind/HTML front ends and aggressive SEO/PageSpeed lifts (30%+ scores, ~40% faster loads).',
-    tags: ['FastAPI', 'Twilio', 'Tailwind', 'SEO'],
-    githubUrl: null,
-    liveUrl: 'https://pbtucson.com/',
-  },
-  {
     title: 'Portfolio (this site)',
     description:
       'Personal portfolio built with Next.js 14, Tailwind CSS, and Framer Motion animations. Features reCAPTCHA v3 spam protection, Calendly scheduling integration, JSON-LD structured data, full OG/SEO metadata, and responsive design — deployed on Vercel.',

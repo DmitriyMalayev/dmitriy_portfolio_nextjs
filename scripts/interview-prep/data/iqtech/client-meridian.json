@@ -1,0 +1,202 @@
+[
+  {
+    "id": "iqtech-meridian-001",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "How did you implement patient intake wizard steps on the Meridian Health Partners engagement?",
+    "answer": "We implemented patient intake wizard steps on the Meridian Health Partners engagement by extending patterns already proven in @iqtech/ui-core. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Protected routes and JWT refresh handling ensured patient intake wizard steps never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant patient intake wizard steps looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-meridian-002",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "How did you implement clinic schedule day view on the Meridian Health Partners engagement?",
+    "answer": "We implemented clinic schedule day view on the Meridian Health Partners engagement by extending patterns already proven in @iqtech/ui-core. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant clinic schedule day view looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-meridian-003",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "How did you implement front_desk role permissions on the Meridian Health Partners engagement?",
+    "answer": "We implemented front_desk role permissions on the Meridian Health Partners engagement by extending patterns already proven in @iqtech/ui-core. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant front_desk role permissions looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-meridian-004",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "How did you implement nurse read-only chart access on the Meridian Health Partners engagement?",
+    "answer": "We implemented nurse read-only chart access on the Meridian Health Partners engagement by extending patterns already proven in @iqtech/ui-core. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant nurse read-only chart access looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-meridian-005",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "How did you implement clinic_admin staff onboarding on the Meridian Health Partners engagement?",
+    "answer": "We implemented clinic_admin staff onboarding on the Meridian Health Partners engagement by extending patterns already proven in @iqtech/ui-core. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Protected routes and JWT refresh handling ensured clinic_admin staff onboarding never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant clinic_admin staff onboarding looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-meridian-006",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "How did you implement insurance capture validation on the Meridian Health Partners engagement?",
+    "answer": "We implemented insurance capture validation on the Meridian Health Partners engagement by extending patterns already proven in @iqtech/ui-core. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Protected routes and JWT refresh handling ensured insurance capture validation never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant insurance capture validation looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-meridian-007",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "How did you implement consent e-signatures UI on the Meridian Health Partners engagement?",
+    "answer": "We implemented consent e-signatures UI on the Meridian Health Partners engagement by extending patterns already proven in @iqtech/ui-core. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant consent e-signatures UI looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-meridian-008",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "How did you implement appointment conflict detection on the Meridian Health Partners engagement?",
+    "answer": "We implemented appointment conflict detection on the Meridian Health Partners engagement by extending patterns already proven in @iqtech/ui-core. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant appointment conflict detection looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-meridian-009",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "How did you implement location switcher for multi-clinic on the Meridian Health Partners engagement?",
+    "answer": "We implemented location switcher for multi-clinic on the Meridian Health Partners engagement by extending patterns already proven in @iqtech/ui-core. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Protected routes and JWT refresh handling ensured location switcher for multi-clinic never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant location switcher for multi-clinic looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-meridian-010",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "How did you implement audit log activity feed on the Meridian Health Partners engagement?",
+    "answer": "We implemented audit log activity feed on the Meridian Health Partners engagement by extending patterns already proven in @iqtech/ui-core. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant audit log activity feed looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-meridian-011",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "Why did patient intake wizard steps matter on the Meridian Health Partners engagement?",
+    "answer": "Patient intake wizard steps mattered on the Meridian Health Partners engagement because enterprise users expected predictable, permission-aware UX every session. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant patient intake wizard steps looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-meridian-012",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "Why did clinic schedule day view matter on the Meridian Health Partners engagement?",
+    "answer": "Clinic schedule day view mattered on the Meridian Health Partners engagement because enterprise users expected predictable, permission-aware UX every session. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Protected routes and JWT refresh handling ensured clinic schedule day view never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant clinic schedule day view looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-meridian-013",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "Why did front_desk role permissions matter on the Meridian Health Partners engagement?",
+    "answer": "Front_desk role permissions mattered on the Meridian Health Partners engagement because enterprise users expected predictable, permission-aware UX every session. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant front_desk role permissions looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-meridian-014",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "Why did nurse read-only chart access matter on the Meridian Health Partners engagement?",
+    "answer": "Nurse read-only chart access mattered on the Meridian Health Partners engagement because enterprise users expected predictable, permission-aware UX every session. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Protected routes and JWT refresh handling ensured nurse read-only chart access never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant nurse read-only chart access looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-meridian-015",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "Why did clinic_admin staff onboarding matter on the Meridian Health Partners engagement?",
+    "answer": "Clinic_admin staff onboarding mattered on the Meridian Health Partners engagement because enterprise users expected predictable, permission-aware UX every session. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant clinic_admin staff onboarding looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-meridian-016",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "Why did insurance capture validation matter on the Meridian Health Partners engagement?",
+    "answer": "Insurance capture validation mattered on the Meridian Health Partners engagement because enterprise users expected predictable, permission-aware UX every session. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant insurance capture validation looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-meridian-017",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "Why did consent e-signatures UI matter on the Meridian Health Partners engagement?",
+    "answer": "Consent e-signatures UI mattered on the Meridian Health Partners engagement because enterprise users expected predictable, permission-aware UX every session. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant consent e-signatures UI looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-meridian-018",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "Why did appointment conflict detection matter on the Meridian Health Partners engagement?",
+    "answer": "Appointment conflict detection mattered on the Meridian Health Partners engagement because enterprise users expected predictable, permission-aware UX every session. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Protected routes and JWT refresh handling ensured appointment conflict detection never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant appointment conflict detection looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-meridian-019",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "Why did location switcher for multi-clinic matter on the Meridian Health Partners engagement?",
+    "answer": "Location switcher for multi-clinic mattered on the Meridian Health Partners engagement because enterprise users expected predictable, permission-aware UX every session. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant location switcher for multi-clinic looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-meridian-020",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "Why did audit log activity feed matter on the Meridian Health Partners engagement?",
+    "answer": "Audit log activity feed mattered on the Meridian Health Partners engagement because enterprise users expected predictable, permission-aware UX every session. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant audit log activity feed looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-meridian-021",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "What tradeoffs did you weigh for patient intake wizard steps on the Meridian Health Partners engagement?",
+    "answer": "The main tradeoff around patient intake wizard steps on the Meridian Health Partners engagement was speed of delivery versus long-term maintainability across three client codebases. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant patient intake wizard steps looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-meridian-022",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "What tradeoffs did you weigh for clinic schedule day view on the Meridian Health Partners engagement?",
+    "answer": "The main tradeoff around clinic schedule day view on the Meridian Health Partners engagement was speed of delivery versus long-term maintainability across three client codebases. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant clinic schedule day view looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-meridian-023",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "What tradeoffs did you weigh for front_desk role permissions on the Meridian Health Partners engagement?",
+    "answer": "The main tradeoff around front_desk role permissions on the Meridian Health Partners engagement was speed of delivery versus long-term maintainability across three client codebases. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Protected routes and JWT refresh handling ensured front_desk role permissions never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant front_desk role permissions looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-meridian-024",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "What tradeoffs did you weigh for nurse read-only chart access on the Meridian Health Partners engagement?",
+    "answer": "The main tradeoff around nurse read-only chart access on the Meridian Health Partners engagement was speed of delivery versus long-term maintainability across three client codebases. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant nurse read-only chart access looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-meridian-025",
+    "company": "iqtech",
+    "category": "Meridian Health Partners",
+    "client": "meridian",
+    "question": "What tradeoffs did you weigh for clinic_admin staff onboarding on the Meridian Health Partners engagement?",
+    "answer": "The main tradeoff around clinic_admin staff onboarding on the Meridian Health Partners engagement was speed of delivery versus long-term maintainability across three client codebases. Meridian Health’s intake wizard and clinic scheduling views were the first proving ground for this pattern. Shared @iqtech/ui-core components meant clinic_admin staff onboarding looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  }
+]

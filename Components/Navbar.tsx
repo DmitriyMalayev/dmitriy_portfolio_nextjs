@@ -110,7 +110,7 @@ export default function Navbar() {
             ))}
             <li>
               <a
-                href="/new_resume.pdf"
+                href="/dmitriy_malayev_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ml-1 rounded border border-orange-600 px-2 py-0.5 font-semibold text-orange-400 transition hover:bg-orange-900/40 hover:text-orange-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base"
@@ -193,7 +193,7 @@ export default function Navbar() {
           <li className="py-6 text-4xl">
             <a
               onClick={closeMenu}
-              href="/new_resume.pdf"
+              href="/dmitriy_malayev_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

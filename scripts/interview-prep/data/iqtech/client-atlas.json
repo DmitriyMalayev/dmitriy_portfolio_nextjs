@@ -1,0 +1,202 @@
+[
+  {
+    "id": "iqtech-atlas-001",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "How did you implement shipment exception queue on the Atlas Freight Logistics engagement?",
+    "answer": "We implemented shipment exception queue on the Atlas Freight Logistics engagement by extending patterns already proven in @iqtech/ui-core. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Protected routes and JWT refresh handling ensured shipment exception queue never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant shipment exception queue looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-atlas-002",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "How did you implement URL-synced filter state on the Atlas Freight Logistics engagement?",
+    "answer": "We implemented URL-synced filter state on the Atlas Freight Logistics engagement by extending patterns already proven in @iqtech/ui-core. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Protected routes and JWT refresh handling ensured URL-synced filter state never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant URL-synced filter state looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-atlas-003",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "How did you implement shipment detail drawer timeline on the Atlas Freight Logistics engagement?",
+    "answer": "We implemented shipment detail drawer timeline on the Atlas Freight Logistics engagement by extending patterns already proven in @iqtech/ui-core. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Protected routes and JWT refresh handling ensured shipment detail drawer timeline never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant shipment detail drawer timeline looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-atlas-004",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "How did you implement CSV export for account managers on the Atlas Freight Logistics engagement?",
+    "answer": "We implemented CSV export for account managers on the Atlas Freight Logistics engagement by extending patterns already proven in @iqtech/ui-core. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant CSV export for account managers looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-atlas-005",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "How did you implement dispatcher bulk status updates on the Atlas Freight Logistics engagement?",
+    "answer": "We implemented dispatcher bulk status updates on the Atlas Freight Logistics engagement by extending patterns already proven in @iqtech/ui-core. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant dispatcher bulk status updates looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-atlas-006",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "How did you implement warehouse lead facility scoping on the Atlas Freight Logistics engagement?",
+    "answer": "We implemented warehouse lead facility scoping on the Atlas Freight Logistics engagement by extending patterns already proven in @iqtech/ui-core. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Protected routes and JWT refresh handling ensured warehouse lead facility scoping never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant warehouse lead facility scoping looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-atlas-007",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "How did you implement lane and client filter presets on the Atlas Freight Logistics engagement?",
+    "answer": "We implemented lane and client filter presets on the Atlas Freight Logistics engagement by extending patterns already proven in @iqtech/ui-core. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Protected routes and JWT refresh handling ensured lane and client filter presets never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant lane and client filter presets looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-atlas-008",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "How did you implement delayed shipment badges on the Atlas Freight Logistics engagement?",
+    "answer": "We implemented delayed shipment badges on the Atlas Freight Logistics engagement by extending patterns already proven in @iqtech/ui-core. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Protected routes and JWT refresh handling ensured delayed shipment badges never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant delayed shipment badges looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-atlas-009",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "How did you implement document attachment list on the Atlas Freight Logistics engagement?",
+    "answer": "We implemented document attachment list on the Atlas Freight Logistics engagement by extending patterns already proven in @iqtech/ui-core. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant document attachment list looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-atlas-010",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "How did you implement notes and comment threads on the Atlas Freight Logistics engagement?",
+    "answer": "We implemented notes and comment threads on the Atlas Freight Logistics engagement by extending patterns already proven in @iqtech/ui-core. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant notes and comment threads looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-atlas-011",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "Why did shipment exception queue matter on the Atlas Freight Logistics engagement?",
+    "answer": "Shipment exception queue mattered on the Atlas Freight Logistics engagement because enterprise users expected predictable, permission-aware UX every session. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant shipment exception queue looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-atlas-012",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "Why did URL-synced filter state matter on the Atlas Freight Logistics engagement?",
+    "answer": "URL-synced filter state mattered on the Atlas Freight Logistics engagement because enterprise users expected predictable, permission-aware UX every session. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant URL-synced filter state looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-atlas-013",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "Why did shipment detail drawer timeline matter on the Atlas Freight Logistics engagement?",
+    "answer": "Shipment detail drawer timeline mattered on the Atlas Freight Logistics engagement because enterprise users expected predictable, permission-aware UX every session. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant shipment detail drawer timeline looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-atlas-014",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "Why did CSV export for account managers matter on the Atlas Freight Logistics engagement?",
+    "answer": "CSV export for account managers mattered on the Atlas Freight Logistics engagement because enterprise users expected predictable, permission-aware UX every session. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Protected routes and JWT refresh handling ensured CSV export for account managers never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant CSV export for account managers looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-atlas-015",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "Why did dispatcher bulk status updates matter on the Atlas Freight Logistics engagement?",
+    "answer": "Dispatcher bulk status updates mattered on the Atlas Freight Logistics engagement because enterprise users expected predictable, permission-aware UX every session. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Protected routes and JWT refresh handling ensured dispatcher bulk status updates never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant dispatcher bulk status updates looked different per client theme but behaved the same under RBAC checks."
+  },
+  {
+    "id": "iqtech-atlas-016",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "Why did warehouse lead facility scoping matter on the Atlas Freight Logistics engagement?",
+    "answer": "Warehouse lead facility scoping mattered on the Atlas Freight Logistics engagement because enterprise users expected predictable, permission-aware UX every session. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant warehouse lead facility scoping looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  },
+  {
+    "id": "iqtech-atlas-017",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "Why did lane and client filter presets matter on the Atlas Freight Logistics engagement?",
+    "answer": "Lane and client filter presets mattered on the Atlas Freight Logistics engagement because enterprise users expected predictable, permission-aware UX every session. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant lane and client filter presets looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-atlas-018",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "Why did delayed shipment badges matter on the Atlas Freight Logistics engagement?",
+    "answer": "Delayed shipment badges mattered on the Atlas Freight Logistics engagement because enterprise users expected predictable, permission-aware UX every session. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant delayed shipment badges looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-atlas-019",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "Why did document attachment list matter on the Atlas Freight Logistics engagement?",
+    "answer": "Document attachment list mattered on the Atlas Freight Logistics engagement because enterprise users expected predictable, permission-aware UX every session. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant document attachment list looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-atlas-020",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "Why did notes and comment threads matter on the Atlas Freight Logistics engagement?",
+    "answer": "Notes and comment threads mattered on the Atlas Freight Logistics engagement because enterprise users expected predictable, permission-aware UX every session. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Protected routes and JWT refresh handling ensured notes and comment threads never leaked data across tenant boundaries. Shared @iqtech/ui-core components meant notes and comment threads looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-atlas-021",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "What tradeoffs did you weigh for shipment exception queue on the Atlas Freight Logistics engagement?",
+    "answer": "The main tradeoff around shipment exception queue on the Atlas Freight Logistics engagement was speed of delivery versus long-term maintainability across three client codebases. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant shipment exception queue looked different per client theme but behaved the same under RBAC checks. Client demos stayed on schedule because we were not reinventing primitives for every portal."
+  },
+  {
+    "id": "iqtech-atlas-022",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "What tradeoffs did you weigh for URL-synced filter state on the Atlas Freight Logistics engagement?",
+    "answer": "The main tradeoff around URL-synced filter state on the Atlas Freight Logistics engagement was speed of delivery versus long-term maintainability across three client codebases. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant URL-synced filter state looked different per client theme but behaved the same under RBAC checks. Code review stayed focused on business logic instead of debating one-off UI implementations."
+  },
+  {
+    "id": "iqtech-atlas-023",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "What tradeoffs did you weigh for shipment detail drawer timeline on the Atlas Freight Logistics engagement?",
+    "answer": "The main tradeoff around shipment detail drawer timeline on the Atlas Freight Logistics engagement was speed of delivery versus long-term maintainability across three client codebases. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant shipment detail drawer timeline looked different per client theme but behaved the same under RBAC checks. The approach contributed to roughly thirty percent faster delivery on later IQTech clients."
+  },
+  {
+    "id": "iqtech-atlas-024",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "What tradeoffs did you weigh for CSV export for account managers on the Atlas Freight Logistics engagement?",
+    "answer": "The main tradeoff around CSV export for account managers on the Atlas Freight Logistics engagement was speed of delivery versus long-term maintainability across three client codebases. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant CSV export for account managers looked different per client theme but behaved the same under RBAC checks. That consistency helped us resolve most production UI defects within one business day."
+  },
+  {
+    "id": "iqtech-atlas-025",
+    "company": "iqtech",
+    "category": "Atlas Freight Logistics",
+    "client": "atlas",
+    "question": "What tradeoffs did you weigh for dispatcher bulk status updates on the Atlas Freight Logistics engagement?",
+    "answer": "The main tradeoff around dispatcher bulk status updates on the Atlas Freight Logistics engagement was speed of delivery versus long-term maintainability across three client codebases. Atlas Freight’s operations dashboard relied on React Query polling and URL-synced filters for dispatchers. Shared @iqtech/ui-core components meant dispatcher bulk status updates looked different per client theme but behaved the same under RBAC checks. Contractors onboarding mid-engagement could ship features faster because patterns were already documented."
+  }
+]

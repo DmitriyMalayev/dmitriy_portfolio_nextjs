@@ -96,7 +96,7 @@ export default function Hero() {
             Contact Me
           </a>
           <a
-            href="/new_resume.pdf"
+            href="/dmitriy_malayev_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg border border-stone-600 px-8 py-3 font-semibold text-stone-300 transition hover:border-stone-400 hover:text-stone-100 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-stone-400"

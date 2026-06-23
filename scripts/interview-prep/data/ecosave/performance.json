@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ecosave-perf-001",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "How did you implement bundle size monitoring on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented bundle size monitoring on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied monitoring and performance tuning with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-perf-002",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "How did you implement lazy loading chart modules on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented lazy loading chart modules on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied monitoring and performance tuning with explicit API contracts so frontend and Kotlin services could evolve independently. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on lazy loading chart modules. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-perf-003",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "How did you implement database query optimization handoffs on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented database query optimization handoffs on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied monitoring and performance tuning with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on database query optimization handoffs. Stakeholders saved an estimated twenty hours per cycle once GRI reports were automated."
+  },
+  {
+    "id": "ecosave-perf-004",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "How did you implement caching frequently accessed KPIs on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented caching frequently accessed KPIs on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied monitoring and performance tuning with explicit API contracts so frontend and Kotlin services could evolve independently. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on caching frequently accessed KPIs."
+  },
+  {
+    "id": "ecosave-perf-005",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "How did you implement load testing before peak reporting on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented load testing before peak reporting on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied monitoring and performance tuning with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on load testing before peak reporting."
+  },
+  {
+    "id": "ecosave-perf-006",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "How did you implement incident response for outages on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented incident response for outages on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied monitoring and performance tuning with explicit API contracts so frontend and Kotlin services could evolve independently. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on incident response for outages. These changes supported ninety-nine point eight percent uptime across reporting seasons."
+  },
+  {
+    "id": "ecosave-perf-007",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "How did you implement postmortems after data incidents on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. We implemented postmortems after data incidents on the Ecosave sustainability portal using Kotlin/JS and React where each layer fit best. Engineering applied monitoring and performance tuning with explicit API contracts so frontend and Kotlin services could evolve independently. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-perf-008",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "Why did bundle size monitoring matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Bundle size monitoring mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to bundle size monitoring. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on bundle size monitoring. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-perf-009",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "Why did lazy loading chart modules matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Lazy loading chart modules mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to lazy loading chart modules. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on lazy loading chart modules."
+  },
+  {
+    "id": "ecosave-perf-010",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "Why did database query optimization handoffs matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Database query optimization handoffs mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to database query optimization handoffs. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on database query optimization handoffs."
+  },
+  {
+    "id": "ecosave-perf-011",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "Why did caching frequently accessed KPIs matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Caching frequently accessed KPIs mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to caching frequently accessed KPIs. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on caching frequently accessed KPIs. Data-related production errors dropped roughly forty percent after the pipeline hardening work."
+  },
+  {
+    "id": "ecosave-perf-012",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "Why did load testing before peak reporting matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Load testing before peak reporting mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to load testing before peak reporting. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle."
+  },
+  {
+    "id": "ecosave-perf-013",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "Why did incident response for outages matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Incident response for outages mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to incident response for outages. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on incident response for outages. Design handoffs went smoother because engineers and designers referenced the same workflow diagrams."
+  },
+  {
+    "id": "ecosave-perf-014",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "Why did postmortems after data incidents matter on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. Postmortems after data incidents mattered because enterprise clients tracked thousands of energy KPIs and expected audit-ready accuracy. More than five thousand monthly datapoints flowed through validation rules tied to postmortems after data incidents. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on postmortems after data incidents. Enterprise clients could trust KPI dashboards because validation caught bad uploads before they propagated."
+  },
+  {
+    "id": "ecosave-perf-015",
+    "company": "ecosave",
+    "category": "Performance & Reliability",
+    "client": null,
+    "question": "What tradeoffs did you weigh for bundle size monitoring on the Ecosave sustainability portal?",
+    "answer": "At Ecosave (Oct 2022 – Apr 2024) I worked full stack on the sustainability portal combining Kotlin/JS and React. The tradeoff on bundle size monitoring was shipping quickly for quarterly reporting versus hardening ELT coverage for peak load. We documented failure modes and rollback steps so ops could recover without redeploying the entire portal. Automating GRI-compliant JasperReports removed repetitive manual steps from each reporting cycle. Figma mockups and Draw.io ELT diagrams kept design and engineering aligned on bundle size monitoring."
+  }
+]
