@@ -35,3 +35,4 @@ yarn-error.log*
 scripts/interview-prep/output/*.md
 scripts/interview-prep/output/*.pdf
 public/interview-prep-iqtech-ecosave.pdf
+.env*

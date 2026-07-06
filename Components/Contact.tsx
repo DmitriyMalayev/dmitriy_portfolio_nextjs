@@ -8,6 +8,8 @@ import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 type NotificationType = 'success' | 'error';
 type FieldErrors = Partial<Record<'name' | 'email' | 'message', string>>;
 
+const RECAPTCHA_CONFIGURED = Boolean(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY);
+
 function isValidEmail(email: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
@@ -26,6 +28,8 @@ export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const { executeRecaptcha } = useGoogleReCaptcha();
+  const recaptchaReady = Boolean(executeRecaptcha);
+  const canSubmit = RECAPTCHA_CONFIGURED && recaptchaReady && !isSubmitting;
 
   const clearStatus = useCallback(() => {
     setNotification('');
@@ -46,10 +50,18 @@ export default function Contact() {
       setFieldErrors(errs);
       if (Object.keys(errs).length > 0) return;
 
+      if (!RECAPTCHA_CONFIGURED) {
+        setNotificationType('error');
+        setNotification(
+          'The contact form is not configured yet. Please email me directly.',
+        );
+        return;
+      }
+
       if (!executeRecaptcha) {
         setNotificationType('error');
         setNotification(
-          'Security check is still loading. Please try again in a moment.',
+          'Security check is still loading. Please wait a moment and try again.',
         );
         return;
       }
@@ -164,6 +176,13 @@ export default function Contact() {
             </button>
           </div>
 
+          {!RECAPTCHA_CONFIGURED ? (
+            <p className="mb-4 rounded-md border border-amber-800 bg-amber-950/50 px-4 py-3 text-sm text-amber-100">
+              Form delivery is being set up. Please use the email above or schedule a
+              call in the meantime.
+            </p>
+          ) : null}
+
           {notification ? (
             <output
               aria-live="polite"
@@ -277,11 +296,17 @@ export default function Contact() {
 
           <button
             type="submit"
-            disabled={isSubmitting}
+            disabled={!canSubmit}
             aria-busy={isSubmitting}
             className="custom-ring mx-auto mt-8 flex min-h-[52px] min-w-[220px] items-center justify-center bg-slate-800 px-10 py-4 font-semibold text-orange-50 outline-none font-dance transition hover:bg-orange-700 disabled:cursor-not-allowed disabled:opacity-60"
           >
-            {isSubmitting ? 'Sending…' : "Let's collaborate"}
+            {isSubmitting
+              ? 'Sending…'
+              : !RECAPTCHA_CONFIGURED
+                ? 'Form unavailable'
+                : !recaptchaReady
+                  ? 'Loading security check…'
+                  : "Let's collaborate"}
           </button>
           <p className="mt-3 text-center text-sm text-stone-500">
             This site uses reCAPTCHA v3 behind the scenes to reduce spam.

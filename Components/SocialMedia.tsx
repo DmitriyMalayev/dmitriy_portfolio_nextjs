@@ -67,7 +67,7 @@ const SocialMedia = () => {
             rel="noreferrer noopener"
             aria-label="Download Dmitriy Malayev résumé PDF"
           >
-            <span aria-hidden="true">Resume</span>
+            <span aria-hidden="true">Résumé</span>
             <svg
               className="h-6 w-6"
               aria-hidden="true"
