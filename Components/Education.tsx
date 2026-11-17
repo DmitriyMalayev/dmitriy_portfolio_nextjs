@@ -17,9 +17,7 @@ export default function Education() {
               {entry.period}
             </time>
           </header>
-          <p className="text-base leading-relaxed text-slate-200">
-            {entry.notes}
-          </p>
+          <p className="text-base leading-relaxed text-slate-200">{entry.notes}</p>
         </article>
       ))}
     </div>

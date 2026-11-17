@@ -116,87 +116,89 @@ export default function Navbar() {
   return (
     <>
       <header className={`fixed inset-x-0 top-0 z-50 h-[80px] ${barClass}`}>
-        <div className={`${contentColumnClass} flex h-full items-center justify-between gap-3`}>
-        <div>
-          <Link href="#about" aria-label="Jump to About section">
-            <Image src={Logo} alt="" width={50} height={40} priority />
-          </Link>
-        </div>
-
-        <nav
-          aria-label="Primary"
-          className="hidden min-w-0 flex-1 py-1 min-[1120px]:block"
+        <div
+          className={`${contentColumnClass} flex h-full items-center justify-between gap-3`}
         >
-          <ul className="flex items-center justify-around gap-1 text-base font-semibold">
-            {links.map(({ id, label }) => (
-              <li key={id}>
+          <div>
+            <Link href="#about" aria-label="Jump to About section">
+              <Image src={Logo} alt="" width={50} height={40} priority />
+            </Link>
+          </div>
+
+          <nav
+            aria-label="Primary"
+            className="hidden min-w-0 flex-1 py-1 min-[1120px]:block"
+          >
+            <ul className="flex items-center justify-around gap-1 text-base font-semibold">
+              {links.map(({ id, label }) => (
+                <li key={id}>
+                  <a
+                    href={`#${id}`}
+                    aria-current={activeSection === id ? 'location' : undefined}
+                    className={navLinkClass(activeSection === id)}
+                  >
+                    {label}
+                  </a>
+                </li>
+              ))}
+              <li>
                 <a
-                  href={`#${id}`}
-                  aria-current={activeSection === id ? 'location' : undefined}
-                  className={navLinkClass(activeSection === id)}
+                  href="/dmitriy_malayev_resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-1 inline-flex shrink-0 items-center rounded border border-orange-600 px-2 py-0.5 font-semibold text-orange-400 transition hover:bg-orange-900/40 hover:text-orange-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
+                  aria-label="Download résumé PDF"
                 >
-                  {label}
+                  Résumé ↗
                 </a>
               </li>
-            ))}
-            <li>
-              <a
-                href="/dmitriy_malayev_resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="ml-1 inline-flex shrink-0 items-center rounded border border-orange-600 px-2 py-0.5 font-semibold text-orange-400 transition hover:bg-orange-900/40 hover:text-orange-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
-                aria-label="Download résumé PDF"
-              >
-                Résumé ↗
-              </a>
-            </li>
-          </ul>
-        </nav>
+            </ul>
+          </nav>
 
-        <button
-          type="button"
-          className="z-[80] rounded p-2 min-[1120px]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
-          onClick={toggleMenu}
-          aria-expanded={navOpen}
-          aria-controls="mobile-menu"
-          aria-label={navOpen ? 'Close navigation menu' : 'Open navigation menu'}
-        >
-          {!navOpen ? (
-            <svg
-              className="h-6 w-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden
-              focusable="false"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          ) : (
-            <svg
-              className="h-6 w-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden
-              focusable="false"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          )}
-        </button>
+          <button
+            type="button"
+            className="z-[80] rounded p-2 min-[1120px]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
+            onClick={toggleMenu}
+            aria-expanded={navOpen}
+            aria-controls="mobile-menu"
+            aria-label={navOpen ? 'Close navigation menu' : 'Open navigation menu'}
+          >
+            {!navOpen ? (
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden
+                focusable="false"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            ) : (
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden
+                focusable="false"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            )}
+          </button>
         </div>
       </header>
 

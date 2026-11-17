@@ -11,7 +11,10 @@ export default function Experience() {
 
       <ol className="relative space-y-12">
         {experience.map((job) => (
-          <li key={`${job.company}-${job.period}`} className="relative pl-10 sm:pl-14 lg:pl-0">
+          <li
+            key={`${job.company}-${job.period}`}
+            className="relative pl-10 sm:pl-14 lg:pl-0"
+          >
             <span
               className="absolute left-0 top-2 grid h-[22px] w-[22px] place-items-center rounded-full border-2 border-orange-500 bg-stone-900 shadow-[0_0_12px_rgba(249,115,22,0.35)] sm:left-1 lg:-left-9"
               aria-hidden
