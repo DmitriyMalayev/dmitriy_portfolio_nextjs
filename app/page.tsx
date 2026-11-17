@@ -44,7 +44,7 @@ export default function HomePage() {
 
       {/* Impact metrics */}
       <AnimatedSection>
-        <div className="-mt-24 mb-20">
+        <div className="-mt-24 mb-20 lg:px-20">
           <StatsBar />
         </div>
       </AnimatedSection>

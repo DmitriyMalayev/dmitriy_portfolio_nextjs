@@ -16,6 +16,7 @@ export const skillCategoryOrder: string[] = [
   'AI & LLM',
   'Databases & Cloud',
   'Architecture & Testing',
+  'DevOps & Workflow',
 ];
 
 export const skillsList: Skill[] = [
@@ -68,12 +69,6 @@ export const skillsList: Skill[] = [
   { title: 'DynamoDB', src: D('dynamodb'), category: 'Databases & Cloud' },
   { title: 'MongoDB', src: '/assets/mongo.webp', category: 'Databases & Cloud' },
   { title: 'AWS', src: '/assets/aws.webp', category: 'Databases & Cloud' },
-  { title: 'Docker', src: D('docker'), category: 'Databases & Cloud' },
-  {
-    title: 'GitHub Actions',
-    src: D('githubactions'),
-    category: 'Databases & Cloud',
-  },
 
   // Architecture & Testing
   {
@@ -84,4 +79,13 @@ export const skillsList: Skill[] = [
   { title: 'pytest', src: D('pytest'), category: 'Architecture & Testing' },
   { title: 'Playwright', src: D('playwright'), category: 'Architecture & Testing' },
   { title: 'Jest', src: D('jest', 'jest-plain'), category: 'Architecture & Testing' },
+
+  // DevOps & Workflow
+  { title: 'Docker', src: D('docker'), category: 'DevOps & Workflow' },
+  {
+    title: 'GitHub Actions',
+    src: D('githubactions'),
+    category: 'DevOps & Workflow',
+  },
+  { title: 'Ansible', src: S('ansible', 'EE0000'), category: 'DevOps & Workflow' },
 ];

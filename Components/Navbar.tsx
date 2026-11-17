@@ -111,7 +111,7 @@ export default function Navbar() {
 
         <nav
           aria-label="Primary"
-          className="hidden min-w-0 flex-1 overflow-x-auto md:block"
+          className="hidden min-w-0 flex-1 overflow-x-auto overflow-y-hidden py-1 md:block"
         >
           <ul className="flex items-center justify-around gap-1 font-semibold md:text-xs lg:text-sm xl:text-base">
             {links.map(({ id, label }) => (
@@ -130,7 +130,7 @@ export default function Navbar() {
                 href="/dmitriy_malayev_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="ml-1 shrink-0 rounded border border-orange-600 px-2 py-0.5 font-semibold text-orange-400 transition hover:bg-orange-900/40 hover:text-orange-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
+                className="ml-1 inline-flex shrink-0 items-center rounded border border-orange-600 px-2 py-0.5 font-semibold text-orange-400 transition hover:bg-orange-900/40 hover:text-orange-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
                 aria-label="Download résumé PDF"
               >
                 Résumé ↗

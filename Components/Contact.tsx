@@ -91,9 +91,10 @@ export default function Contact() {
 
       setIsSubmitting(true);
 
-      executeRecaptcha('enquiryFormSubmit')
-        .then((token) =>
-          fetch('/api/enquiry', {
+      void (async () => {
+        try {
+          const token = await executeRecaptcha('enquiryFormSubmit');
+          const res = await fetch('/api/enquiry', {
             method: 'POST',
             headers: {
               Accept: 'application/json, text/plain, */*',
@@ -107,9 +108,8 @@ export default function Contact() {
               message,
               gRecaptchaToken: token,
             }),
-          }),
-        )
-        .then(async (res) => {
+          });
+
           let data: { status?: string; message?: string };
           try {
             data = await res.json();
@@ -144,14 +144,13 @@ export default function Contact() {
               data?.message ?? 'Could not send your message. Try again later.',
             );
           }
-        })
-        .catch(() => {
+        } catch {
           setNotificationType('error');
           setNotification('Network error. Please check your connection.');
-        })
-        .finally(() => {
+        } finally {
           setIsSubmitting(false);
-        });
+        }
+      })();
     },
     [clearStatus, executeRecaptcha, email, linkedin, message, name, website],
   );

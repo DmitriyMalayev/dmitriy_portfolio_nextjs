@@ -90,7 +90,9 @@ export default function SectionWrapper({
         )}
       </div>
 
-      {children && <div className="mt-10 w-full">{children}</div>}
+      {children && (
+        <div className="mt-10 w-full lg:px-20">{children}</div>
+      )}
     </section>
   );
 }
