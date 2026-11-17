@@ -109,7 +109,10 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <nav aria-label="Primary" className="hidden min-w-0 flex-1 overflow-x-auto md:block">
+        <nav
+          aria-label="Primary"
+          className="hidden min-w-0 flex-1 overflow-x-auto md:block"
+        >
           <ul className="flex items-center justify-around gap-1 font-semibold md:text-xs lg:text-sm xl:text-base">
             {links.map(({ id, label }) => (
               <li key={id}>

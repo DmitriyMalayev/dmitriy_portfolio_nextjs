@@ -43,7 +43,10 @@ export default function Contact() {
 
   useEffect(() => {
     if (!RECAPTCHA_CONFIGURED || recaptchaReady) return undefined;
-    const timer = window.setTimeout(() => setRecaptchaTimedOut(true), RECAPTCHA_WAIT_MS);
+    const timer = window.setTimeout(
+      () => setRecaptchaTimedOut(true),
+      RECAPTCHA_WAIT_MS,
+    );
     return () => window.clearTimeout(timer);
   }, [recaptchaReady]);
 
