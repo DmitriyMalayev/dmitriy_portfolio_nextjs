@@ -4,7 +4,7 @@ export const writingItems: WritingItem[] = [
   {
     title: 'Open Source on GitHub',
     description:
-      'Public repositories including this portfolio and experiments with React, Next.js, and TypeScript — plus contributions to community projects.',
+      'Public repositories including this portfolio and experiments with React, Next.js, TypeScript, and Kotlin — plus contributions to community projects.',
     url: 'https://github.com/DmitriyMalayev',
     type: 'repo',
   },

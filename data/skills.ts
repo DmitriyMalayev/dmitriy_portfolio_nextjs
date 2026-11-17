@@ -21,6 +21,7 @@ export const skillCategoryOrder: string[] = [
 export const skillsList: Skill[] = [
   // Languages
   { title: 'Python', src: D('python'), category: 'Languages' },
+  { title: 'Kotlin', src: '/assets/kotlin.webp', category: 'Languages' },
   { title: 'TypeScript', src: D('typescript'), category: 'Languages' },
   { title: 'JavaScript', src: '/assets/javascript.webp', category: 'Languages' },
   { title: 'SQL', src: D('postgresql'), category: 'Languages' },
@@ -29,6 +30,7 @@ export const skillsList: Skill[] = [
 
   // Frontend
   { title: 'Angular', src: D('angular'), category: 'Frontend' },
+  { title: 'Kotlin/JS', src: '/assets/kotlin.webp', category: 'Frontend' },
   { title: 'React', src: '/assets/react.webp', category: 'Frontend' },
   { title: 'React Query', src: S('reactquery', 'FF4154'), category: 'Frontend' },
   { title: 'Next.js', src: D('nextjs'), category: 'Frontend', invert: true },
@@ -43,6 +45,7 @@ export const skillsList: Skill[] = [
     invert: true,
   },
   { title: 'FastAPI', src: D('fastapi'), category: 'Backend & APIs' },
+  { title: 'Spring Boot', src: D('spring'), category: 'Backend & APIs' },
   { title: 'Express.js', src: D('express'), category: 'Backend & APIs', invert: true },
   { title: 'Node.js', src: '/assets/node.webp', category: 'Backend & APIs' },
   { title: 'Celery', src: S('celery', '37814A'), category: 'Backend & APIs' },

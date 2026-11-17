@@ -21,7 +21,7 @@ export default function CountUpStat({ value }: Props) {
   const { target, suffix, decimals } = parseValue(value);
   const prefersReducedMotion = useReducedMotion();
   const ref = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(ref, { once: true, margin: '-10% 0px' });
+  const isInView = useInView(ref, { once: true, margin: '0px 0px -48px 0px' });
   const [display, setDisplay] = useState(prefersReducedMotion ? target : 0);
 
   useEffect(() => {
@@ -38,8 +38,9 @@ export default function CountUpStat({ value }: Props) {
     return () => controls.stop();
   }, [isInView, prefersReducedMotion, target]);
 
+  const shown = prefersReducedMotion ? target : display;
   const formatted =
-    decimals > 0 ? display.toFixed(decimals) : Math.round(display).toString();
+    decimals > 0 ? shown.toFixed(decimals) : Math.round(shown).toString();
 
   return (
     <span ref={ref}>

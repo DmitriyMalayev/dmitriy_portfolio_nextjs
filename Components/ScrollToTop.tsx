@@ -25,7 +25,7 @@ export default function ScrollToTop() {
     <button
       type="button"
       onClick={scrollUp}
-      className="fixed bottom-28 right-4 z-[60] rounded-full bg-orange-600/90 px-4 py-3 text-sm font-semibold text-white shadow-lg backdrop-blur hover:bg-orange-500 focus-visible:outline focus-visible:ring-4 focus-visible:ring-orange-300 md:bottom-24 md:right-8"
+      className="fixed bottom-6 right-4 z-40 hidden rounded-full bg-orange-600/90 px-4 py-3 text-sm font-semibold text-white shadow-lg backdrop-blur hover:bg-orange-500 focus-visible:outline focus-visible:ring-4 focus-visible:ring-orange-300 md:bottom-8 md:right-8 md:block"
       aria-label="Scroll to top"
     >
       Top

@@ -12,8 +12,8 @@ export const projects: Project[] = [
   {
     title: 'Ecosave sustainability portal',
     description:
-      'Client-facing Next.js and React portal for energy KPIs, 5,000+ monthly data points, and interactive compliance dashboards. GRI-compliant reports generated with Next.js API routes and TypeScript, cutting manual reporting by 20+ hours per month. ELT/ETL validation raised uptime to 99.8% and cut data errors by 40%.',
-    tags: ['Next.js', 'React', 'TypeScript', 'ETL/ELT'],
+      'Client-facing sustainability portal in Kotlin/JS and React on a Spring Boot API for energy KPIs, 5,000+ monthly data points, and interactive compliance dashboards. GRI-compliant reports generated in Spring Boot, cutting manual reporting by 20+ hours per month. ELT/ETL validation against PostgreSQL raised uptime to 99.8% and cut data errors by 40%.',
+    tags: ['Kotlin/JS', 'React', 'Spring Boot', 'PostgreSQL', 'ETL/ELT'],
     githubUrl: null,
     liveUrl: 'https://ecosaveinc.com/turnkey-solutions/ecosave-watch/',
   },

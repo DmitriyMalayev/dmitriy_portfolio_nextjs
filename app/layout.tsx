@@ -25,15 +25,17 @@ export const metadata: Metadata = {
     template: '%s | Dmitriy Malayev',
   },
   description:
-    'Senior full-stack engineer with 5+ years of experience — Python, Django, TypeScript, Angular, React, Next.js, and AI/RAG. Portfolio, skills, certifications, projects, and contact.',
+    'Senior full-stack engineer with 5+ years of experience — Python, Kotlin, Django, Spring Boot, TypeScript, Angular, React, Next.js, and AI/RAG. Portfolio, skills, certifications, projects, and contact.',
   keywords: [
     'Dmitriy Malayev',
     'Senior Full Stack Software Engineer',
     'Full-Stack Engineer',
     'Software Engineer',
     'Python',
+    'Kotlin',
     'Django',
     'FastAPI',
+    'Spring Boot',
     'Angular',
     'React',
     'Next.js',
@@ -64,7 +66,7 @@ export const metadata: Metadata = {
     url: siteUrl,
     title: 'Dmitriy Malayev | Senior Full Stack Software Engineer',
     description:
-      'Senior full-stack engineer with 5+ years of experience — Python, Django, TypeScript, Angular, React, Next.js, and AI/RAG.',
+      'Senior full-stack engineer with 5+ years of experience — Python, Kotlin, Django, Spring Boot, TypeScript, Angular, React, Next.js, and AI/RAG.',
     locale: 'en_US',
     siteName: 'Dmitriy Malayev',
   },
@@ -72,7 +74,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Dmitriy Malayev | Senior Full Stack Software Engineer',
     description:
-      'Senior full-stack engineer with 5+ years of experience — Python, Django, TypeScript, Angular, React, Next.js, and AI/RAG.',
+      'Senior full-stack engineer with 5+ years of experience — Python, Kotlin, Django, Spring Boot, TypeScript, Angular, React, Next.js, and AI/RAG.',
     creator: '@dmitriymalayev',
     images: ['/opengraph-image'],
   },

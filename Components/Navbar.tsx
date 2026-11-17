@@ -43,6 +43,20 @@ export default function Navbar() {
   const [activeSection, setActiveSection] = useState<SectionId>('about');
 
   useEffect(() => {
+    if (!navOpen) return undefined;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setNavOpen(false);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener('keydown', onKey);
+    };
+  }, [navOpen]);
+
+  useEffect(() => {
     const elements = SECTION_IDS.map((id) => document.getElementById(id)).filter(
       (el): el is HTMLElement => el !== null,
     );
@@ -95,8 +109,8 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <nav aria-label="Primary" className="hidden min-w-0 flex-1 md:block">
-          <ul className="flex items-center justify-around gap-1 font-semibold md:text-sm xl:text-base">
+        <nav aria-label="Primary" className="hidden min-w-0 flex-1 overflow-x-auto md:block">
+          <ul className="flex items-center justify-around gap-1 font-semibold md:text-xs lg:text-sm xl:text-base">
             {links.map(({ id, label }) => (
               <li key={id}>
                 <a
@@ -113,7 +127,7 @@ export default function Navbar() {
                 href="/dmitriy_malayev_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="ml-1 rounded border border-orange-600 px-2 py-0.5 font-semibold text-orange-400 transition hover:bg-orange-900/40 hover:text-orange-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 md:text-sm xl:text-base"
+                className="ml-1 shrink-0 rounded border border-orange-600 px-2 py-0.5 font-semibold text-orange-400 transition hover:bg-orange-900/40 hover:text-orange-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
                 aria-label="Download résumé PDF"
               >
                 Résumé ↗
@@ -124,7 +138,7 @@ export default function Navbar() {
 
         <button
           type="button"
-          className="z-[60] rounded p-2 md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
+          className="z-[80] rounded p-2 md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
           onClick={toggleMenu}
           aria-expanded={navOpen}
           aria-controls="mobile-menu"
@@ -175,22 +189,22 @@ export default function Navbar() {
           className={
             !navOpen
               ? 'hidden'
-              : 'fixed left-0 top-0 z-[55] flex h-screen w-full flex-col items-center justify-center bg-stone-900 md:hidden'
+              : 'fixed inset-0 z-[70] flex h-[100dvh] w-full flex-col items-center justify-center gap-1 overflow-y-auto overscroll-contain bg-stone-900 px-6 py-24 md:hidden'
           }
         >
           {links.map(({ id, label }) => (
-            <li key={`m-${id}`} className="py-6 text-4xl">
+            <li key={`m-${id}`} className="py-2 text-2xl">
               <a
                 onClick={closeMenu}
                 href={`#${id}`}
-                className={`${navOpen ? 'pointer-events-auto block' : 'pointer-events-none'} ${navLinkClass(activeSection === id)}`}
+                className={navLinkClass(activeSection === id)}
                 aria-current={activeSection === id ? 'location' : undefined}
               >
                 {label}
               </a>
             </li>
           ))}
-          <li className="py-6 text-4xl">
+          <li className="py-2 text-2xl">
             <a
               onClick={closeMenu}
               href="/dmitriy_malayev_resume.pdf"

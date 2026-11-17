@@ -1,5 +1,8 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 import { skillCategoryOrder, skillsList } from '@/data/skills';
 
@@ -12,8 +15,19 @@ function SkillLogo({
   alt: string;
   invert?: boolean;
 }) {
+  const [failed, setFailed] = useState(false);
   const invertClass = invert ? 'invert' : '';
   const isRemote = /^https?:\/\//i.test(src);
+
+  if (failed) {
+    const initials = alt.replace(/ logo$/i, '').slice(0, 2);
+    return (
+      <span className="grid h-16 w-16 place-items-center rounded-md bg-stone-800 text-sm font-semibold text-stone-300">
+        {initials}
+      </span>
+    );
+  }
+
   if (isRemote) {
     return (
       // eslint-disable-next-line @next/next/no-img-element -- remote SVG CDN icons outside next/image domains
@@ -23,6 +37,7 @@ function SkillLogo({
         width={96}
         height={96}
         loading="lazy"
+        onError={() => setFailed(true)}
         className={`mx-auto h-16 w-16 object-contain ${invertClass}`}
       />
     );
@@ -34,6 +49,7 @@ function SkillLogo({
       alt={alt}
       width={96}
       height={96}
+      onError={() => setFailed(true)}
       className={`h-16 w-16 object-contain ${invertClass}`}
     />
   );

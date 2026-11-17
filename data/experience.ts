@@ -27,11 +27,11 @@ export const experience: ExperienceItem[] = [
     role: 'Full Stack Software Engineer',
     period: 'Oct 2022 – Apr 2024',
     bullets: [
-      'Built a client-facing sustainability portal in Next.js and React so enterprise clients can track energy KPIs, manage 5,000+ monthly data points, and review interactive compliance dashboards instead of static spreadsheet reports.',
-      'Automated GRI-compliant sustainability report generation with Next.js API routes and TypeScript, reducing manual reporting cycles by 20+ hours per month.',
-      'Architected an ELT/ETL testing pipeline with automated data validation and quality checks, increasing application uptime to 99.8% and cutting data-related errors by 40%.',
+      'Built a client-facing sustainability portal in Kotlin/JS and React on a Spring Boot API, enabling enterprise clients to track energy KPIs, manage 5,000+ monthly data points, and review interactive compliance dashboards instead of static spreadsheet reports.',
+      'Automated GRI-compliant sustainability report generation in Spring Boot, reducing manual reporting cycles by 20+ hours per month.',
+      'Architected an ELT/ETL testing pipeline in Spring Boot with automated data validation and quality checks against PostgreSQL, increasing application uptime to 99.8% and cutting data-related errors by 40%.',
     ],
-    tech: ['Next.js', 'React', 'TypeScript', 'ETL/ELT'],
+    tech: ['Kotlin/JS', 'React', 'Spring Boot', 'PostgreSQL', 'ETL/ELT'],
   },
   {
     company: 'IQTech Consultant, LLC',

@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import type { FormEvent } from 'react';
 import { openCalendlyPopup } from '@/Components/ClientCalendly';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
@@ -9,6 +9,15 @@ type NotificationType = 'success' | 'error';
 type FieldErrors = Partial<Record<'name' | 'email' | 'message', string>>;
 
 const RECAPTCHA_CONFIGURED = Boolean(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY);
+const RECAPTCHA_WAIT_MS = 8000;
+
+const FIELD_LIMITS = {
+  name: 100,
+  email: 254,
+  website: 300,
+  linkedin: 300,
+  message: 4000,
+} as const;
 
 function isValidEmail(email: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -26,10 +35,17 @@ export default function Contact() {
     null,
   );
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [recaptchaTimedOut, setRecaptchaTimedOut] = useState(false);
 
   const { executeRecaptcha } = useGoogleReCaptcha();
   const recaptchaReady = Boolean(executeRecaptcha);
   const canSubmit = RECAPTCHA_CONFIGURED && recaptchaReady && !isSubmitting;
+
+  useEffect(() => {
+    if (!RECAPTCHA_CONFIGURED || recaptchaReady) return undefined;
+    const timer = window.setTimeout(() => setRecaptchaTimedOut(true), RECAPTCHA_WAIT_MS);
+    return () => window.clearTimeout(timer);
+  }, [recaptchaReady]);
 
   const clearStatus = useCallback(() => {
     setNotification('');
@@ -45,7 +61,11 @@ export default function Contact() {
       if (!name.trim()) errs.name = 'Name is required.';
       if (!email.trim()) errs.email = 'Email is required.';
       else if (!isValidEmail(email)) errs.email = 'Enter a valid email address.';
+      if (name.trim().length > FIELD_LIMITS.name) errs.name = 'Name is too long.';
+      if (email.trim().length > FIELD_LIMITS.email) errs.email = 'Email is too long.';
       if (!message.trim()) errs.message = 'Message is required.';
+      else if (message.trim().length > FIELD_LIMITS.message)
+        errs.message = 'Message is too long.';
 
       setFieldErrors(errs);
       if (Object.keys(errs).length > 0) return;
@@ -183,6 +203,12 @@ export default function Contact() {
             </p>
           ) : null}
 
+          {RECAPTCHA_CONFIGURED && recaptchaTimedOut && !recaptchaReady ? (
+            <p className="mb-4 rounded-md border border-amber-800 bg-amber-950/50 px-4 py-3 text-sm text-amber-100">
+              The security check did not load. Email me directly or schedule a call.
+            </p>
+          ) : null}
+
           {notification ? (
             <output
               aria-live="polite"
@@ -197,7 +223,7 @@ export default function Contact() {
             </output>
           ) : null}
 
-          <div className="grid grid-cols-1 gap-2 text-slate-700 sm:grid-cols-2 ">
+          <div className="grid grid-cols-1 gap-2 text-slate-700 md:grid-cols-2">
             <label className="flex flex-col gap-1 text-sm font-semibold text-slate-100">
               Name *
               <input
@@ -209,6 +235,7 @@ export default function Contact() {
                 placeholder="Ada Lovelace"
                 name="name"
                 value={name}
+                maxLength={FIELD_LIMITS.name}
                 disabled={isSubmitting}
                 aria-invalid={Boolean(fieldErrors.name)}
                 aria-describedby={fieldErrors.name ? 'err-name' : undefined}
@@ -232,6 +259,7 @@ export default function Contact() {
                 placeholder="you@example.com"
                 name="email"
                 value={email}
+                maxLength={FIELD_LIMITS.email}
                 disabled={isSubmitting}
                 aria-invalid={Boolean(fieldErrors.email)}
                 aria-describedby={fieldErrors.email ? 'err-email' : undefined}
@@ -253,6 +281,7 @@ export default function Contact() {
                 placeholder="https://"
                 name="website"
                 value={website}
+                maxLength={FIELD_LIMITS.website}
                 disabled={isSubmitting}
                 onChange={(evt) => setWebsite(evt.target.value)}
               />
@@ -266,12 +295,13 @@ export default function Contact() {
                 placeholder="linkedin.com/in/..."
                 name="linkedin"
                 value={linkedin}
+                maxLength={FIELD_LIMITS.linkedin}
                 disabled={isSubmitting}
                 onChange={(evt) => setLinkedin(evt.target.value)}
               />
             </label>
 
-            <label className="flex flex-col gap-1 text-sm font-semibold text-slate-100 sm:col-span-2">
+            <label className="flex flex-col gap-1 text-sm font-semibold text-slate-100 md:col-span-2">
               Message *
               <textarea
                 className={`custom-ring min-h-[140px] rounded-lg p-2 text-lg text-slate-900 ${
@@ -281,6 +311,7 @@ export default function Contact() {
                 rows={8}
                 placeholder="What would you like to build or chat about?"
                 value={message}
+                maxLength={FIELD_LIMITS.message}
                 disabled={isSubmitting}
                 aria-invalid={Boolean(fieldErrors.message)}
                 aria-describedby={fieldErrors.message ? 'err-message' : undefined}
@@ -302,7 +333,7 @@ export default function Contact() {
           >
             {isSubmitting
               ? 'Sending…'
-              : !RECAPTCHA_CONFIGURED
+              : !RECAPTCHA_CONFIGURED || (recaptchaTimedOut && !recaptchaReady)
                 ? 'Form unavailable'
                 : !recaptchaReady
                   ? 'Loading security check…'

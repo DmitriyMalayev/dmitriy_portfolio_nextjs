@@ -3,7 +3,7 @@ import { testimonials } from '@/data/testimonials';
 export default function Testimonials() {
   return (
     <div className="mx-auto max-w-5xl px-4">
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {testimonials.map((item) => (
           <figure
             key={item.author}

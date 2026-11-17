@@ -107,7 +107,7 @@ export default function Hero() {
       </motion.div>
 
       <motion.div
-        className="absolute bottom-8 flex flex-col items-center gap-1"
+        className="absolute bottom-8 flex flex-col items-center gap-1 [@media(max-height:740px)]:hidden"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.6, duration: 0.8 }}

@@ -6,7 +6,17 @@ function escapeHtml(s: string | undefined | null): string {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
 }
 
-/** Format body as readable plain text fallback */
+const FIELD_LIMITS = {
+  name: 100,
+  email: 254,
+  website: 300,
+  linkedin: 300,
+  message: 4000,
+} as const;
+
+function clip(value: string | undefined, max: number): string {
+  return (value ?? '').trim().slice(0, max);
+}
 function escapeTextBlock(s: string | undefined | null): string {
   if (s == null) return '(empty)';
   return String(s).replace(/\r?\n/g, '\n').trim() || '(empty)';
@@ -37,8 +47,24 @@ export async function POST(request: Request) {
     );
   }
 
+  let body: unknown;
   try {
-    const body = await request.json();
+    body = await request.json();
+  } catch {
+    return NextResponse.json(
+      { status: 'failure', message: 'Invalid request.' },
+      { status: 400 },
+    );
+  }
+
+  if (!body || typeof body !== 'object' || Array.isArray(body)) {
+    return NextResponse.json(
+      { status: 'failure', message: 'Invalid request.' },
+      { status: 400 },
+    );
+  }
+
+  try {
     const { name, email, website, linkedin, message, gRecaptchaToken } = body as Record<
       string,
       string | undefined
@@ -96,6 +122,24 @@ export async function POST(request: Request) {
         { status: 422 },
       );
     }
+    if (
+      name.trim().length > FIELD_LIMITS.name ||
+      email.trim().length > FIELD_LIMITS.email ||
+      (website ?? '').trim().length > FIELD_LIMITS.website ||
+      (linkedin ?? '').trim().length > FIELD_LIMITS.linkedin ||
+      message.trim().length > FIELD_LIMITS.message
+    ) {
+      return NextResponse.json(
+        { status: 'failure', message: 'One of the fields is too long.' },
+        { status: 422 },
+      );
+    }
+
+    const safeName = clip(name, FIELD_LIMITS.name);
+    const safeEmail = clip(email, FIELD_LIMITS.email);
+    const safeWebsite = clip(website, FIELD_LIMITS.website);
+    const safeLinkedin = clip(linkedin, FIELD_LIMITS.linkedin);
+    const safeMessage = clip(message, FIELD_LIMITS.message);
 
     if (!resendKey || !to || !from) {
       console.warn(
@@ -111,31 +155,31 @@ export async function POST(request: Request) {
     }
 
     const html = `
-      <p><strong>Name:</strong> ${escapeHtml(name)}</p>
-      <p><strong>Email:</strong> ${escapeHtml(email)}</p>
-      <p><strong>Website:</strong> ${escapeHtml(website)}</p>
-      <p><strong>LinkedIn:</strong> ${escapeHtml(linkedin)}</p>
+      <p><strong>Name:</strong> ${escapeHtml(safeName)}</p>
+      <p><strong>Email:</strong> ${escapeHtml(safeEmail)}</p>
+      <p><strong>Website:</strong> ${escapeHtml(safeWebsite)}</p>
+      <p><strong>LinkedIn:</strong> ${escapeHtml(safeLinkedin)}</p>
       <p><strong>Message:</strong></p>
-      <p>${escapeHtml(message).replace(/\n/g, '<br />')}</p>
+      <p>${escapeHtml(safeMessage).replace(/\n/g, '<br />')}</p>
     `.trim();
 
-    const replyToSafe = email && emailRegexValidate.test(email) ? email : undefined;
+    const replyToSafe = emailRegexValidate.test(safeEmail) ? safeEmail : undefined;
 
     const resend = new Resend(resendKey);
     const { error } = await resend.emails.send({
       from,
       to: [to],
       ...(replyToSafe ? { replyTo: replyToSafe } : {}),
-      subject: `Portfolio enquiry from ${escapeTextBlock(name)}`,
+      subject: `Portfolio enquiry from ${safeName.replace(/[\r\n]+/g, ' ')}`,
       html,
       text: `
-Name: ${escapeTextBlock(name)}
-Email: ${escapeTextBlock(email)}
-Website: ${escapeTextBlock(website)}
-LinkedIn: ${escapeTextBlock(linkedin)}
+Name: ${escapeTextBlock(safeName)}
+Email: ${escapeTextBlock(safeEmail)}
+Website: ${escapeTextBlock(safeWebsite)}
+LinkedIn: ${escapeTextBlock(safeLinkedin)}
 
 Message:
-${escapeTextBlock(message)}
+${escapeTextBlock(safeMessage)}
       `.trim(),
     });
 

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="mt-20 flex flex-wrap items-center justify-between gap-10 rounded-lg bg-orange-100/5 p-4 text-orange-700 shadow backdrop-blur-xl sm:p-2 md:p-6 text-xs md:text-sm lg:text-base">
+    <footer className="mt-20 flex flex-wrap items-center justify-between gap-6 rounded-lg bg-orange-100/5 p-4 text-xs text-orange-700 shadow backdrop-blur-xl md:p-6 md:text-sm lg:text-base">
       <span>Created by Dmitriy Malayev</span>
 
       <ul className="flex flex-wrap items-center gap-6 text-sm md:text-base md:justify-end md:gap-8">
