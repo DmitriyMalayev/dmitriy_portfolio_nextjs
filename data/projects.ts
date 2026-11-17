@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     title: 'BrightArchive — multi-tenant document SaaS',
     description:
-      'Sole-engineered a multi-tenant document management platform from a Paperless-ngx fork — Django 5.2, Angular 20, PostgreSQL with row-level tenant isolation. AI/RAG layer with 6+ LLM providers, pgvector hybrid search, subscription portal (FastAPI + Chargebee + Keycloak), automated email/OCR ingestion, and CI/CD on self-hosted GitHub Actions.',
+      'Multi-tenant document SaaS on a Paperless-ngx base — Python and Django with row-level tenant isolation, S3 media storage, and PostgreSQL (AWS RDS). TypeScript Angular client with real-time updates, PDF preview, and RAG chat. FastAPI subscription portal with Chargebee and Keycloak, plus ingestion and pgvector Q&A that classifies documents at 95%+.',
     tags: ['Django', 'Angular', 'PostgreSQL', 'FastAPI', 'AI/RAG', 'Keycloak'],
     githubUrl: null,
     liveUrl: null,
@@ -12,8 +12,8 @@ export const projects: Project[] = [
   {
     title: 'Ecosave sustainability portal',
     description:
-      'Enterprise-facing Kotlin/JS + React portal for energy KPIs and 5,000+ monthly datapoints; GRI reports automated with JasperReports (≈20 hrs saved per cycle). New ELT/ETL validation raised uptime to 99.8% and cut data errors ~40%.',
-    tags: ['Kotlin/JS', 'React', 'JasperReports', 'ETL', 'Figma'],
+      'Client-facing Next.js and React portal for energy KPIs, 5,000+ monthly data points, and interactive compliance dashboards. GRI-compliant reports generated with Next.js API routes and TypeScript, cutting manual reporting by 20+ hours per month. ELT/ETL validation raised uptime to 99.8% and cut data errors by 40%.',
+    tags: ['Next.js', 'React', 'TypeScript', 'ETL/ELT'],
     githubUrl: null,
     liveUrl: 'https://ecosaveinc.com/turnkey-solutions/ecosave-watch/',
   },

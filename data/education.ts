@@ -6,11 +6,11 @@ export const education: EducationItem[] = [
     credential: 'Full Stack Software Engineering Certification',
     period: 'Jun 2020 – Apr 2021',
     notes:
-      'Intensive hands-on program covering Ruby on Rails, JavaScript, React, and SQL.',
+      'Intensive hands-on full-stack software engineering program.',
   },
   {
     school: 'Touro College',
-    credential: 'B.S. — Data Communications & Computer Science',
+    credential: 'B.S. — Data Communications / Computer Science',
     period: 'Jan 2000 – Jun 2003',
     notes:
       'Foundations in networking, operating systems, data structures, and algorithms.',

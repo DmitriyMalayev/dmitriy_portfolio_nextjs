@@ -109,7 +109,7 @@ export default async function Image() {
           marginTop: 36,
         }}
       >
-        {['React', 'Angular', 'Django', 'TypeScript', 'Cloud'].map((tag) => (
+        {['Python', 'Django', 'Next.js', 'TypeScript', 'Angular'].map((tag) => (
           <div
             key={tag}
             style={{
