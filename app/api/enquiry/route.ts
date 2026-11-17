@@ -1,9 +1,16 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
+const RECAPTCHA_ACTION = 'enquiryFormSubmit';
+const MAX_BODY_BYTES = 64 * 1024;
+
 function escapeHtml(s: string | undefined | null): string {
   if (s == null) return '';
-  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
 const FIELD_LIMITS = {
@@ -38,9 +45,25 @@ export async function POST(request: Request) {
     );
   }
 
-  const MAX_BODY_BYTES = 8_192;
   const contentLength = request.headers.get('content-length');
-  if (contentLength && parseInt(contentLength, 10) > MAX_BODY_BYTES) {
+  if (contentLength && Number(contentLength) > MAX_BODY_BYTES) {
+    return NextResponse.json(
+      { status: 'failure', message: 'Request body too large.' },
+      { status: 413 },
+    );
+  }
+
+  let raw: string;
+  try {
+    raw = await request.text();
+  } catch {
+    return NextResponse.json(
+      { status: 'failure', message: 'Invalid request.' },
+      { status: 400 },
+    );
+  }
+
+  if (new TextEncoder().encode(raw).byteLength > MAX_BODY_BYTES) {
     return NextResponse.json(
       { status: 'failure', message: 'Request body too large.' },
       { status: 413 },
@@ -49,7 +72,7 @@ export async function POST(request: Request) {
 
   let body: unknown;
   try {
-    body = await request.json();
+    body = JSON.parse(raw);
   } catch {
     return NextResponse.json(
       { status: 'failure', message: 'Invalid request.' },
@@ -88,12 +111,19 @@ export async function POST(request: Request) {
     const recaptchaJson = (await recaptchaRes.json()) as {
       success?: boolean;
       score?: number;
+      action?: string;
+      'error-codes'?: string[];
     };
 
-    if (
+    const recaptchaFailed =
       !recaptchaJson?.success ||
-      (recaptchaJson.score !== undefined && recaptchaJson.score <= 0.5)
-    ) {
+      recaptchaJson.action !== RECAPTCHA_ACTION ||
+      (recaptchaJson.score !== undefined && recaptchaJson.score <= 0.5);
+
+    if (recaptchaFailed) {
+      if (!recaptchaJson?.success) {
+        console.error('reCAPTCHA verification failed', recaptchaJson?.['error-codes']);
+      }
       return NextResponse.json(
         {
           status: 'failure',

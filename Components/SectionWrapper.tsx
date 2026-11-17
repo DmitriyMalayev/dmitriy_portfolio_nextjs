@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import type { ReactNode } from 'react';
 import Photo from '@/public/photo.webp';
+import { contentColumnClass } from '@/Components/contentColumn';
 
 type SectionWrapperProps = {
   id: string;
@@ -56,7 +57,7 @@ export default function SectionWrapper({
       id={id}
       className="mb-16 w-full scroll-mt-20 py-10 text-slate-300 lg:mb-20 lg:py-14"
     >
-      <div className="mx-auto w-full max-w-5xl px-4 sm:px-8">
+      <div className={contentColumnClass}>
         <SectionHeader title={title} subtitle={subtitle} />
 
         {about && text && (
@@ -88,9 +89,9 @@ export default function SectionWrapper({
             {text3 && <p>{text3}</p>}
           </div>
         )}
-      </div>
 
-      {children && <div className="mt-10 w-full lg:px-20">{children}</div>}
+        {children && <div className="mt-10">{children}</div>}
+      </div>
     </section>
   );
 }

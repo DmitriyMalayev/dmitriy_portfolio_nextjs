@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { openCalendlyPopup } from '@/Components/ClientCalendly';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
@@ -36,6 +36,7 @@ export default function Contact() {
   );
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [recaptchaTimedOut, setRecaptchaTimedOut] = useState(false);
+  const statusRef = useRef<HTMLOutputElement>(null);
 
   const { executeRecaptcha } = useGoogleReCaptcha();
   const recaptchaReady = Boolean(executeRecaptcha);
@@ -50,6 +51,11 @@ export default function Contact() {
     return () => window.clearTimeout(timer);
   }, [recaptchaReady]);
 
+  useEffect(() => {
+    if (!notification) return;
+    statusRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, [notification]);
+
   const clearStatus = useCallback(() => {
     setNotification('');
     setNotificationType(null);
@@ -60,18 +66,37 @@ export default function Contact() {
       e.preventDefault();
       clearStatus();
 
+      const trimmedName = name.trim();
+      const trimmedEmail = email.trim();
+      const trimmedWebsite = website.trim();
+      const trimmedLinkedin = linkedin.trim();
+      const trimmedMessage = message.trim();
+
       const errs: FieldErrors = {};
-      if (!name.trim()) errs.name = 'Name is required.';
-      if (!email.trim()) errs.email = 'Email is required.';
-      else if (!isValidEmail(email)) errs.email = 'Enter a valid email address.';
-      if (name.trim().length > FIELD_LIMITS.name) errs.name = 'Name is too long.';
-      if (email.trim().length > FIELD_LIMITS.email) errs.email = 'Email is too long.';
-      if (!message.trim()) errs.message = 'Message is required.';
-      else if (message.trim().length > FIELD_LIMITS.message)
+      if (!trimmedName) errs.name = 'Name is required.';
+      else if (trimmedName.length > FIELD_LIMITS.name) errs.name = 'Name is too long.';
+      if (!trimmedEmail) errs.email = 'Email is required.';
+      else if (!isValidEmail(trimmedEmail)) errs.email = 'Enter a valid email address.';
+      else if (trimmedEmail.length > FIELD_LIMITS.email)
+        errs.email = 'Email is too long.';
+      if (!trimmedMessage) errs.message = 'Message is required.';
+      else if (trimmedMessage.length > FIELD_LIMITS.message)
         errs.message = 'Message is too long.';
 
       setFieldErrors(errs);
-      if (Object.keys(errs).length > 0) return;
+      if (Object.keys(errs).length > 0) {
+        const firstInvalid = (['name', 'email', 'message'] as const).find(
+          (field) => errs[field],
+        );
+        if (firstInvalid) {
+          const field = e.currentTarget.querySelector<HTMLElement>(
+            `[name="${firstInvalid}"]`,
+          );
+          field?.focus({ preventScroll: true });
+          field?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+        return;
+      }
 
       if (!RECAPTCHA_CONFIGURED) {
         setNotificationType('error');
@@ -101,11 +126,11 @@ export default function Contact() {
               'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-              name,
-              email,
-              website,
-              linkedin,
-              message,
+              name: trimmedName,
+              email: trimmedEmail,
+              website: trimmedWebsite,
+              linkedin: trimmedLinkedin,
+              message: trimmedMessage,
               gRecaptchaToken: token,
             }),
           });
@@ -211,20 +236,6 @@ export default function Contact() {
             </p>
           ) : null}
 
-          {notification ? (
-            <output
-              aria-live="polite"
-              role={notificationType === 'success' ? 'status' : 'alert'}
-              className={`mb-6 rounded-md border px-4 py-3 text-base ${
-                notificationType === 'success'
-                  ? 'border-emerald-800 bg-emerald-950/60 text-emerald-100'
-                  : 'border-red-800 bg-red-950/70 text-red-50'
-              }`}
-            >
-              {notification}
-            </output>
-          ) : null}
-
           <div className="grid grid-cols-1 gap-2 text-slate-700 md:grid-cols-2">
             <label className="flex flex-col gap-1 text-sm font-semibold text-slate-100">
               Name *
@@ -326,6 +337,21 @@ export default function Contact() {
               ) : null}
             </label>
           </div>
+
+          {notification ? (
+            <output
+              ref={statusRef}
+              aria-live="polite"
+              role={notificationType === 'success' ? 'status' : 'alert'}
+              className={`mt-6 rounded-md border px-4 py-3 text-base ${
+                notificationType === 'success'
+                  ? 'border-emerald-800 bg-emerald-950/60 text-emerald-100'
+                  : 'border-red-800 bg-red-950/70 text-red-50'
+              }`}
+            >
+              {notification}
+            </output>
+          ) : null}
 
           <button
             type="submit"

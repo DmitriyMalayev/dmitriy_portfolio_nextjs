@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { barClass, contentColumnClass } from '@/Components/contentColumn';
 import Logo from '@/public/logo.svg';
 
 const SECTION_IDS = [
@@ -17,6 +18,9 @@ const SECTION_IDS = [
   'contact',
 ] as const;
 type SectionId = (typeof SECTION_IDS)[number];
+
+/** Link row fits here. Narrower viewports use the menu instead of scrolling the bar. */
+const DESKTOP_NAV_QUERY = '(min-width: 1120px)';
 
 const SECTION_LABELS: Record<SectionId, string> = {
   about: 'About',
@@ -41,6 +45,15 @@ function navLinkClass(active: boolean): string {
 export default function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
   const [activeSection, setActiveSection] = useState<SectionId>('about');
+
+  useEffect(() => {
+    const media = window.matchMedia(DESKTOP_NAV_QUERY);
+    const closeWhenDesktop = () => {
+      if (media.matches) setNavOpen(false);
+    };
+    media.addEventListener('change', closeWhenDesktop);
+    return () => media.removeEventListener('change', closeWhenDesktop);
+  }, []);
 
   useEffect(() => {
     if (!navOpen) return undefined;
@@ -102,7 +115,8 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-50 flex h-[80px] w-full items-center justify-between gap-3 bg-orange-100/10 px-4 text-orange-700 backdrop-blur-xl backdrop-saturate-150">
+      <header className={`fixed inset-x-0 top-0 z-50 h-[80px] ${barClass}`}>
+        <div className={`${contentColumnClass} flex h-full items-center justify-between gap-3`}>
         <div>
           <Link href="#about" aria-label="Jump to About section">
             <Image src={Logo} alt="" width={50} height={40} priority />
@@ -111,9 +125,9 @@ export default function Navbar() {
 
         <nav
           aria-label="Primary"
-          className="hidden min-w-0 flex-1 overflow-x-auto overflow-y-hidden py-1 md:block"
+          className="hidden min-w-0 flex-1 py-1 min-[1120px]:block"
         >
-          <ul className="flex items-center justify-around gap-1 font-semibold md:text-xs lg:text-sm xl:text-base">
+          <ul className="flex items-center justify-around gap-1 text-base font-semibold">
             {links.map(({ id, label }) => (
               <li key={id}>
                 <a
@@ -141,7 +155,7 @@ export default function Navbar() {
 
         <button
           type="button"
-          className="z-[80] rounded p-2 md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
+          className="z-[80] rounded p-2 min-[1120px]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
           onClick={toggleMenu}
           aria-expanded={navOpen}
           aria-controls="mobile-menu"
@@ -183,6 +197,7 @@ export default function Navbar() {
             </svg>
           )}
         </button>
+        </div>
       </header>
 
       <nav aria-label="Mobile">
@@ -192,7 +207,7 @@ export default function Navbar() {
           className={
             !navOpen
               ? 'hidden'
-              : 'fixed inset-0 z-[70] flex h-[100dvh] w-full flex-col items-center justify-center gap-1 overflow-y-auto overscroll-contain bg-stone-900 px-6 py-24 md:hidden'
+              : 'fixed inset-0 z-[70] flex h-[100dvh] w-full flex-col items-center justify-center gap-1 overflow-y-auto overscroll-contain bg-stone-900 px-6 py-24 min-[1120px]:hidden'
           }
         >
           {links.map(({ id, label }) => (
@@ -213,6 +228,7 @@ export default function Navbar() {
               href="/dmitriy_malayev_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              className={navLinkClass(false)}
             >
               Résumé PDF
             </a>

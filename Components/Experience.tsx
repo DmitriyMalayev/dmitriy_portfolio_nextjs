@@ -2,18 +2,18 @@ import { experience } from '@/data/experience';
 
 export default function Experience() {
   return (
-    <div className="relative mx-auto max-w-[900px] px-4">
-      {/* timeline rail */}
+    <div className="relative">
+      {/* timeline rail sits in the column gutter so the cards line up with other sections */}
       <div
-        className="absolute left-[11px] top-6 bottom-6 w-px bg-gradient-to-b from-orange-600/50 via-orange-600/25 to-transparent sm:left-[15px]"
+        className="absolute bottom-6 left-[11px] top-6 w-px bg-gradient-to-b from-orange-600/50 via-orange-600/25 to-transparent sm:left-[15px] lg:left-[-25px]"
         aria-hidden
       />
 
       <ol className="relative space-y-12">
         {experience.map((job) => (
-          <li key={`${job.company}-${job.period}`} className="relative pl-10 sm:pl-14">
+          <li key={`${job.company}-${job.period}`} className="relative pl-10 sm:pl-14 lg:pl-0">
             <span
-              className="absolute left-0 top-2 grid h-[22px] w-[22px] place-items-center rounded-full border-2 border-orange-500 bg-stone-900 shadow-[0_0_12px_rgba(249,115,22,0.35)] sm:left-1"
+              className="absolute left-0 top-2 grid h-[22px] w-[22px] place-items-center rounded-full border-2 border-orange-500 bg-stone-900 shadow-[0_0_12px_rgba(249,115,22,0.35)] sm:left-1 lg:-left-9"
               aria-hidden
             >
               <span className="h-2 w-2 rounded-full bg-orange-400" />
@@ -32,7 +32,7 @@ export default function Experience() {
                 </time>
               </div>
 
-              <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-slate-200 marker:text-orange-500">
+              <ul className="mt-4 list-disc space-y-2 pl-5 text-base leading-relaxed text-slate-200 marker:text-orange-500">
                 {job.bullets.map((b) => (
                   <li key={b}>{b}</li>
                 ))}

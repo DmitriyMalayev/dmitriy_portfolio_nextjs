@@ -1,8 +1,48 @@
+'use client';
+
+import { useLayoutEffect, useRef } from 'react';
 import { GitHubIcon } from '@/Components/Icons';
 
+const NAV_CLEARANCE = 96;
+
 const SocialMedia = () => {
+  const railRef = useRef<HTMLDivElement>(null);
+
+  useLayoutEffect(() => {
+    const rail = railRef.current;
+    if (!rail) return undefined;
+
+    const align = () => {
+      const height = rail.offsetHeight;
+      if (height === 0) {
+        document.documentElement.style.setProperty('--floating-actions-bottom', '50%');
+        return;
+      }
+      const top = Math.max(NAV_CLEARANCE, window.innerHeight / 2 - height);
+      const bottomInset = window.innerHeight - top - height;
+      document.documentElement.style.setProperty(
+        '--floating-actions-bottom',
+        `${bottomInset}px`,
+      );
+    };
+
+    align();
+    const observer = new ResizeObserver(align);
+    observer.observe(rail);
+    window.addEventListener('resize', align);
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('resize', align);
+      document.documentElement.style.removeProperty('--floating-actions-bottom');
+    };
+  }, []);
+
   return (
-    <div className="fixed left-0 top-1/2 z-40 hidden -translate-y-1/2 lg:flex lg:flex-col">
+    <div
+      ref={railRef}
+      className="fixed left-0 z-40 hidden lg:flex lg:flex-col"
+      style={{ bottom: 'var(--floating-actions-bottom, 50%)' }}
+    >
       <ul className="flex flex-col space-y-6">
         <li className="w-[160px] translate-x-[-100px] duration-700 hover:translate-x-0 focus-within:translate-x-0">
           <a

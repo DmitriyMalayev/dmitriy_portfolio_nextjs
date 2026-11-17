@@ -6,6 +6,7 @@ import Education from '@/Components/Education';
 import Experience from '@/Components/Experience';
 import Hero from '@/Components/Hero';
 import Projects from '@/Components/Projects';
+import { contentColumnClass } from '@/Components/contentColumn';
 import SectionWrapper from '@/Components/SectionWrapper';
 import Skills from '@/Components/Skills';
 import StatsBar from '@/Components/StatsBar';
@@ -44,7 +45,7 @@ export default function HomePage() {
 
       {/* Impact metrics */}
       <AnimatedSection>
-        <div className="-mt-24 mb-20 lg:px-20">
+        <div className={`${contentColumnClass} -mt-24 mb-20`}>
           <StatsBar />
         </div>
       </AnimatedSection>

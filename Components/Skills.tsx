@@ -63,7 +63,7 @@ export default function Skills() {
 
   return (
     <div>
-      <div className="space-y-14 px-4 sm:px-8">
+      <div className="space-y-14">
         {byCategory.map(
           ({ category, skills }) =>
             skills.length > 0 && (
@@ -71,10 +71,10 @@ export default function Skills() {
                 <h3 className="mb-6 text-center text-sm font-semibold uppercase tracking-[0.35em] text-orange-700/90">
                   {category}
                 </h3>
-                <div className="mx-auto flex max-w-4xl flex-wrap justify-center gap-4 text-center xl:max-w-5xl">
+                <div className="grid grid-cols-2 gap-4 text-center md:grid-cols-3 lg:grid-cols-4">
                   {skills.map((skill) => (
                     <div
-                      className="w-[170px] border-2 border-transparent pt-6 shadow-md shadow-slate-500 duration-700 hover:border-slate-500 motion-safe:hover:scale-110"
+                      className="w-full border-2 border-transparent pt-6 shadow-md shadow-slate-500 duration-700 hover:border-slate-500 motion-safe:hover:scale-110"
                       key={`${skill.category}-${skill.title}`}
                     >
                       <div className="mx-auto flex h-[5.5rem] w-20 items-center justify-center shadow-lg shadow-blue-600/50">

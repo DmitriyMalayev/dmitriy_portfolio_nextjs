@@ -3,11 +3,11 @@ import { projects } from '@/data/projects';
 
 export default function Projects() {
   return (
-    <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-4 md:grid-cols-2 xl:grid-cols-3">
+    <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
       {projects.map((project) => (
         <article
           key={project.title}
-          className="flex h-full flex-col rounded-xl border border-stone-700/80 bg-stone-900/60 p-5 shadow-inner shadow-orange-950/30 backdrop-blur"
+          className="row-span-3 grid grid-rows-subgrid gap-4 rounded-xl border border-stone-700/80 bg-stone-900/60 p-5 shadow-inner shadow-orange-950/30 backdrop-blur"
         >
           <header>
             <h3 className="text-xl font-semibold text-orange-300">{project.title}</h3>
@@ -22,10 +22,10 @@ export default function Projects() {
               ))}
             </div>
           </header>
-          <p className="mt-4 grow text-sm leading-relaxed text-slate-200">
+          <p className="text-base leading-relaxed text-slate-200">
             {project.description}
           </p>
-          <div className="mt-5 flex flex-wrap gap-4 text-sm">
+          <div className="flex flex-wrap content-end gap-4 text-sm">
             {project.githubUrl && (
               <Link
                 href={project.githubUrl}

@@ -38,7 +38,7 @@ const TYPE_ICONS: Record<WritingItem['type'], ReactElement> = {
 
 export default function Writing() {
   return (
-    <div className="mx-auto max-w-4xl px-4">
+    <div>
       <div className="grid gap-5 md:grid-cols-2">
         {writingItems.map((item) => (
           <a
@@ -54,10 +54,10 @@ export default function Writing() {
                 {TYPE_ICONS[item.type]}
               </span>
             </div>
-            <h3 className="mb-2 font-semibold text-cyan-100 group-hover:text-orange-300">
+            <h3 className="mb-2 text-lg font-semibold text-cyan-100 group-hover:text-orange-300">
               {item.title}
             </h3>
-            <p className="grow text-sm leading-relaxed text-slate-400">
+            <p className="grow text-base leading-relaxed text-slate-400">
               {item.description}
             </p>
             <span className="mt-4 text-xs font-medium text-orange-500 transition group-hover:text-orange-300">
