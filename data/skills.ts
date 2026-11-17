@@ -73,7 +73,11 @@ export const skillsList: Skill[] = [
   },
 
   // Architecture & Testing
-  { title: 'Keycloak', src: S('keycloak', '4D9FFF'), category: 'Architecture & Testing' },
+  {
+    title: 'Keycloak',
+    src: S('keycloak', '4D9FFF'),
+    category: 'Architecture & Testing',
+  },
   { title: 'pytest', src: D('pytest'), category: 'Architecture & Testing' },
   { title: 'Playwright', src: D('playwright'), category: 'Architecture & Testing' },
   { title: 'Jest', src: D('jest', 'jest-plain'), category: 'Architecture & Testing' },

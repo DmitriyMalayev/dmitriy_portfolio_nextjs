@@ -5,8 +5,7 @@ export const education: EducationItem[] = [
     school: 'Flatiron School',
     credential: 'Full Stack Software Engineering Certification',
     period: 'Jun 2020 – Apr 2021',
-    notes:
-      'Intensive hands-on full-stack software engineering program.',
+    notes: 'Intensive hands-on full-stack software engineering program.',
   },
   {
     school: 'Touro College',
